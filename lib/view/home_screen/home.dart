@@ -35,25 +35,42 @@ class HomeScreen extends StatelessWidget {
           Row(
             children: [
               Container(
-                height: 26,
-                width: 26,
+                height: 30,
+                width: 30,
                 child: InkWell(
-                  child: Image.asset(ImageConstant.cart),
+                  child: Image.asset(
+                    ImageConstant.cart,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
               SizedBox(
                 width: 25,
               ),
-              Container(
-                height: 26,
-                width: 26,
-                child: InkWell(
-                  child: Image.asset(ImageConstant.profile),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  height: 25,
+                  width: 25,
+                  child: InkWell(
+                    child: Image.asset(
+                      ImageConstant.profile,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ),
               )
             ],
           ),
         ],
+      ),
+      body: Container(
+        decoration: BoxDecoration(
+            color: ColorConstant.mainBlue,
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(20),
+              topRight: Radius.circular(20),
+            )),
       ),
     );
   }
