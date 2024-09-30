@@ -11,8 +11,8 @@ class HomeScreen extends StatelessWidget {
         leading: Row(
           children: [
             InkWell(
-              child: Image.asset(),
-            )
+                //child: Image.asset(),
+                )
           ],
         ),
       ),
