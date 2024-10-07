@@ -71,6 +71,11 @@ class HomeScreen extends StatelessWidget {
               topLeft: Radius.circular(20),
               topRight: Radius.circular(20),
             )),
+        child: GridView.builder(
+          gridDelegate:
+              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+          itemBuilder: (context, index) => Container(),
+        ),
       ),
     );
   }

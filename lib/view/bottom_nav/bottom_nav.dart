@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/view/home_screen/home.dart';
 import 'package:cofee_ui/view/my_order_screen/my_order_screen.dart';
 import 'package:cofee_ui/view/rewards_screen/rewards_screen.dart';
@@ -26,7 +27,6 @@ class _BottomNavState extends State<BottomNav> {
         padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 12.0),
         child: Container(
           decoration: BoxDecoration(
-            color: Colors.black,
             borderRadius: BorderRadius.circular(30.0), // Rounded edges
             boxShadow: [
               BoxShadow(
@@ -42,8 +42,8 @@ class _BottomNavState extends State<BottomNav> {
             borderRadius: BorderRadius.circular(30.0),
             child: BottomNavigationBar(
                 unselectedItemColor: Colors.grey,
-                selectedItemColor: Colors.white,
-                backgroundColor: Colors.black,
+                selectedItemColor: Colors.black,
+                backgroundColor: Colors.white,
                 onTap: (index) {
                   _selectedIndex = index;
                   setState(() {});
