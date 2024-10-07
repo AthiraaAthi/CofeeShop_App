@@ -84,7 +84,9 @@ class HomeScreen extends StatelessWidget {
             itemBuilder: (context, index) => Container(
               height: 100,
               width: 100,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
             ),
           ),
         ),
