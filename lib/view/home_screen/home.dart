@@ -18,7 +18,14 @@ class _HomeScreenState extends State<HomeScreen> {
     ImageConstant.raf,
     ImageConstant.espresso
   ];
-  List<String> cofeeNames = ["Americano", "Cappuccino"];
+  List<String> cofeeNames = [
+    "Americano",
+    "Cappuccino",
+    "Latte",
+    "Flat White",
+    "Raf",
+    "Espresso"
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
