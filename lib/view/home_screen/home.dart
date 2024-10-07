@@ -74,8 +74,7 @@ class HomeScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: GridView.builder(
-            physics: NeverScrollableScrollPhysics(),
-            itemCount: 4,
+            itemCount: 9,
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
               crossAxisSpacing: 10,
@@ -85,7 +84,10 @@ class HomeScreen extends StatelessWidget {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                color: Colors.white,
+                  color: Colors.white, borderRadius: BorderRadius.circular(20)),
+              child: Stack(
+                alignment: Alignment.center,
+                children: [Image.asset(ImageConstant.americano)],
               ),
             ),
           ),
