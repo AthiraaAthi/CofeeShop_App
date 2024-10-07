@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.white, borderRadius: BorderRadius.circular(20)),
               child: Stack(
                 alignment: Alignment.center,
-                children: [],
+                children: [Image.asset(images[index])],
               ),
             ),
           ),
