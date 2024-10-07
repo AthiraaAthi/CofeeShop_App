@@ -2,9 +2,22 @@ import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List<String> images = [
+    ImageConstant.americano,
+    ImageConstant.cappuccino,
+    ImageConstant.latte,
+    ImageConstant.flatWhite,
+    ImageConstant.raf,
+    ImageConstant.espresso
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -87,7 +100,7 @@ class HomeScreen extends StatelessWidget {
                   color: Colors.white, borderRadius: BorderRadius.circular(20)),
               child: Stack(
                 alignment: Alignment.center,
-                children: [Image.asset(ImageConstant.americano)],
+                children: [],
               ),
             ),
           ),
