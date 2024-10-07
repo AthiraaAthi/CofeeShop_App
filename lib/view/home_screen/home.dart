@@ -98,9 +98,15 @@ class _HomeScreenState extends State<HomeScreen> {
               width: 100,
               decoration: BoxDecoration(
                   color: Colors.white, borderRadius: BorderRadius.circular(20)),
-              child: Stack(
-                alignment: Alignment.center,
-                children: [Image.asset(images[index])],
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Stack(
+                    alignment: Alignment.center,
+                    children: [Image.asset(images[index])],
+                  ),
+                  Text("ksdfskdfg")
+                ],
               ),
             ),
           ),
