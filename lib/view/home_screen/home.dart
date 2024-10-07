@@ -105,7 +105,8 @@ class _HomeScreenState extends State<HomeScreen> {
               height: 100,
               width: 100,
               decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(20)),
+                  color: Color(0xffF7F8FB),
+                  borderRadius: BorderRadius.circular(20)),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -113,7 +114,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     alignment: Alignment.center,
                     children: [Image.asset(images[index])],
                   ),
-                  Text("ksdfskdfg")
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    "ksdfskdfg",
+                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                  )
                 ],
               ),
             ),
