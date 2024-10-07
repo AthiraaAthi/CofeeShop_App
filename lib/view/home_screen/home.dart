@@ -118,7 +118,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     height: 20,
                   ),
                   Text(
-                    "ksdfskdfg",
+                    cofeeNames[index],
                     style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
                   )
                 ],
