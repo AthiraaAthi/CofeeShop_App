@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class ProfileScreen extends StatelessWidget {
+class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
 
+  @override
+  State<ProfileScreen> createState() => _ProfileScreenState();
+}
+
+class _ProfileScreenState extends State<ProfileScreen> {
+  List<String> titles = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,14 +32,17 @@ class ProfileScreen extends StatelessWidget {
           ListView.builder(
             shrinkWrap: true,
             itemCount: 4,
-            itemBuilder: (context, index) => ListTile(
-              leading: CircleAvatar(
-                radius: 42,
-                backgroundColor: Colors.grey,
+            itemBuilder: (context, index) => Container(
+              height: 80,
+              child: ListTile(
+                leading: CircleAvatar(
+                  radius: 42,
+                  backgroundColor: Colors.grey,
+                ),
+                title: Text("fhfkd"),
+                subtitle: Text("avava"),
+                trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
               ),
-              title: Text("fhfkd"),
-              subtitle: Text("avava"),
-              trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
             ),
           )
         ],
