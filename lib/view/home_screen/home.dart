@@ -74,6 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   height: 25,
                   width: 25,
                   child: InkWell(
+                    onTap: () {},
                     child: Image.asset(
                       ImageConstant.profile,
                       fit: BoxFit.cover,
