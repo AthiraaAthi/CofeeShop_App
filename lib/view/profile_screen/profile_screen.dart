@@ -65,14 +65,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   )
                 ]),
                 title: Text(
-                  "fhfkd",
+                  titles[index],
                   style: TextStyle(
                       fontSize: 13,
                       color: ColorConstant.nameGrey,
                       fontWeight: FontWeight.w700),
                 ),
                 subtitle: Text(
-                  "avava",
+                  subTitles[index],
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700),
                 ),
                 trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
