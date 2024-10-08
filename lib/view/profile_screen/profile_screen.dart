@@ -21,6 +21,23 @@ class ProfileScreen extends StatelessWidget {
         ),
         backgroundColor: Color(0xffE5E5E5),
       ),
+      body: Column(
+        children: [
+          ListView.builder(
+            shrinkWrap: true,
+            itemCount: 4,
+            itemBuilder: (context, index) => ListTile(
+              leading: CircleAvatar(
+                radius: 42,
+                backgroundColor: Colors.grey,
+              ),
+              title: Text("fhfkd"),
+              subtitle: Text("avava"),
+              trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
+            ),
+          )
+        ],
+      ),
     );
   }
 }
