@@ -8,8 +8,13 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  List<String> titles = [];
-  List<String> subTitles = [];
+  List<String> titles = ["Name", "Phone Number", "Email", "Address"];
+  List<String> subTitles = [
+    "Alex",
+    "9876543210",
+    "Alex@gmail.com",
+    "Las Vegas,California"
+  ];
   List<Icon> icons = [
     Icon(Icons.person_outline_outlined),
     Icon(Icons.phone_outlined),
