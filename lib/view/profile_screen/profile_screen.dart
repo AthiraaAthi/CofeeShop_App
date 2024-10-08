@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -65,8 +66,15 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ]),
                 title: Text(
                   "fhfkd",
+                  style: TextStyle(
+                      fontSize: 13,
+                      color: ColorConstant.nameGrey,
+                      fontWeight: FontWeight.w700),
                 ),
-                subtitle: Text("avava"),
+                subtitle: Text(
+                  "avava",
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w700),
+                ),
                 trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
               ),
             ),
