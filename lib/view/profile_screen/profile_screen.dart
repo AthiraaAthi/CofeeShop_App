@@ -8,18 +8,23 @@ class ProfileScreen extends StatefulWidget {
 }
 
 class _ProfileScreenState extends State<ProfileScreen> {
-  List<String> titles = ["Name", "Phone Number", "Email", "Address"];
+  List<String> titles = [
+    "Name",
+    "Phone Number",
+    "Email",
+    "Address",
+  ];
   List<String> subTitles = [
     "Alex",
     "9876543210",
     "Alex@gmail.com",
-    "Las Vegas,California"
+    "Las Vegas,California",
   ];
-  List<Icon> icons = [
-    Icon(Icons.person_outline_outlined),
-    Icon(Icons.phone_outlined),
-    Icon(Icons.mail_outline),
-    Icon(Icons.location_on_outlined)
+  List<IconData> icons = [
+    Icons.person_outline_outlined,
+    Icons.phone_outlined,
+    Icons.mail_outline,
+    Icons.location_on_outlined
   ];
   @override
   Widget build(BuildContext context) {
@@ -47,11 +52,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
             itemBuilder: (context, index) => Container(
               height: 80,
               child: ListTile(
-                leading: CircleAvatar(
-                  radius: 42,
-                  backgroundColor: Colors.grey,
+                leading: Stack(alignment: Alignment.center, children: [
+                  CircleAvatar(
+                    radius: 42,
+                    backgroundColor: Color(0xffdce4e4),
+                  ),
+                  Icon(
+                    icons[index],
+                    size: 25,
+                    color: Colors.black,
+                  )
+                ]),
+                title: Text(
+                  "fhfkd",
                 ),
-                title: Text("fhfkd"),
                 subtitle: Text("avava"),
                 trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
               ),
