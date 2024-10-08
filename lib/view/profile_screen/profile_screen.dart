@@ -9,6 +9,7 @@ class ProfileScreen extends StatefulWidget {
 
 class _ProfileScreenState extends State<ProfileScreen> {
   List<String> titles = [];
+  List<String> subTitles = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
