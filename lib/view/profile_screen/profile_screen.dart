@@ -9,6 +9,7 @@ class ProfileScreen extends StatelessWidget {
       backgroundColor: Color(0xffE5E5E5),
       appBar: AppBar(
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+        centerTitle: true,
         title: Text(
           "Profile",
           style: TextStyle(fontWeight: FontWeight.w700),
