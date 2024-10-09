@@ -85,7 +85,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
           Container(
             height: 247,
             width: 253,
-            decoration: BoxDecoration(color: Colors.blueGrey),
+            decoration: BoxDecoration(
+                color: Colors.blueGrey,
+                image: DecorationImage(image: AssetImage())),
           )
         ],
       ),

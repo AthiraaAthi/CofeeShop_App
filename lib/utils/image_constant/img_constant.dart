@@ -8,4 +8,5 @@ class ImageConstant {
   static String flatWhite = "assets/images/Flat white.png";
   static String raf = "assets/images/raf.png";
   static String espresso = "assets/images/Espresso.png";
+  static String qr = "assets/images/qr.png";
 }
