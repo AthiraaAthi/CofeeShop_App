@@ -40,13 +40,35 @@ class LoginScreen extends StatelessWidget {
               child: TextFormField(
                 decoration: InputDecoration(
                     contentPadding: EdgeInsets.only(
-                        left: 80, top: 10, bottom: 10, right: 20),
+                        right: 22, top: 10, bottom: 0, left: 22),
                     border: InputBorder.none,
                     hintText: "Email Address",
                     hintStyle:
                         TextStyle(fontSize: 13, color: Colors.grey.shade400),
                     prefixIcon: Icon(
                       Icons.mail_outlined,
+                    )),
+              ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              height: 50,
+              width: 350,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Colors.grey.shade400, width: 0.7)),
+              child: TextFormField(
+                decoration: InputDecoration(
+                    contentPadding: EdgeInsets.only(
+                        left: 80, top: 10, bottom: 10, right: 20),
+                    border: InputBorder.none,
+                    hintText: "Password",
+                    hintStyle:
+                        TextStyle(fontSize: 13, color: Colors.grey.shade400),
+                    prefixIcon: Icon(
+                      Icons.lock_outline,
                     )),
               ),
             )
