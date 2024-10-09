@@ -82,6 +82,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
           SizedBox(
             height: 50,
           ),
+          Container(
+            height: 247,
+            width: 253,
+            decoration: BoxDecoration(color: Colors.blueGrey),
+          )
         ],
       ),
     );
