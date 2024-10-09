@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -86,8 +87,13 @@ class _ProfileScreenState extends State<ProfileScreen> {
             height: 247,
             width: 253,
             decoration: BoxDecoration(
-                color: Colors.blueGrey,
-                image: DecorationImage(image: AssetImage())),
+              color: Colors.blueGrey,
+              image: DecorationImage(
+                  image: AssetImage(
+                    ImageConstant.qr,
+                  ),
+                  fit: BoxFit.cover),
+            ),
           )
         ],
       ),
