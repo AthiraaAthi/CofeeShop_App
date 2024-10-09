@@ -71,6 +71,17 @@ class LoginScreen extends StatelessWidget {
                       Icons.lock_outline,
                     )),
               ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Center(
+              child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    "Forgot Password?",
+                    style: TextStyle(color: ColorConstant.mainBlue),
+                  )),
             )
           ],
         ),
