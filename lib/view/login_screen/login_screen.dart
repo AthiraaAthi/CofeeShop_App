@@ -6,8 +6,17 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [],
+      appBar: AppBar(),
+      body: Padding(
+        padding: const EdgeInsets.all(30),
+        child: Column(
+          children: [
+            Text(
+              "Let's Get You In",
+              style: TextStyle(fontWeight: FontWeight.w600, fontSize: 20),
+            )
+          ],
+        ),
       ),
     );
   }
