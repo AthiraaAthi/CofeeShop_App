@@ -31,10 +31,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffE5E5E5),
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pop(context);
+            },
             icon: Icon(
               Icons.arrow_back,
               size: 25,
@@ -44,7 +46,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           "Profile",
           style: TextStyle(fontWeight: FontWeight.w600, fontSize: 17),
         ),
-        backgroundColor: Color(0xffE5E5E5),
+        backgroundColor: Colors.white,
       ),
       body: Column(
         children: [
@@ -89,10 +91,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
             decoration: BoxDecoration(
               color: Colors.blueGrey,
               image: DecorationImage(
-                  image: AssetImage(
-                    ImageConstant.qr,
-                  ),
-                  fit: BoxFit.cover),
+                image: AssetImage(
+                  ImageConstant.qr,
+                ),
+                fit: BoxFit.cover,
+              ),
             ),
           )
         ],
