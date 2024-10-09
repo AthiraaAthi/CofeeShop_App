@@ -78,7 +78,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 trailing: IconButton(onPressed: () {}, icon: Icon(Icons.edit)),
               ),
             ),
-          )
+          ),
+          SizedBox(
+            height: 50,
+          ),
         ],
       ),
     );
