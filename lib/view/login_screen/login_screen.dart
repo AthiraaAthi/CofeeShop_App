@@ -113,7 +113,7 @@ class LoginScreen extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 80,
+              height: 150,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
