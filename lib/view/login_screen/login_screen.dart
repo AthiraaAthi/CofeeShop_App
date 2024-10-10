@@ -41,8 +41,8 @@ class LoginScreen extends StatelessWidget {
                   border: Border.all(color: Colors.grey.shade400, width: 0.7)),
               child: TextFormField(
                 decoration: InputDecoration(
-                    contentPadding: EdgeInsets.only(
-                        right: 22, top: 10, bottom: 0, left: 22),
+                    contentPadding:
+                        EdgeInsets.symmetric(horizontal: 10, vertical: 10),
                     border: InputBorder.none,
                     hintText: "Email Address",
                     hintStyle:
