@@ -124,9 +124,13 @@ class LoginScreen extends StatelessWidget {
                 SizedBox(
                   width: 5,
                 ),
-                Text(
-                  "Sign Up",
-                  style: TextStyle(color: ColorConstant.mainBlue, fontSize: 16),
+                InkWell(
+                  onTap: () {},
+                  child: Text(
+                    "Sign Up",
+                    style:
+                        TextStyle(color: ColorConstant.mainBlue, fontSize: 16),
+                  ),
                 )
               ],
             )
