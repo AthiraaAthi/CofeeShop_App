@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/view/login_screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatelessWidget {
@@ -113,8 +114,45 @@ class RegisterScreen extends StatelessWidget {
                         TextStyle(fontSize: 15, color: Colors.grey.shade400),
                     prefixIcon: Icon(
                       Icons.lock_outline,
-                    )),
+                    ),
+                    suffixIcon: Icon(Icons.remove_red_eye_outlined)),
               ),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Center(
+              child: Text(
+                "By signing up you agree with our Terms of Use",
+                style: TextStyle(color: ColorConstant.mainBlue, fontSize: 13),
+              ),
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Stack(alignment: Alignment.center, children: [
+                  CircleAvatar(
+                    backgroundColor: ColorConstant.mainBlue,
+                    radius: 30,
+                  ),
+                  IconButton(
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => LoginScreen(),
+                            ));
+                      },
+                      icon: Icon(
+                        Icons.arrow_forward,
+                        color: Colors.white,
+                        size: 25,
+                      ))
+                ]),
+              ],
             ),
           ],
         ),
