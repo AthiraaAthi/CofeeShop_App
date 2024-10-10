@@ -82,6 +82,13 @@ class LoginScreen extends StatelessWidget {
                     "Forgot Password?",
                     style: TextStyle(color: ColorConstant.mainBlue),
                   )),
+            ),
+            SizedBox(
+              height: 80,
+            ),
+            CircleAvatar(
+              backgroundColor: ColorConstant.mainBlue,
+              radius: 30,
             )
           ],
         ),
