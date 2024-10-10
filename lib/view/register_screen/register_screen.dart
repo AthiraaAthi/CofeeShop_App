@@ -106,16 +106,17 @@ class RegisterScreen extends StatelessWidget {
                   border: Border.all(color: Colors.grey.shade400, width: 0.7)),
               child: TextFormField(
                 decoration: InputDecoration(
-                    contentPadding:
-                        EdgeInsets.symmetric(horizontal: 10, vertical: 12),
-                    border: InputBorder.none,
-                    hintText: "Password",
-                    hintStyle:
-                        TextStyle(fontSize: 15, color: Colors.grey.shade400),
-                    prefixIcon: Icon(
-                      Icons.lock_outline,
-                    ),
-                    suffixIcon: Icon(Icons.remove_red_eye_outlined)),
+                  contentPadding:
+                      EdgeInsets.symmetric(horizontal: 10, vertical: 12),
+                  border: InputBorder.none,
+                  hintText: "Password",
+                  hintStyle:
+                      TextStyle(fontSize: 15, color: Colors.grey.shade400),
+                  prefixIcon: Icon(
+                    Icons.lock_outline,
+                  ),
+                  suffixIcon: Icon(Icons.remove_red_eye_outlined),
+                ),
               ),
             ),
             SizedBox(
@@ -154,6 +155,35 @@ class RegisterScreen extends StatelessWidget {
                 ]),
               ],
             ),
+            SizedBox(
+              height: 100,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  "Already a Member?",
+                  style: TextStyle(color: ColorConstant.nameGrey, fontSize: 14),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LoginScreen(),
+                        ));
+                  },
+                  child: Text(
+                    "Sign In",
+                    style:
+                        TextStyle(color: ColorConstant.mainBlue, fontSize: 14),
+                  ),
+                )
+              ],
+            )
           ],
         ),
       ),

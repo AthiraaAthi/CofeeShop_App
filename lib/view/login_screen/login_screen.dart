@@ -71,7 +71,8 @@ class LoginScreen extends StatelessWidget {
                         TextStyle(fontSize: 13, color: Colors.grey.shade400),
                     prefixIcon: Icon(
                       Icons.lock_outline,
-                    )),
+                    ),
+                    suffixIcon: Icon(Icons.remove_red_eye_outlined)),
               ),
             ),
             SizedBox(
