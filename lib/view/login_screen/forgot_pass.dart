@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/view/login_screen/verification_screen.dart';
 import 'package:flutter/material.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
@@ -65,11 +66,11 @@ class ForgotPasswordScreen extends StatelessWidget {
                     ),
                     IconButton(
                         onPressed: () {
-                          //  Navigator.push(
-                          //   context,
-                          //   MaterialPageRoute(
-                          //     builder: (context) => HomeScreen(),
-                          //   ));
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => VerificationScreen(),
+                              ));
                         },
                         icon: Icon(
                           Icons.arrow_forward,
