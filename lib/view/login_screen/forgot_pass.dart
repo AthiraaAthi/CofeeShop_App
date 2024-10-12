@@ -64,7 +64,13 @@ class ForgotPasswordScreen extends StatelessWidget {
                       radius: 30,
                     ),
                     IconButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          //  Navigator.push(
+                          //   context,
+                          //   MaterialPageRoute(
+                          //     builder: (context) => HomeScreen(),
+                          //   ));
+                        },
                         icon: Icon(
                           Icons.arrow_forward,
                           color: Colors.white,
