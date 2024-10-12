@@ -28,6 +28,9 @@ class ForgotPasswordScreen extends StatelessWidget {
                   fontSize: 17,
                   color: ColorConstant.nameGrey),
             ),
+            SizedBox(
+              height: 50,
+            ),
           ],
         ),
       ),
