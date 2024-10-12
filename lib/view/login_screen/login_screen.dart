@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/view/home_screen/home.dart';
+import 'package:cofee_ui/view/login_screen/forgot_pass.dart';
 import 'package:cofee_ui/view/register_screen/register_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -80,7 +81,13 @@ class LoginScreen extends StatelessWidget {
             ),
             Center(
               child: TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => ForgotPasswordScreen(),
+                        ));
+                  },
                   child: Text(
                     "Forgot Password?",
                     style: TextStyle(color: ColorConstant.mainBlue),
