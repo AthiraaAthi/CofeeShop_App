@@ -57,6 +57,7 @@ class ForgotPasswordScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Stack(
+                  alignment: Alignment.center,
                   children: [],
                 )
               ],
