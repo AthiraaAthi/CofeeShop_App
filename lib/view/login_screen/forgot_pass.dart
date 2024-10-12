@@ -67,6 +67,8 @@ class ForgotPasswordScreen extends StatelessWidget {
                         onPressed: () {},
                         icon: Icon(
                           Icons.arrow_forward,
+                          color: Colors.white,
+                          size: 25,
                         ))
                   ],
                 )
