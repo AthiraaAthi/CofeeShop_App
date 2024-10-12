@@ -31,6 +31,28 @@ class ForgotPasswordScreen extends StatelessWidget {
             SizedBox(
               height: 50,
             ),
+            Container(
+              height: 50,
+              width: 350,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(color: Colors.grey.shade400, width: 0.7)),
+              child: TextFormField(
+                decoration: InputDecoration(
+                    contentPadding:
+                        EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                    border: InputBorder.none,
+                    hintText: "Email Address",
+                    hintStyle:
+                        TextStyle(fontSize: 13, color: Colors.grey.shade400),
+                    prefixIcon: Icon(
+                      Icons.mail_outlined,
+                    )),
+              ),
+            ),
+            SizedBox(
+              height: 100,
+            ),
           ],
         ),
       ),
