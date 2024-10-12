@@ -58,7 +58,12 @@ class ForgotPasswordScreen extends StatelessWidget {
               children: [
                 Stack(
                   alignment: Alignment.center,
-                  children: [],
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: ColorConstant.mainBlue,
+                      radius: 30,
+                    ),
+                  ],
                 )
               ],
             )
