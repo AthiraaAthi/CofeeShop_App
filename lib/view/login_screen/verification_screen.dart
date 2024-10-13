@@ -56,7 +56,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
             SizedBox(
               height: 30,
             ),
-            Pinput()
+            Pinput(
+              separatorBuilder: (index) {
+                return SizedBox();
+              },
+            )
           ],
         ),
       ),
