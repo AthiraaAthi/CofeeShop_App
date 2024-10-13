@@ -48,6 +48,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             SizedBox(
               height: 40,
             ),
+            Text("")
           ],
         ),
       ),
