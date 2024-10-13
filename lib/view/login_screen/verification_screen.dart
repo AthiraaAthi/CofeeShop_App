@@ -48,7 +48,9 @@ class _VerificationScreenState extends State<VerificationScreen> {
             SizedBox(
               height: 40,
             ),
-            Text("")
+            Text(
+              "Enter the OTP Code we send you",
+            )
           ],
         ),
       ),
