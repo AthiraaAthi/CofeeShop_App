@@ -63,6 +63,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
                 );
               },
               length: 4,
+              defaultPinTheme: defaultPinTheme,
+              focusedPinTheme: focusedPinTheme,
+              submittedPinTheme: submittedPinTheme,
+              pinAnimationType: PinAnimationType.fade,
+              onCompleted: (pin) {},
             )
           ],
         ),
