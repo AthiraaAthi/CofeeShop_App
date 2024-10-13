@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
@@ -50,6 +51,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             Text(
               "Enter the OTP Code we send you",
+              style: TextStyle(fontSize: 18, color: ColorConstant.nameGrey),
             )
           ],
         ),
