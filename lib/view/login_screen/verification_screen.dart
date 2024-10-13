@@ -40,7 +40,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
-          children: [],
+          children: [Text("")],
         ),
       ),
     );
