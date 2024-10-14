@@ -36,57 +36,65 @@ class _VerificationScreenState extends State<VerificationScreen> {
     );
     return Scaffold(
       appBar: AppBar(),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(
-              "Verification",
-              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 30,
-            ),
-            Text(
-              "Enter the OTP Code we send you",
-              style: TextStyle(fontSize: 18, color: ColorConstant.textGrey),
-            ),
-            SizedBox(
-              height: 30,
-            ),
-            Pinput(
-              separatorBuilder: (index) {
-                return SizedBox(
-                  width: 20,
-                );
-              },
-              length: 4,
-              defaultPinTheme: defaultPinTheme,
-              focusedPinTheme: focusedPinTheme,
-              submittedPinTheme: submittedPinTheme,
-              pinAnimationType: PinAnimationType.fade,
-              onCompleted: (pin) {},
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Text(
-              "Resend in 00:30",
-              style: TextStyle(color: ColorConstant.nameGrey, fontSize: 17),
-            ),
-            SizedBox(
-              height: 50,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Stack(
-                  alignment: Alignment.center,
-                  children: [],
-                )
-              ],
-            )
-          ],
+      body: Padding(
+        padding: const EdgeInsets.all(30),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                "Verification",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Text(
+                "Enter the OTP Code we send you",
+                style: TextStyle(fontSize: 18, color: ColorConstant.textGrey),
+              ),
+              SizedBox(
+                height: 30,
+              ),
+              Pinput(
+                separatorBuilder: (index) {
+                  return SizedBox(
+                    width: 20,
+                  );
+                },
+                length: 4,
+                defaultPinTheme: defaultPinTheme,
+                focusedPinTheme: focusedPinTheme,
+                submittedPinTheme: submittedPinTheme,
+                pinAnimationType: PinAnimationType.fade,
+                onCompleted: (pin) {},
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              Text(
+                "Resend in 00:30",
+                style: TextStyle(color: ColorConstant.nameGrey, fontSize: 17),
+              ),
+              SizedBox(
+                height: 50,
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      CircleAvatar(
+                        radius: 30,
+                        backgroundColor: ColorConstant.mainBlue,
+                      )
+                    ],
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
