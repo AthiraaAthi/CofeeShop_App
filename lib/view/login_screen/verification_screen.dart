@@ -13,8 +13,8 @@ class _VerificationScreenState extends State<VerificationScreen> {
   @override
   Widget build(BuildContext context) {
     final defaultPinTheme = PinTheme(
-      width: 56,
-      height: 56,
+      width: 48,
+      height: 61,
       textStyle: TextStyle(
           fontSize: 20,
           color: Color.fromRGBO(30, 60, 87, 1),
