@@ -73,7 +73,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
             Text(
               "Resend in 00:30",
               style: TextStyle(color: ColorConstant.nameGrey, fontSize: 17),
-            )
+            ),
+            SizedBox(
+              height: 50,
+            ),
           ],
         ),
       ),
