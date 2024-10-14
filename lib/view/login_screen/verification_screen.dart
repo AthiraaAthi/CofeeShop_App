@@ -49,7 +49,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             Text(
               "Enter the OTP Code we send you",
-              style: TextStyle(fontSize: 18, color: ColorConstant.nameGrey),
+              style: TextStyle(fontSize: 18, color: Color(0xffAAAAAA)),
             ),
             SizedBox(
               height: 30,
@@ -72,7 +72,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             Text(
               "Resend in 00:30",
-              style: TextStyle(),
+              style: TextStyle(color: ColorConstant.nameGrey),
             )
           ],
         ),

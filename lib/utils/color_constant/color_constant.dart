@@ -6,4 +6,5 @@ class ColorConstant {
   static Color lightPurple = Color(0xffC58BF2);
   static Color grey = Color(0xffdce4e4);
   static Color nameGrey = Color(0xffc7ccd2);
+  static Color textGrey = Color(0xffAAAAAA);
 }
