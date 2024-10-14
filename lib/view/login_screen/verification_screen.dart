@@ -79,7 +79,12 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
-              children: [],
+              children: [
+                Stack(
+                  alignment: Alignment.center,
+                  children: [],
+                )
+              ],
             )
           ],
         ),
