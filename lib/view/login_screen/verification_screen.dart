@@ -49,7 +49,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
             ),
             Text(
               "Enter the OTP Code we send you",
-              style: TextStyle(fontSize: 18, color: Color(0xffAAAAAA)),
+              style: TextStyle(fontSize: 18, color: ColorConstant.textGrey),
             ),
             SizedBox(
               height: 30,
