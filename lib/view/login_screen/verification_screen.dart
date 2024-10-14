@@ -70,7 +70,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
             SizedBox(
               height: 20,
             ),
-            Text("Resend in 00:30")
+            Text(
+              "Resend in 00:30",
+              style: TextStyle(),
+            )
           ],
         ),
       ),
