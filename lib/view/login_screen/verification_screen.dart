@@ -77,6 +77,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
             SizedBox(
               height: 50,
             ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [],
+            )
           ],
         ),
       ),
