@@ -42,10 +42,10 @@ class _VerificationScreenState extends State<VerificationScreen> {
           children: [
             Text(
               "Verification",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
             SizedBox(
-              height: 40,
+              height: 30,
             ),
             Text(
               "Enter the OTP Code we send you",
@@ -66,7 +66,11 @@ class _VerificationScreenState extends State<VerificationScreen> {
               submittedPinTheme: submittedPinTheme,
               pinAnimationType: PinAnimationType.fade,
               onCompleted: (pin) {},
-            )
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text("Resend in 00:30")
           ],
         ),
       ),
