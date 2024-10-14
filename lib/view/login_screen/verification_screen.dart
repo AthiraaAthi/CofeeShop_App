@@ -46,7 +46,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
               children: [
                 Text(
                   "Verification",
-                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
                 ),
               ],
             ),
