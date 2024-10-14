@@ -88,7 +88,12 @@ class _VerificationScreenState extends State<VerificationScreen> {
                       CircleAvatar(
                         radius: 30,
                         backgroundColor: ColorConstant.mainBlue,
-                      )
+                      ),
+                      IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.arrow_forward,
+                          ))
                     ],
                   )
                 ],
