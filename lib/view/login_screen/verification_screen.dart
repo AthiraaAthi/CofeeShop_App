@@ -20,7 +20,7 @@ class _VerificationScreenState extends State<VerificationScreen> {
           color: Color.fromRGBO(30, 60, 87, 1),
           fontWeight: FontWeight.w600),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Color(0xffF7F8FB),
         border: Border.all(color: Colors.grey),
         borderRadius: BorderRadius.circular(10),
       ),
