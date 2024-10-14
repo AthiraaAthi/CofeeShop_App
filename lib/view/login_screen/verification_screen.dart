@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/view/home_screen/home.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 
@@ -37,69 +38,83 @@ class _VerificationScreenState extends State<VerificationScreen> {
     return Scaffold(
       appBar: AppBar(),
       body: Padding(
-        padding: const EdgeInsets.all(30),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(
-                "Verification",
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
-              ),
-              SizedBox(
-                height: 30,
-              ),
-              Text(
-                "Enter the OTP Code we send you",
-                style: TextStyle(fontSize: 18, color: ColorConstant.textGrey),
-              ),
-              SizedBox(
-                height: 30,
-              ),
-              Pinput(
-                separatorBuilder: (index) {
-                  return SizedBox(
-                    width: 20,
-                  );
-                },
-                length: 4,
-                defaultPinTheme: defaultPinTheme,
-                focusedPinTheme: focusedPinTheme,
-                submittedPinTheme: submittedPinTheme,
-                pinAnimationType: PinAnimationType.fade,
-                onCompleted: (pin) {},
-              ),
-              SizedBox(
-                height: 20,
-              ),
-              Text(
-                "Resend in 00:30",
-                style: TextStyle(color: ColorConstant.nameGrey, fontSize: 17),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      CircleAvatar(
-                        radius: 30,
-                        backgroundColor: ColorConstant.mainBlue,
-                      ),
-                      IconButton(
-                          onPressed: () {},
-                          icon: Icon(
-                            Icons.arrow_forward,
-                          ))
-                    ],
-                  )
-                ],
-              )
-            ],
-          ),
+        padding: const EdgeInsets.only(top: 50, right: 50, left: 40),
+        child: Column(
+          //mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              children: [
+                Text(
+                  "Verification",
+                  style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Enter the OTP Code we send you",
+                  style: TextStyle(fontSize: 17, color: ColorConstant.textGrey),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: 40,
+            ),
+            Pinput(
+              separatorBuilder: (index) {
+                return SizedBox(
+                  width: 20,
+                );
+              },
+              length: 4,
+              defaultPinTheme: defaultPinTheme,
+              focusedPinTheme: focusedPinTheme,
+              submittedPinTheme: submittedPinTheme,
+              pinAnimationType: PinAnimationType.fade,
+              onCompleted: (pin) {},
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Resend in 00:30",
+              style: TextStyle(color: ColorConstant.nameGrey, fontSize: 17),
+            ),
+            SizedBox(
+              height: 70,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Stack(
+                  alignment: Alignment.center,
+                  children: [
+                    CircleAvatar(
+                      radius: 35,
+                      backgroundColor: ColorConstant.mainBlue,
+                    ),
+                    IconButton(
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => HomeScreen(),
+                              ));
+                        },
+                        icon: Icon(
+                          Icons.arrow_forward,
+                          color: Colors.white,
+                          size: 30,
+                        ))
+                  ],
+                )
+              ],
+            )
+          ],
         ),
       ),
     );
