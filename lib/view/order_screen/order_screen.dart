@@ -33,7 +33,7 @@ class OrderScreen extends StatelessWidget {
           children: [
             Container(
               decoration: BoxDecoration(
-                  color: ColorConstant.grey,
+                  color: Color(0xffF7F8FB),
                   borderRadius: BorderRadius.circular(20),
                   image: DecorationImage(
                       image: AssetImage(ImageConstant.cappuccino))),
