@@ -34,7 +34,9 @@ class OrderScreen extends StatelessWidget {
             Container(
               decoration: BoxDecoration(
                   color: ColorConstant.grey,
-                  borderRadius: BorderRadius.circular(20)),
+                  borderRadius: BorderRadius.circular(20),
+                  image: DecorationImage(
+                      image: AssetImage(ImageConstant.cappuccino))),
               height: 146,
               width: 340,
             )
