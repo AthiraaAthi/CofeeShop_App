@@ -6,7 +6,12 @@ class OrderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        title: Text(
+          "Order",
+          style: TextStyle(fontWeight: FontWeight.w700),
+        ),
+      ),
       body: Column(
         children: [],
       ),
