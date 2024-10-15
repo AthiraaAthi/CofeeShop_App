@@ -29,6 +29,7 @@ class OrderScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
+            decoration: BoxDecoration(),
             height: 146,
             width: 325,
           )
