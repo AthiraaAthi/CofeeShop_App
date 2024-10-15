@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class OrderScreen extends StatelessWidget {
@@ -7,6 +8,18 @@ class OrderScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          Container(
+            height: 30,
+            width: 30,
+            child: InkWell(
+              child: Image.asset(
+                ImageConstant.cart,
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
+        ],
         centerTitle: true,
         title: Text(
           "Order",
