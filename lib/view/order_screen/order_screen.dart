@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +30,9 @@ class OrderScreen extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            decoration: BoxDecoration(),
+            decoration: BoxDecoration(
+                color: ColorConstant.grey,
+                borderRadius: BorderRadius.circular(20)),
             height: 146,
             width: 325,
           )
