@@ -109,27 +109,31 @@ class _HomeScreenState extends State<HomeScreen> {
               crossAxisSpacing: 10,
               mainAxisSpacing: 10,
             ),
-            itemBuilder: (context, index) => Container(
-              height: 100,
-              width: 100,
-              decoration: BoxDecoration(
-                  color: Color(0xffF7F8FB),
-                  borderRadius: BorderRadius.circular(20)),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Stack(
-                    alignment: Alignment.center,
-                    children: [Image.asset(images[index])],
-                  ),
-                  SizedBox(
-                    height: 20,
-                  ),
-                  Text(
-                    cofeeNames[index],
-                    style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-                  )
-                ],
+            itemBuilder: (context, index) => InkWell(
+              onTap: () {},
+              child: Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                    color: Color(0xffF7F8FB),
+                    borderRadius: BorderRadius.circular(20)),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Stack(
+                      alignment: Alignment.center,
+                      children: [Image.asset(images[index])],
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      cofeeNames[index],
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
