@@ -27,16 +27,19 @@ class OrderScreen extends StatelessWidget {
           style: TextStyle(fontWeight: FontWeight.w400),
         ),
       ),
-      body: Column(
-        children: [
-          Container(
-            decoration: BoxDecoration(
-                color: ColorConstant.grey,
-                borderRadius: BorderRadius.circular(20)),
-            height: 146,
-            width: 325,
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(25),
+        child: Column(
+          children: [
+            Container(
+              decoration: BoxDecoration(
+                  color: ColorConstant.grey,
+                  borderRadius: BorderRadius.circular(20)),
+              height: 146,
+              width: 340,
+            )
+          ],
+        ),
       ),
     );
   }
