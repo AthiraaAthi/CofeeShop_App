@@ -27,7 +27,12 @@ class OrderScreen extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 146,
+            width: 325,
+          )
+        ],
       ),
     );
   }
