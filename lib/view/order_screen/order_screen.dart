@@ -17,12 +17,7 @@ class OrderScreen extends StatelessWidget {
               Icons.shopping_cart_outlined,
               color: Colors.black,
               size: 25,
-            )
-                // Image.asset(
-                //   ImageConstant.cart,
-                //   fit: BoxFit.cover,
-                // ),
-                ),
+            )),
           ),
         ],
         centerTitle: true,
@@ -43,6 +38,12 @@ class OrderScreen extends StatelessWidget {
                       image: AssetImage(ImageConstant.cappuccino))),
               height: 146,
               width: 340,
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [Text("Capuccino")],
             )
           ],
         ),
