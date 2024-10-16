@@ -10,21 +10,17 @@ class OrderScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          Container(
-            height: 30,
-            width: 30,
-            child: InkWell(
-                child: Icon(
-              Icons.shopping_cart_outlined,
-              color: Colors.black,
-              size: 25,
-            )
-                // Image.asset(
-                //   ImageConstant.cart,
-                //   fit: BoxFit.cover,
-                // ),
-                ),
-          ),
+          InkWell(
+              child: Icon(
+            Icons.shopping_cart_outlined,
+            color: Colors.black,
+            size: 25,
+          )
+              // Image.asset(
+              //   ImageConstant.cart,
+              //   fit: BoxFit.cover,
+              // ),
+              ),
         ],
         centerTitle: true,
         title: Text(
