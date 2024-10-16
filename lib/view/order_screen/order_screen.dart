@@ -43,7 +43,12 @@ class OrderScreen extends StatelessWidget {
               height: 20,
             ),
             Row(
-              children: [Text("Capuccino")],
+              children: [
+                Text(
+                  "Capuccino",
+                  style: TextStyle(fontSize: 17),
+                )
+              ],
             )
           ],
         ),
