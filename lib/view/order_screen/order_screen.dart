@@ -47,6 +47,9 @@ class OrderScreen extends StatelessWidget {
                 Text(
                   "Capuccino",
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+                ),
+                Container(
+                  decoration: BoxDecoration(),
                 )
               ],
             )
