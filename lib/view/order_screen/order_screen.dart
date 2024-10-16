@@ -17,6 +17,7 @@ class OrderScreen extends StatelessWidget {
                 child: Icon(
               Icons.shopping_cart,
               color: Colors.black,
+              size: 25,
             )
                 // Image.asset(
                 //   ImageConstant.cart,
