@@ -49,7 +49,13 @@ class OrderScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
                 ),
                 Container(
-                  decoration: BoxDecoration(),
+                  height: 30,
+                  width: 100,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(
+                        color: ColorConstant.grey,
+                      )),
                 )
               ],
             )
