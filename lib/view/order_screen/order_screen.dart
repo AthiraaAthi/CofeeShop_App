@@ -57,6 +57,9 @@ class OrderScreen extends StatelessWidget {
                       border: Border.all(
                         color: ColorConstant.grey,
                       )),
+                  child: Row(
+                    children: [Text("1")],
+                  ),
                 )
               ],
             )
