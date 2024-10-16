@@ -51,13 +51,14 @@ class OrderScreen extends StatelessWidget {
                 ),
                 Container(
                   height: 30,
-                  width: 100,
+                  width: 120,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
                       border: Border.all(
                         color: ColorConstant.grey,
                       )),
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       IconButton(
                           onPressed: () {},
@@ -65,7 +66,13 @@ class OrderScreen extends StatelessWidget {
                             Icons.remove,
                             size: 15,
                           )),
-                      Text("1")
+                      Text("1"),
+                      IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.add,
+                            size: 15,
+                          )),
                     ],
                   ),
                 )
