@@ -14,11 +14,15 @@ class OrderScreen extends StatelessWidget {
             height: 30,
             width: 30,
             child: InkWell(
-              child: Image.asset(
-                ImageConstant.cart,
-                fit: BoxFit.cover,
-              ),
-            ),
+                child: Icon(
+              Icons.shopping_cart,
+              color: Colors.black,
+            )
+                // Image.asset(
+                //   ImageConstant.cart,
+                //   fit: BoxFit.cover,
+                // ),
+                ),
           ),
         ],
         centerTitle: true,
