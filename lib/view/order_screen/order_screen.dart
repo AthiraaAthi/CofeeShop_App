@@ -43,6 +43,7 @@ class OrderScreen extends StatelessWidget {
               height: 20,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Capuccino",
