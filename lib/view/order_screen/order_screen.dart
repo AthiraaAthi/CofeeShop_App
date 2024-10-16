@@ -15,7 +15,7 @@ class OrderScreen extends StatelessWidget {
             width: 30,
             child: InkWell(
                 child: Icon(
-              Icons.shopping_cart,
+              Icons.shopping_cart_outlined,
               color: Colors.black,
               size: 25,
             )
