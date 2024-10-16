@@ -58,7 +58,15 @@ class OrderScreen extends StatelessWidget {
                         color: ColorConstant.grey,
                       )),
                   child: Row(
-                    children: [Text("1")],
+                    children: [
+                      IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.remove,
+                            size: 15,
+                          )),
+                      Text("1")
+                    ],
                   ),
                 )
               ],
