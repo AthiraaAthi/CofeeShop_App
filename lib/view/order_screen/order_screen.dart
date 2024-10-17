@@ -83,6 +83,15 @@ class OrderScreen extends StatelessWidget {
             ),
             Divider(
               color: ColorConstant.grey,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                Text(
+                  "Ristretto",
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
+                ),
+              ],
             )
           ],
         ),
