@@ -116,12 +116,19 @@ class OrderScreen extends StatelessWidget {
                       )),
                   child: Center(child: Text("Two")),
                 ),
-                SizedBox(
-                  height: 20,
-                ),
-                Divider(
-                  color: ColorConstant.grey,
-                  thickness: 2,
+              ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(
+              color: ColorConstant.grey,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Onsite/TakeAway",
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
                 ),
               ],
             )
