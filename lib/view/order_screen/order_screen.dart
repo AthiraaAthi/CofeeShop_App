@@ -134,9 +134,11 @@ class OrderScreen extends StatelessWidget {
                   height: 40,
                   width: 40,
                   decoration: BoxDecoration(
-                      color: Colors.amber,
                       image: DecorationImage(
-                          image: AssetImage(ImageConstant.cofee))),
+                          image: AssetImage(
+                            ImageConstant.Onsite,
+                          ),
+                          fit: BoxFit.cover)),
                 )
               ],
             )
