@@ -130,6 +130,14 @@ class OrderScreen extends StatelessWidget {
                   "Onsite/TakeAway",
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
                 ),
+                Container(
+                  height: 40,
+                  width: 40,
+                  decoration: BoxDecoration(
+                      color: Colors.amber,
+                      image: DecorationImage(
+                          image: AssetImage(ImageConstant.cofee))),
+                )
               ],
             )
           ],
