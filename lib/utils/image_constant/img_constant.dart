@@ -9,5 +9,6 @@ class ImageConstant {
   static String raf = "assets/images/raf.png";
   static String espresso = "assets/images/Espresso.png";
   static String qr = "assets/images/qr.png";
-  static String Onsite = "assets\images\onsite.png";
+  static String Onsite = "assets/images/onsite.png";
+  static String takeAway = "assets/images/takeaway.png";
 }
