@@ -90,6 +90,9 @@ class OrderScreen extends StatelessWidget {
                   "Ristretto",
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
                 ),
+                SizedBox(
+                  width: 80,
+                ),
                 Container(
                   height: 30,
                   width: 80,
