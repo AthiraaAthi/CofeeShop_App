@@ -85,7 +85,6 @@ class OrderScreen extends StatelessWidget {
               color: ColorConstant.grey,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 Text(
                   "Ristretto",
@@ -93,8 +92,23 @@ class OrderScreen extends StatelessWidget {
                 ),
                 Container(
                   height: 30,
-                  width: 120,
-                  decoration: BoxDecoration(),
+                  width: 80,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(
+                        color: ColorConstant.grey,
+                      )),
+                  child: Center(child: Text("One")),
+                ),
+                Container(
+                  height: 30,
+                  width: 80,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(30),
+                      border: Border.all(
+                        color: ColorConstant.grey,
+                      )),
+                  child: Center(child: Text("Two")),
                 )
               ],
             )
