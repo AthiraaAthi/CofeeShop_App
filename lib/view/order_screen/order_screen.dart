@@ -130,6 +130,9 @@ class OrderScreen extends StatelessWidget {
                   "Onsite/TakeAway",
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
                 ),
+                SizedBox(
+                  width: 80,
+                ),
                 Container(
                   height: 40,
                   width: 40,
@@ -139,6 +142,9 @@ class OrderScreen extends StatelessWidget {
                             ImageConstant.Onsite,
                           ),
                           fit: BoxFit.cover)),
+                ),
+                SizedBox(
+                  width: 30,
                 ),
                 Container(
                   height: 40,
