@@ -115,7 +115,10 @@ class OrderScreen extends StatelessWidget {
                         color: ColorConstant.grey,
                       )),
                   child: Center(child: Text("Two")),
-                )
+                ),
+                Divider(
+                  color: ColorConstant.grey,
+                ),
               ],
             )
           ],
