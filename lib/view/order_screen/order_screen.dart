@@ -8,6 +8,7 @@ class OrderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         actions: [
           Padding(
@@ -140,6 +141,7 @@ class OrderScreen extends StatelessWidget {
                   height: 40,
                   width: 40,
                   decoration: BoxDecoration(
+                      color: Colors.transparent,
                       image: DecorationImage(
                           image: AssetImage(
                             ImageConstant.Onsite,
@@ -180,6 +182,7 @@ class OrderScreen extends StatelessWidget {
                   height: 60,
                   width: 40,
                   decoration: BoxDecoration(
+                      color: Colors.transparent,
                       image: DecorationImage(
                           image: AssetImage(
                             ImageConstant.ml250,
