@@ -168,7 +168,22 @@ class OrderScreen extends StatelessWidget {
               color: ColorConstant.grey,
             ),
             Row(
-              children: [],
+              children: [
+                Text(
+                  "Volume/ml",
+                  style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
+                ),
+                Container(
+                  height: 40,
+                  width: 40,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage(
+                            ImageConstant.takeAway,
+                          ),
+                          fit: BoxFit.cover)),
+                )
+              ],
             )
           ],
         ),
