@@ -174,7 +174,7 @@ class OrderScreen extends StatelessWidget {
                   style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
                 ),
                 Container(
-                  height: 40,
+                  height: 60,
                   width: 40,
                   decoration: BoxDecoration(
                       image: DecorationImage(
