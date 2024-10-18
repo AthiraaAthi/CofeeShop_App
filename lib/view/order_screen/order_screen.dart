@@ -167,6 +167,9 @@ class OrderScreen extends StatelessWidget {
             Divider(
               color: ColorConstant.grey,
             ),
+            SizedBox(
+              height: 15,
+            ),
             Row(
               children: [
                 Text(
@@ -184,7 +187,7 @@ class OrderScreen extends StatelessWidget {
                           fit: BoxFit.cover)),
                 ),
                 Container(
-                  height: 60,
+                  height: 70,
                   width: 40,
                   decoration: BoxDecoration(
                       image: DecorationImage(
@@ -194,7 +197,7 @@ class OrderScreen extends StatelessWidget {
                           fit: BoxFit.cover)),
                 ),
                 Container(
-                  height: 60,
+                  height: 80,
                   width: 40,
                   decoration: BoxDecoration(
                       image: DecorationImage(
