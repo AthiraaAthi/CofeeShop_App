@@ -193,7 +193,7 @@ class OrderScreen extends StatelessWidget {
                           fit: BoxFit.cover)),
                 ),
                 SizedBox(
-                  width: 10,
+                  width: 15,
                 ),
                 Container(
                   height: 70,
@@ -204,6 +204,9 @@ class OrderScreen extends StatelessWidget {
                             ImageConstant.ml350,
                           ),
                           fit: BoxFit.cover)),
+                ),
+                SizedBox(
+                  width: 15,
                 ),
                 Container(
                   height: 80,
