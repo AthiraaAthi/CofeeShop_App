@@ -84,6 +84,9 @@ class OrderScreen extends StatelessWidget {
             Divider(
               color: ColorConstant.grey,
             ),
+            SizedBox(
+              height: 10,
+            ),
             Row(
               children: [
                 Text(
@@ -119,7 +122,7 @@ class OrderScreen extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 20,
+              height: 15,
             ),
             Divider(
               color: ColorConstant.grey,
@@ -157,7 +160,10 @@ class OrderScreen extends StatelessWidget {
                           fit: BoxFit.cover)),
                 )
               ],
-            )
+            ),
+            SizedBox(
+              height: 15,
+            ),
           ],
         ),
       ),
