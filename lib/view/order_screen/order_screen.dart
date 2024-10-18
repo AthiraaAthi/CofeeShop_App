@@ -192,6 +192,9 @@ class OrderScreen extends StatelessWidget {
                           ),
                           fit: BoxFit.cover)),
                 ),
+                SizedBox(
+                  width: 10,
+                ),
                 Container(
                   height: 70,
                   width: 40,
