@@ -170,7 +170,7 @@ class OrderScreen extends StatelessWidget {
               color: ColorConstant.grey,
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
             Row(
               children: [
@@ -219,7 +219,10 @@ class OrderScreen extends StatelessWidget {
                           fit: BoxFit.cover)),
                 ),
               ],
-            )
+            ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
