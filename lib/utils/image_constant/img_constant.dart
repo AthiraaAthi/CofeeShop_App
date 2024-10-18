@@ -11,7 +11,7 @@ class ImageConstant {
   static String qr = "assets/images/qr.png";
   static String Onsite = "assets/images/onsite.png";
   static String takeAway = "assets/images/takeaway.png";
-  static String ml250 = "assets\images\250.png";
-  static String ml350 = "assets\images\350.png";
-  static String ml450 = "assets\images\350.png";
+  static String ml250 = "assets/images/250.png";
+  static String ml350 = "assets/images/350.png";
+  static String ml450 = "assets/images/350.png";
 }

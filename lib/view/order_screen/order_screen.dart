@@ -179,7 +179,7 @@ class OrderScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                       image: DecorationImage(
                           image: AssetImage(
-                            ImageConstant.takeAway,
+                            ImageConstant.ml250,
                           ),
                           fit: BoxFit.cover)),
                 )
