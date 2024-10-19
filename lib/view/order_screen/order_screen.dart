@@ -42,7 +42,7 @@ class OrderScreen extends StatelessWidget {
               width: 340,
             ),
             SizedBox(
-              height: 20,
+              height: 15,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -81,7 +81,7 @@ class OrderScreen extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
             Divider(
               color: ColorConstant.grey,
@@ -124,7 +124,7 @@ class OrderScreen extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 15,
+              height: 10,
             ),
             Divider(
               color: ColorConstant.grey,
