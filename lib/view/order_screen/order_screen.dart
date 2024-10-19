@@ -264,6 +264,12 @@ class OrderScreen extends StatelessWidget {
                             fontSize: 19,
                             color: Color.fromARGB(255, 74, 74, 74)),
                       ),
+                      Text(
+                        "10",
+                        style: TextStyle(
+                            fontSize: 19,
+                            color: Color.fromARGB(255, 74, 74, 74)),
+                      ),
                     ],
                   )),
                 )
