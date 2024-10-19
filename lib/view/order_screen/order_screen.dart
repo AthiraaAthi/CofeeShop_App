@@ -255,7 +255,12 @@ class OrderScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: ColorConstant.grey,
                       borderRadius: BorderRadius.circular(10)),
-                  child: Center(child: Text("18 :")),
+                  child: Center(
+                      child: Row(
+                    children: [
+                      Text("18 :"),
+                    ],
+                  )),
                 )
               ],
             )
