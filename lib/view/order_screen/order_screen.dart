@@ -231,10 +231,11 @@ class OrderScreen extends StatelessWidget {
               height: 15,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Prepare by a certain time today ?",
-                  style: TextStyle(fontWeight: FontWeight.w500),
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 15),
                 ),
                 CupertinoSwitch(
                   value: true,
