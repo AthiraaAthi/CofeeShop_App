@@ -258,7 +258,12 @@ class OrderScreen extends StatelessWidget {
                   child: Center(
                       child: Row(
                     children: [
-                      Text("18 :"),
+                      Text(
+                        "18 :",
+                        style: TextStyle(
+                            fontSize: 19,
+                            color: Color.fromARGB(255, 74, 74, 74)),
+                      ),
                     ],
                   )),
                 )
