@@ -226,6 +226,17 @@ class OrderScreen extends StatelessWidget {
             Divider(
               color: ColorConstant.grey,
             ),
+            SizedBox(
+              height: 15,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Prepare by a certain time today ?",
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                ),
+              ],
+            )
           ],
         ),
       ),
