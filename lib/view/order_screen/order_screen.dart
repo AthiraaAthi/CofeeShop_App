@@ -242,6 +242,18 @@ class OrderScreen extends StatelessWidget {
                   onChanged: (value) {},
                 )
               ],
+            ),
+            SizedBox(
+              height: 15,
+            ),
+            Row(
+              children: [
+                Container(
+                  height: 36,
+                  width: 86,
+                  decoration: BoxDecoration(color: ColorConstant.grey),
+                )
+              ],
             )
           ],
         ),
