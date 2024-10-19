@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class OrderScreen extends StatelessWidget {
@@ -235,6 +236,10 @@ class OrderScreen extends StatelessWidget {
                   "Prepare by a certain time today ?",
                   style: TextStyle(fontWeight: FontWeight.w500),
                 ),
+                CupertinoSwitch(
+                  value: true,
+                  onChanged: (value) {},
+                )
               ],
             )
           ],
