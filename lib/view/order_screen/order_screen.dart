@@ -247,6 +247,7 @@ class OrderScreen extends StatelessWidget {
               height: 15,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Container(
                   height: 36,
