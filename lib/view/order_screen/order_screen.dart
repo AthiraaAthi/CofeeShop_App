@@ -251,8 +251,11 @@ class OrderScreen extends StatelessWidget {
               children: [
                 Container(
                   height: 36,
-                  width: 86,
-                  decoration: BoxDecoration(color: ColorConstant.grey),
+                  width: 90,
+                  decoration: BoxDecoration(
+                      color: ColorConstant.grey,
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Text("18 :"),
                 )
               ],
             )
