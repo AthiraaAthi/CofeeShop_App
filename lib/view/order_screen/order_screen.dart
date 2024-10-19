@@ -257,6 +257,7 @@ class OrderScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10)),
                   child: Center(
                       child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         "18 :",
