@@ -291,6 +291,7 @@ class OrderScreen extends StatelessWidget {
                     color: Colors.black,
                     size: 25,
                   ),
+                  title: Text("Coffee Lovers Assemblage"),
                 ),
               )
             ],
