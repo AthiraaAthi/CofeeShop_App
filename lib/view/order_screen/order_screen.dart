@@ -279,7 +279,13 @@ class OrderScreen extends StatelessWidget {
               Container(
                 height: 50,
                 width: 315,
-                decoration: BoxDecoration(gradient: LinearGradient(colors: [])),
+                decoration: BoxDecoration(
+                    gradient: LinearGradient(colors: [
+                  Color(0xfff130F26),
+                  Color(0xffFFFFFF),
+                  Color(0xffC58BF2),
+                  Color(0xffEEA4CE)
+                ])),
               )
             ],
           ),
