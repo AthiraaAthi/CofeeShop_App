@@ -286,7 +286,11 @@ class OrderScreen extends StatelessWidget {
                       Color(0xffC58BF2),
                     ])),
                 child: ListTile(
-                  leading: Icon(Icons.tune),
+                  leading: Icon(
+                    Icons.tune,
+                    color: Colors.black,
+                    size: 25,
+                  ),
                 ),
               )
             ],
