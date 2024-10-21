@@ -243,7 +243,7 @@ class OrderScreen extends StatelessWidget {
                 ],
               ),
               SizedBox(
-                height: 15,
+                height: 10,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
@@ -272,7 +272,7 @@ class OrderScreen extends StatelessWidget {
                     )),
                   )
                 ],
-              )
+              ),
             ],
           ),
         ),
