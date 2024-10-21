@@ -277,10 +277,10 @@ class OrderScreen extends StatelessWidget {
                 height: 10,
               ),
               Container(
-                height: 50,
+                height: 60,
                 width: 315,
                 decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(20),
                     gradient: LinearGradient(colors: [
                       Color(0xffEEA4CE),
                       Color(0xffC58BF2),
@@ -291,7 +291,18 @@ class OrderScreen extends StatelessWidget {
                     color: Colors.black,
                     size: 25,
                   ),
-                  title: Text("Coffee Lovers Assemblage"),
+                  title: Text(
+                    "Coffee Lovers Assemblage",
+                    style: TextStyle(color: Color(0xffFFFFFF), fontSize: 15),
+                  ),
+                  trailing: SizedBox(
+                    width: 12,
+                    child: Icon(
+                      Icons.keyboard_arrow_right,
+                      color: Color(0xffFFFFFF),
+                      size: 30,
+                    ),
+                  ),
                 ),
               )
             ],
