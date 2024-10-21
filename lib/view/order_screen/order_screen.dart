@@ -276,6 +276,9 @@ class OrderScreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+              Container(
+                decoration: BoxDecoration(),
+              )
             ],
           ),
         ),
