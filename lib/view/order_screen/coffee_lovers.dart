@@ -26,12 +26,15 @@ class CoffeeLoversScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Row(
-            children: [Text("Select a barista")],
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            Row(
+              children: [Text("Select a barista")],
+            )
+          ],
+        ),
       ),
     );
   }
