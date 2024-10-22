@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/order_screen/coffee_lovers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -277,6 +278,13 @@ class OrderScreen extends StatelessWidget {
                 height: 10,
               ),
               InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => CoffeeLoversScreen(),
+                      ));
+                },
                 child: Container(
                   height: 60,
                   width: 315,
