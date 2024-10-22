@@ -26,6 +26,9 @@ class CoffeeLoversScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
