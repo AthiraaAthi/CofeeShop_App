@@ -11,7 +11,7 @@ class CoffeeLoversScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         title: Text(
           "Coffee Lovers Assemblage",
-          style: TextStyle(fontSize: 17),
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
         ),
         centerTitle: true,
       ),
