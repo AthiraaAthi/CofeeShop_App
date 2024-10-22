@@ -14,6 +14,7 @@ class CoffeeLoversScreen extends StatelessWidget {
           style: TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
         ),
         centerTitle: true,
+        actions: [],
       ),
     );
   }
