@@ -9,6 +9,7 @@ class CoffeeLoversScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
+        title: Text("Coffee Lovers Assemblage"),
       ),
     );
   }
