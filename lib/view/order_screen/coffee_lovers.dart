@@ -13,6 +13,7 @@ class CoffeeLoversScreen extends StatelessWidget {
           "Coffee Lovers Assemblage",
           style: TextStyle(fontSize: 17),
         ),
+        centerTitle: true,
       ),
     );
   }
