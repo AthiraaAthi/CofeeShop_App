@@ -276,31 +276,33 @@ class OrderScreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-              Container(
-                height: 60,
-                width: 315,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20),
-                    gradient: LinearGradient(colors: [
-                      Color(0xffEEA4CE),
-                      Color(0xffC58BF2),
-                    ])),
-                child: ListTile(
-                  leading: Icon(
-                    Icons.tune,
-                    color: Colors.black,
-                    size: 25,
-                  ),
-                  title: Text(
-                    "Coffee Lovers Assemblage",
-                    style: TextStyle(color: Color(0xffFFFFFF), fontSize: 15),
-                  ),
-                  trailing: SizedBox(
-                    width: 12,
-                    child: Icon(
-                      Icons.keyboard_arrow_right,
-                      color: Color(0xffFFFFFF),
-                      size: 30,
+              InkWell(
+                child: Container(
+                  height: 60,
+                  width: 315,
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(20),
+                      gradient: LinearGradient(colors: [
+                        Color(0xffEEA4CE),
+                        Color(0xffC58BF2),
+                      ])),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.tune,
+                      color: Colors.black,
+                      size: 25,
+                    ),
+                    title: Text(
+                      "Coffee Lovers Assemblage",
+                      style: TextStyle(color: Color(0xffFFFFFF), fontSize: 15),
+                    ),
+                    trailing: SizedBox(
+                      width: 12,
+                      child: Icon(
+                        Icons.keyboard_arrow_right,
+                        color: Color(0xffFFFFFF),
+                        size: 30,
+                      ),
                     ),
                   ),
                 ),
