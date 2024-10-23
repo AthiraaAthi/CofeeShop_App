@@ -34,11 +34,12 @@ class CoffeeLoversScreen extends StatelessWidget {
               children: [
                 Text(
                   "Select a barista",
-                  style: TextStyle(fontWeight: FontWeight.w500),
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 17),
                 ),
                 Icon(
                   Icons.keyboard_arrow_right,
                   color: Colors.grey,
+                  size: 30,
                 )
               ],
             )
