@@ -35,7 +35,8 @@ class CoffeeLoversScreen extends StatelessWidget {
                 Text(
                   "Select a barista",
                   style: TextStyle(fontWeight: FontWeight.w500),
-                )
+                ),
+                Icon(Icons.keyboard_arrow_right)
               ],
             )
           ],
