@@ -2,9 +2,15 @@ import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class CoffeeLoversScreen extends StatelessWidget {
+class CoffeeLoversScreen extends StatefulWidget {
   const CoffeeLoversScreen({super.key});
 
+  @override
+  State<CoffeeLoversScreen> createState() => _CoffeeLoversScreenState();
+}
+
+class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
+  double _currentValue = 50;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
