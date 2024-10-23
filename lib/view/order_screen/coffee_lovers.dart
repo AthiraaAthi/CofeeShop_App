@@ -46,11 +46,15 @@ class CoffeeLoversScreen extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 20,
+              height: 10,
             ),
             Divider(
               color: ColorConstant.grey,
-            )
+            ),
+            Text(
+              "Coffee type",
+              style: TextStyle(fontWeight: FontWeight.w500, fontSize: 17),
+            ),
           ],
         ),
       ),
