@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class CoffeeLoversScreen extends StatelessWidget {
@@ -43,6 +44,12 @@ class CoffeeLoversScreen extends StatelessWidget {
                   size: 30,
                 )
               ],
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Divider(
+              color: ColorConstant.grey,
             )
           ],
         ),
