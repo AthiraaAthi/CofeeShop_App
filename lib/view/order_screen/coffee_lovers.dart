@@ -36,7 +36,7 @@ class CoffeeLoversScreen extends StatelessWidget {
               children: [
                 Text(
                   "Select a barista",
-                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 17),
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
                 Icon(
                   Icons.keyboard_arrow_right,
@@ -55,8 +55,12 @@ class CoffeeLoversScreen extends StatelessWidget {
               children: [
                 Text(
                   "Coffee type",
-                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 17),
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                Slider(
+                  value: 0,
+                  onChanged: (value) {},
+                )
               ],
             ),
           ],
