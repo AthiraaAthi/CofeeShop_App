@@ -66,7 +66,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
                 CupertinoSlider(
-                  value: 0,
+                  value: _currentValue,
+                  min: 0,
+                  max: 100,
+                  divisions: 10,
                   onChanged: (value) {},
                 )
               ],
