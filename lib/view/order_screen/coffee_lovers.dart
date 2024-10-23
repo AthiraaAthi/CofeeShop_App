@@ -53,6 +53,7 @@ class CoffeeLoversScreen extends StatelessWidget {
               color: ColorConstant.grey,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Coffee type",
