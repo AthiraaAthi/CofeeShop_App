@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CoffeeLoversScreen extends StatelessWidget {
@@ -57,7 +58,7 @@ class CoffeeLoversScreen extends StatelessWidget {
                   "Coffee type",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
-                Slider(
+                CupertinoSlider(
                   value: 0,
                   onChanged: (value) {},
                 )
