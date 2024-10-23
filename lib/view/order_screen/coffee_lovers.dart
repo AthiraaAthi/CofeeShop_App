@@ -70,7 +70,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   min: 0,
                   max: 100,
                   divisions: 10,
-                  onChanged: (value) {},
+                  onChanged: (value) {
+                    setState(() {
+                      _currentValue = value;
+                    });
+                  },
                 )
               ],
             ),
