@@ -31,7 +31,12 @@ class CoffeeLoversScreen extends StatelessWidget {
         child: Column(
           children: [
             Row(
-              children: [Text("Select a barista")],
+              children: [
+                Text(
+                  "Select a barista",
+                  style: TextStyle(fontWeight: FontWeight.w500),
+                )
+              ],
             )
           ],
         ),
