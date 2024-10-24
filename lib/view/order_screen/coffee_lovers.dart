@@ -111,6 +111,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
             Divider(
               color: ColorConstant.grey,
+            ),
+            Row(
+              children: [],
             )
           ],
         ),
