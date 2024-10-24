@@ -58,16 +58,15 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             Divider(
               color: ColorConstant.grey,
             ),
-            Column(
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                Text(
+                  "Coffee type",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+                Column(
                   children: [
-                    Text(
-                      "Coffee type",
-                      style:
-                          TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
-                    ),
                     CupertinoSlider(
                       value: _currentValue,
                       min: 0,
@@ -78,9 +77,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           _currentValue = value;
                         });
                       },
-                    )
+                    ),/////
+                   
                   ],
-                ),
+                )
               ],
             ),
           ],
