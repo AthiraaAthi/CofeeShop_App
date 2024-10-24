@@ -130,7 +130,12 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               color: ColorConstant.grey,
             ),
             Row(
-              children: [],
+              children: [
+                Text(
+                  "Roasting",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+              ],
             )
           ],
         ),
