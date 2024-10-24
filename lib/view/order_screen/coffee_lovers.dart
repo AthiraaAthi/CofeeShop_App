@@ -79,6 +79,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       },
                     ),
                     Container(
+                      width: MediaQuery.of(context).size.width *
+                          0.5, //Flutter expression used to get half of the screen width
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
