@@ -118,6 +118,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Coffee Sort",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                Icon(
+                  Icons.keyboard_arrow_right,
+                  color: Colors.grey,
+                  size: 30,
+                )
               ],
             )
           ],
