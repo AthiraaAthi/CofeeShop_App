@@ -91,6 +91,15 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                                   : Colors.grey,
                             ),
                           ),
+                          Text(
+                            'Robusta',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: _currentValue > 50
+                                  ? Colors.blue
+                                  : Colors.grey,
+                            ),
+                          ),
                         ],
                       ),
                     )
