@@ -113,6 +113,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               color: ColorConstant.grey,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Coffee Sort",
