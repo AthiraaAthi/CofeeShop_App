@@ -77,8 +77,23 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           _currentValue = value;
                         });
                       },
-                    ),/////
-                   
+                    ),
+                    Container(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            'Arabica',
+                            style: TextStyle(
+                              fontSize: 15,
+                              color: _currentValue <= 50
+                                  ? Colors.blue
+                                  : Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    )
                   ],
                 )
               ],
