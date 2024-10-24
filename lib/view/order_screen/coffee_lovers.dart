@@ -138,6 +138,13 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Roasting",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                IconButton(
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.local_fire_department,
+                      color: ColorConstant.nameGrey,
+                      size: 30,
+                    ))
               ],
             )
           ],
