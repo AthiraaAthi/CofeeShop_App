@@ -129,9 +129,6 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             Divider(
               color: ColorConstant.grey,
             ),
-            SizedBox(
-              height: 20,
-            ),
             Row(
               children: [
                 Text(
@@ -148,6 +145,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       color: ColorConstant.nameGrey,
                       size: 30,
                     )),
+                SizedBox(
+                  width: 20,
+                ),
                 Row(
                   children: [
                     Icon(
@@ -161,6 +161,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       size: 30,
                     )
                   ],
+                ),
+                SizedBox(
+                  width: 20,
                 ),
                 Column(
                   children: [
@@ -186,7 +189,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   ],
                 )
               ],
-            )
+            ),
+            Divider(
+              color: ColorConstant.grey,
+            ),
           ],
         ),
       ),
