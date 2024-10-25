@@ -194,7 +194,12 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               color: ColorConstant.grey,
             ),
             Row(
-              children: [Text("")],
+              children: [
+                Text(
+                  "Grinding",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+              ],
             )
           ],
         ),
