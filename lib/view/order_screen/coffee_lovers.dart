@@ -199,6 +199,17 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Grinding",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                Container(
+                  height: 25,
+                  width: 21,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage(
+                          "assets/images/grinding 1.png",
+                        ),
+                        fit: BoxFit.cover),
+                  ),
+                )
               ],
             )
           ],
