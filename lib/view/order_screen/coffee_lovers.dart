@@ -170,6 +170,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       Icons.local_fire_department,
                       color: ColorConstant.nameGrey,
                       size: 30,
+                    ),
+                    Icon(
+                      Icons.local_fire_department,
+                      color: ColorConstant.nameGrey,
+                      size: 30,
                     )
                   ],
                 )
