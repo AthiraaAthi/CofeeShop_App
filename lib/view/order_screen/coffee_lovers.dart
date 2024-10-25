@@ -194,7 +194,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               color: ColorConstant.grey,
             ),
             Row(
-              children: [],
+              children: [Text("")],
             )
           ],
         ),
