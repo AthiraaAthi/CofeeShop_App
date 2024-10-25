@@ -209,6 +209,17 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                         ),
                         fit: BoxFit.cover),
                   ),
+                ),
+                Container(
+                  height: 34,
+                  width: 27,
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                        image: AssetImage(
+                          "assets/images/grinding 2.png",
+                        ),
+                        fit: BoxFit.cover),
+                  ),
                 )
               ],
             )
