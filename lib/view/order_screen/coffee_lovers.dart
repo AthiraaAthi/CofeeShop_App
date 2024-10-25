@@ -199,6 +199,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Grinding",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                SizedBox(
+                  width: 150,
+                ),
                 Container(
                   height: 25,
                   width: 21,
@@ -210,6 +213,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                         fit: BoxFit.cover),
                   ),
                 ),
+                SizedBox(
+                  width: 35,
+                ),
                 Container(
                   height: 34,
                   width: 27,
@@ -220,7 +226,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                         ),
                         fit: BoxFit.cover),
                   ),
-                )
+                ),
               ],
             )
           ],
