@@ -161,11 +161,16 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 ),
                 Column(
                   children: [
+                    Icon(
+                      Icons.local_fire_department,
+                      color: Colors.black,
+                      size: 30,
+                    ),
                     Row(
                       children: [
                         Icon(
                           Icons.local_fire_department,
-                          color: ColorConstant.nameGrey,
+                          color: Colors.black,
                           size: 30,
                         ),
                         Icon(
@@ -173,11 +178,6 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           color: ColorConstant.nameGrey,
                           size: 30,
                         ),
-                        Icon(
-                          Icons.local_fire_department,
-                          color: ColorConstant.nameGrey,
-                          size: 30,
-                        )
                       ],
                     ),
                   ],
