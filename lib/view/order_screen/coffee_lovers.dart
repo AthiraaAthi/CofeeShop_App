@@ -158,6 +158,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       size: 30,
                     )
                   ],
+                ),
+                Row(
+                  children: [],
                 )
               ],
             )
