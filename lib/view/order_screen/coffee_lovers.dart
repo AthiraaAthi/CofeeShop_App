@@ -223,7 +223,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(
-                          "assets/images/grinding 2.png",
+                          ImageConstant.grinding2,
                         ),
                         fit: BoxFit.cover),
                   ),
