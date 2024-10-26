@@ -15,4 +15,5 @@ class ImageConstant {
   static String ml350 = "assets/images/350.png";
   static String ml450 = "assets/images/450.png";
   static String grinding1 = "assets\images\grinding 1.png";
+  static String grinding2 = "assets\images\grinding 2.png";
 }
