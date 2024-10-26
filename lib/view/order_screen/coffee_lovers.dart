@@ -238,6 +238,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 Text(
                   "Milk",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+                Text(
+                  "Select",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 )
               ],
             )
