@@ -233,6 +233,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             Divider(
               color: ColorConstant.grey,
             ),
+            SizedBox(
+              height: 10,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -249,11 +252,14 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 )
               ],
             ),
+            SizedBox(
+              height: 10,
+            ),
             Divider(
               color: ColorConstant.grey,
             ),
-            Row(
-              children: [],
+            SizedBox(
+              height: 10,
             )
           ],
         ),
