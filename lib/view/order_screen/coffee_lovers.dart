@@ -240,12 +240,15 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Milk",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
-                Text(
-                  "Select",
-                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                InkWell(
+                  onTap: () {},
+                  child: Text(
+                    "Select",
+                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                  ),
                 )
               ],
-            )
+            ),
           ],
         ),
       ),
