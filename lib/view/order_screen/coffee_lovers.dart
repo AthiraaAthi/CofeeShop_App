@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -203,21 +204,21 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   width: 150,
                 ),
                 Container(
-                  height: 25,
+                  height: 30,
                   width: 21,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                         image: AssetImage(
-                          "assets/images/grinding 1.png",
+                          ImageConstant.grinding1,
                         ),
                         fit: BoxFit.cover),
                   ),
                 ),
                 SizedBox(
-                  width: 35,
+                  width: 45,
                 ),
                 Container(
-                  height: 34,
+                  height: 45,
                   width: 27,
                   decoration: BoxDecoration(
                     image: DecorationImage(
