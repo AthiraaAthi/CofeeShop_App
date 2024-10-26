@@ -249,7 +249,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 )
               ],
             ),
-            Divider()
+            Divider(
+              color: ColorConstant.grey,
+            )
           ],
         ),
       ),
