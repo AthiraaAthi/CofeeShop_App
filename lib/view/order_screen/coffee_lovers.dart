@@ -260,6 +260,14 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
             SizedBox(
               height: 10,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Syrup",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+              ],
             )
           ],
         ),
