@@ -283,6 +283,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             Divider(
               color: ColorConstant.grey,
             ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
