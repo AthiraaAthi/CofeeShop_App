@@ -276,7 +276,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   ),
                 )
               ],
-            )
+            ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
