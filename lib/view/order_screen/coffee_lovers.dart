@@ -293,7 +293,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
                 IconButton(
-                    onPressed: () {}, icon: Icon(Icons.keyboard_arrow_right))
+                    onPressed: () {},
+                    icon: Icon(
+                      Icons.keyboard_arrow_right,
+                      size: 30,
+                    ))
               ],
             )
           ],
