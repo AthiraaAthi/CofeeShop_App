@@ -292,6 +292,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Additives",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
+                IconButton(
+                    onPressed: () {}, icon: Icon(Icons.keyboard_arrow_right))
               ],
             )
           ],
