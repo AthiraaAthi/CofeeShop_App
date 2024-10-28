@@ -301,7 +301,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       color: Colors.grey,
                     ))
               ],
-            )
+            ),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
