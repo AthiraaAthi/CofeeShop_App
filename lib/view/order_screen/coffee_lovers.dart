@@ -287,6 +287,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               height: 10,
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Additives",
