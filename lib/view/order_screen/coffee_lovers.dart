@@ -340,6 +340,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                               Icons.crop_square,
                               color: ColorConstant.grey,
                             ),
+                            Icon(
+                              Icons.crop_square,
+                              color: ColorConstant.grey,
+                            ),
                           ],
                         ),
                       ],
