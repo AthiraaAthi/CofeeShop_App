@@ -368,7 +368,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               children: [
                 Text(
                   "Total Amount",
-                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                  style: TextStyle(
+                    fontWeight: FontWeight.w900,
+                    fontSize: 16,
+                  ),
                 ),
               ],
             ),
