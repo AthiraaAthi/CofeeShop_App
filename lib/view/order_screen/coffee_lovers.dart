@@ -311,7 +311,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "ice",
                   style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                 ),
-                Icon(Icons.crop_square)
+                Icon(
+                  Icons.crop_square,
+                  color: ColorConstant.grey,
+                )
               ],
             )
           ],
