@@ -329,7 +329,20 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       color: ColorConstant.grey,
                     ),
                     Column(
-                      children: [],
+                      children: [
+                        Icon(
+                          Icons.crop_square,
+                          color: ColorConstant.grey,
+                        ),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.crop_square,
+                              color: ColorConstant.grey,
+                            ),
+                          ],
+                        ),
+                      ],
                     )
                   ],
                 )
