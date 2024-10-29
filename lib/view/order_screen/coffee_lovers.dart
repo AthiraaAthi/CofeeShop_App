@@ -373,6 +373,13 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     fontSize: 16,
                   ),
                 ),
+                Text(
+                  "BYN 9.00",
+                  style: TextStyle(
+                    fontWeight: FontWeight.w900,
+                    fontSize: 16,
+                  ),
+                ),
               ],
             ),
           ],
