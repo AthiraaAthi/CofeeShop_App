@@ -364,6 +364,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 )
               ],
             ),
+            SizedBox(
+              height: 50,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -371,14 +374,14 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   "Total Amount",
                   style: TextStyle(
                     fontWeight: FontWeight.w900,
-                    fontSize: 16,
+                    fontSize: 20,
                   ),
                 ),
                 Text(
                   "BYN 9.00",
                   style: TextStyle(
                     fontWeight: FontWeight.w900,
-                    fontSize: 16,
+                    fontSize: 20,
                   ),
                 ),
               ],
