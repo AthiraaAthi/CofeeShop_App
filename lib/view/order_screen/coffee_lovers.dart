@@ -365,6 +365,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               ],
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
                   "Total Amount",
