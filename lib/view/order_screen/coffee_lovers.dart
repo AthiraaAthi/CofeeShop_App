@@ -317,6 +317,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     Icon(
                       Icons.crop_square,
                       color: ColorConstant.grey,
+                      size: 20,
                     ), //1st ice
                     SizedBox(
                       width: 15,
@@ -325,10 +326,15 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       //2 cubes
                       Icons.crop_square,
                       color: ColorConstant.grey,
+                      size: 20,
                     ),
                     Icon(
                       Icons.crop_square,
                       color: ColorConstant.grey,
+                      size: 20,
+                    ),
+                    SizedBox(
+                      width: 5,
                     ),
                     Column(
                       //3 cubes
@@ -336,16 +342,19 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                         Icon(
                           Icons.crop_square,
                           color: ColorConstant.grey,
+                          size: 20,
                         ),
                         Row(
                           children: [
                             Icon(
                               Icons.crop_square,
                               color: ColorConstant.grey,
+                              size: 20,
                             ),
                             Icon(
                               Icons.crop_square,
                               color: ColorConstant.grey,
+                              size: 20,
                             ),
                           ],
                         ),
