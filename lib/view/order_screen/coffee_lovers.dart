@@ -306,7 +306,12 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               height: 10,
             ),
             Row(
-              children: [],
+              children: [
+                Text(
+                  "ice",
+                  style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                ),
+              ],
             )
           ],
         ),
