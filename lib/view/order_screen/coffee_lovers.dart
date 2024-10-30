@@ -389,6 +389,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   ),
                 ],
               ),
+              Container()
             ],
           ),
         ),
