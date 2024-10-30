@@ -398,7 +398,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 decoration: BoxDecoration(
                     color: ColorConstant.mainBlue,
                     borderRadius: BorderRadius.circular(20)),
-                child: Text("Next"),
+                child: Center(child: Text("Next")),
               )
             ],
           ),
