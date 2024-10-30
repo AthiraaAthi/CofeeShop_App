@@ -37,7 +37,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: const EdgeInsets.all(16),
+          padding: const EdgeInsets.all(20),
           child: Column(
             children: [
               Row(
@@ -394,10 +394,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               ),
               Container(
                 height: 50,
-                width: 300,
+                width: 350,
                 decoration: BoxDecoration(
                     color: ColorConstant.mainBlue,
-                    borderRadius: BorderRadius.circular(15)),
+                    borderRadius: BorderRadius.circular(20)),
               )
             ],
           ),
