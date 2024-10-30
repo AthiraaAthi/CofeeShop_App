@@ -377,14 +377,14 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     "Total Amount",
                     style: TextStyle(
                       fontWeight: FontWeight.w900,
-                      fontSize: 20,
+                      fontSize: 18,
                     ),
                   ),
                   Text(
                     "BYN 9.00",
                     style: TextStyle(
                       fontWeight: FontWeight.w900,
-                      fontSize: 20,
+                      fontSize: 18,
                     ),
                   ),
                 ],
