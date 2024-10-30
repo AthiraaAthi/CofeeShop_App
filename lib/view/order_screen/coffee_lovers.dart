@@ -392,6 +392,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               Container(
                 height: 50,
                 width: 300,
+                decoration: BoxDecoration(color: ColorConstant.mainBlue),
               )
             ],
           ),
