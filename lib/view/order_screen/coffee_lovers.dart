@@ -392,20 +392,23 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               SizedBox(
                 height: 20,
               ),
-              Container(
-                height: 50,
-                width: 350,
-                decoration: BoxDecoration(
-                    color: ColorConstant.mainBlue,
-                    borderRadius: BorderRadius.circular(20)),
-                child: Center(
-                    child: Text(
-                  "Next",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w700),
-                )),
+              InkWell(
+                onTap: () {},
+                child: Container(
+                  height: 50,
+                  width: 350,
+                  decoration: BoxDecoration(
+                      color: ColorConstant.mainBlue,
+                      borderRadius: BorderRadius.circular(20)),
+                  child: Center(
+                      child: Text(
+                    "Next",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w700),
+                  )),
+                ),
               )
             ],
           ),
