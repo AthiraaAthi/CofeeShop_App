@@ -401,7 +401,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 child: Center(
                     child: Text(
                   "Next",
-                  style: TextStyle(color: Colors.white),
+                  style: TextStyle(color: Colors.white, fontSize: 16),
                 )),
               )
             ],
