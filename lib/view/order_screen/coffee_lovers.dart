@@ -433,7 +433,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
           ),
           actions: [
-            CupertinoActionSheetAction(onPressed: () {}, child: Text(""))
+            CupertinoActionSheetAction(
+                onPressed: () {
+                  Navigator.pop(context, 'None');
+                },
+                child: Text("None"))
           ],
         );
       },
