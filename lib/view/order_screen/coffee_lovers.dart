@@ -427,7 +427,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
     showCupertinoModalPopup(
       context: context,
       builder: (context) {
-        return CupertinoActionSheet();
+        return CupertinoActionSheet(
+          title: Text(""),
+        );
       },
     );
   }
