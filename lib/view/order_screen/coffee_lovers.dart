@@ -246,7 +246,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                   ),
                   InkWell(
-                    onTap: () {}, //////
+                    onTap: () {
+                      milkPreferenceSheet(context);
+                    }, //////
                     child: Text(
                       "Select",
                       style:
