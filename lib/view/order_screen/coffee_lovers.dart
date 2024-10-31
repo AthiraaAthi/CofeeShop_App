@@ -455,6 +455,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               child: Text("Vegetable"),
             ),
           ],
+          cancelButton:
+              CupertinoActionSheetAction(onPressed: () {}, child: Text("")),
         );
       },
     );
