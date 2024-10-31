@@ -432,6 +432,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             "What type of milk do you prefer?",
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
           ),
+          actions: [
+            CupertinoActionSheetAction(onPressed: () {}, child: Text(""))
+          ],
         );
       },
     );
