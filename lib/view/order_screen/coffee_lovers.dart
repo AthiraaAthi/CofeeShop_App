@@ -421,5 +421,12 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
     );
   }
 
-  void milkPreferenceSheet(BuildContext context) {}
+  void milkPreferenceSheet(BuildContext context) {
+    showCupertinoModalPopup(
+      context: context,
+      builder: (context) {
+        return CupertinoActionSheet();
+      },
+    );
+  }
 }
