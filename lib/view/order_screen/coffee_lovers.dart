@@ -446,6 +446,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               onPressed: () {},
               child: Text("Lactose-free"),
             ),
+            CupertinoActionSheetAction(
+              onPressed: () {},
+              child: Text("Skimmed"),
+            ),
           ],
         );
       },
