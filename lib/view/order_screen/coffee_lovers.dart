@@ -428,7 +428,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
       context: context,
       builder: (context) {
         return CupertinoActionSheet(
-          title: Text("What type of milk do you prefer?"),
+          title: Text(
+            "What type of milk do you prefer?",
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          ),
         );
       },
     );
