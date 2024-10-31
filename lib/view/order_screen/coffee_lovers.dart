@@ -246,7 +246,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {}, //////
                     child: Text(
                       "Select",
                       style:
@@ -420,4 +420,6 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
       ),
     );
   }
+
+  void milkPreferenceSheet(BuildContext context) {}
 }
