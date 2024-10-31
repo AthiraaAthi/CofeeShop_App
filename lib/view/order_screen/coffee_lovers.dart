@@ -456,7 +456,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
           ],
           cancelButton: CupertinoActionSheetAction(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pop(context);
+            },
             child: Text("Cancel"),
             isDefaultAction: true,
           ),
