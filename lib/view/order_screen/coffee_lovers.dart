@@ -437,7 +437,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 onPressed: () {
                   Navigator.pop(context, 'None');
                 },
-                child: Text("None")),
+                child: Text(
+                  "None",
+                  style: TextStyle(fontSize: 20, color: Colors.black),
+                )),
             CupertinoActionSheetAction(
               onPressed: () {},
               child: Text("Cow's"),
