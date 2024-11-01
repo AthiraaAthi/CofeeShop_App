@@ -294,9 +294,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           context,
                           "What type of syrup do you prefer?",
                           "none",
-                          "cow",
-                          "lactose",
-                          "skimmed",
+                          "Amaretto",
+                          "Coconut",
+                          "Vanilla",
                           "veg");
                     },
                     child: Text(
