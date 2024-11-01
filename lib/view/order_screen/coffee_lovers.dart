@@ -255,7 +255,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       //     lactose: "Lactose-free",
                       //     skimmed: "Skimmed",
                       //     veg: "Vegetable");
-                      milkPreferenceSheet(context);
+                      milkPreferenceSheet(
+                          context, "What type of milk do you prefer?");
                     },
 
                     ///remove the below function and call the cuperbottomsheet screen here///
@@ -433,13 +434,13 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
     );
   }
 
-  void milkPreferenceSheet(BuildContext context) {
+  void milkPreferenceSheet(BuildContext context, String title) {
     showCupertinoModalPopup(
       context: context,
       builder: (context) {
         return CupertinoActionSheet(
           title: Text(
-            "What type of milk do you prefer?",
+            title,
             style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
           ),
           actions: [
