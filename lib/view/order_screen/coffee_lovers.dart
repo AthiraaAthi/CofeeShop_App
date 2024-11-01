@@ -250,8 +250,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     onTap: () {
                       CuperBottomSheet(
                           title: "What type of milk do you prefer?",
-                          none: "none",
-                          cow: "cow",
+                          none: "None",
+                          cow: "Cow's",
                           lactose: "lactose",
                           skimmed: "skimmed",
                           veg: "veg");
