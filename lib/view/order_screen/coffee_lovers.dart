@@ -256,7 +256,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       //     skimmed: "Skimmed",
                       //     veg: "Vegetable");
                       milkPreferenceSheet(
-                          context, "What type of milk do you prefer?");
+                          context,
+                          "What type of milk do you prefer?",
+                          "None",
+                          "Cow's",
+                          "Lactose-free");
                     },
 
                     ///remove the below function and call the cuperbottomsheet screen here///
@@ -434,7 +438,8 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
     );
   }
 
-  void milkPreferenceSheet(BuildContext context, String title) {
+  void milkPreferenceSheet(BuildContext context, String title, String none,
+      String cow, String lactose) {
     showCupertinoModalPopup(
       context: context,
       builder: (context) {
@@ -449,16 +454,16 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   Navigator.pop(context, 'None');
                 },
                 child: Text(
-                  "None",
+                  none,
                   style: TextStyle(fontSize: 20, color: Colors.black),
                 )),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text("Cow's"),
+              child: Text(cow),
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text("Lactose-free"),
+              child: Text(lactose),
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
