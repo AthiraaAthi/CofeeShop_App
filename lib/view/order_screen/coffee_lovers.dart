@@ -260,7 +260,9 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           "What type of milk do you prefer?",
                           "None",
                           "Cow's",
-                          "Lactose-free");
+                          "Lactose-free",
+                          "Skimmed",
+                          "Vegetable");
                     },
 
                     ///remove the below function and call the cuperbottomsheet screen here///
@@ -439,7 +441,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
   }
 
   void milkPreferenceSheet(BuildContext context, String title, String none,
-      String cow, String lactose) {
+      String cow, String lactose, String skimmed, String veg) {
     showCupertinoModalPopup(
       context: context,
       builder: (context) {
@@ -467,11 +469,11 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text("Skimmed"),
+              child: Text(skimmed),
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text("Vegetable"),
+              child: Text(veg),
             ),
           ],
           cancelButton: CupertinoActionSheetAction(
