@@ -258,7 +258,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       //milkPreferenceSheet(context);
                     },
 
-                    ///cremove the below function and call the cuperbottomsheet screen here///
+                    ///remove the below function and call the cuperbottomsheet screen here///
                     child: Text(
                       "Select",
                       style:
@@ -430,53 +430,6 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
           ),
         ),
       ),
-    );
-  }
-
-  void milkPreferenceSheet(BuildContext context) {
-    showCupertinoModalPopup(
-      context: context,
-      builder: (context) {
-        return CupertinoActionSheet(
-          title: Text(
-            "What type of milk do you prefer?",
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-          ),
-          actions: [
-            CupertinoActionSheetAction(
-                onPressed: () {
-                  Navigator.pop(context, 'None');
-                },
-                child: Text(
-                  "None",
-                  style: TextStyle(fontSize: 20, color: Colors.black),
-                )),
-            CupertinoActionSheetAction(
-              onPressed: () {},
-              child: Text("Cow's"),
-            ),
-            CupertinoActionSheetAction(
-              onPressed: () {},
-              child: Text("Lactose-free"),
-            ),
-            CupertinoActionSheetAction(
-              onPressed: () {},
-              child: Text("Skimmed"),
-            ),
-            CupertinoActionSheetAction(
-              onPressed: () {},
-              child: Text("Vegetable"),
-            ),
-          ],
-          cancelButton: CupertinoActionSheetAction(
-            onPressed: () {
-              Navigator.pop(context);
-            },
-            child: Text("Cancel"),
-            isDefaultAction: true,
-          ),
-        );
-      },
     );
   }
 }
