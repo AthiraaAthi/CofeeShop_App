@@ -255,7 +255,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                       //     lactose: "Lactose-free",
                       //     skimmed: "Skimmed",
                       //     veg: "Vegetable");
-                      milkPreferenceSheet(
+                      PreferenceSheet(
                           context,
                           "What type of milk do you prefer?",
                           "None",
@@ -440,7 +440,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
     );
   }
 
-  void milkPreferenceSheet(BuildContext context, String title, String none,
+  void PreferenceSheet(BuildContext context, String title, String none,
       String cow, String lactose, String skimmed, String veg) {
     showCupertinoModalPopup(
       context: context,
