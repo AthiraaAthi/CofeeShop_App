@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/order_screen/cuper_bottomsheet.dart';
 import 'package:cofee_ui/view/order_screen/order_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -247,7 +248,14 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   ),
                   InkWell(
                     onTap: () {
-                      milkPreferenceSheet(context);
+                      CuperBottomSheet(
+                          title: "title",
+                          none: "none",
+                          cow: "cow",
+                          lactose: "lactose",
+                          skimmed: "skimmed",
+                          veg: "veg");
+                      //milkPreferenceSheet(context);
                     },
 
                     ///cremove the below function and call the cuperbottomsheet screen here///
