@@ -253,7 +253,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           none: "None",
                           cow: "Cow's",
                           lactose: "Lactose-free",
-                          skimmed: "skimmed",
+                          skimmed: "Skimmed",
                           veg: "veg");
                       //milkPreferenceSheet(context);
                     },
