@@ -252,7 +252,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           title: "What type of milk do you prefer?",
                           none: "None",
                           cow: "Cow's",
-                          lactose: "lactose",
+                          lactose: "Lactose-free",
                           skimmed: "skimmed",
                           veg: "veg");
                       //milkPreferenceSheet(context);
