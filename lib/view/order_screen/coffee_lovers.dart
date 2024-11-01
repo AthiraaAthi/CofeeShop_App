@@ -264,8 +264,6 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           "Skimmed",
                           "Vegetable");
                     },
-
-                    ///remove the below function and call the cuperbottomsheet screen here///
                     child: Text(
                       "Select",
                       style:
@@ -291,7 +289,16 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                     style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      PreferenceSheet(
+                          context,
+                          "What type of syrup do you prefer?",
+                          "none",
+                          "cow",
+                          "lactose",
+                          "skimmed",
+                          "veg");
+                    },
                     child: Text(
                       "Select",
                       style:
