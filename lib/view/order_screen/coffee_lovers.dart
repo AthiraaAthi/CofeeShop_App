@@ -249,7 +249,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                   InkWell(
                     onTap: () {
                       CuperBottomSheet(
-                          title: "title",
+                          title: "What type of milk do you prefer?",
                           none: "none",
                           cow: "cow",
                           lactose: "lactose",
