@@ -297,7 +297,7 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                           "Amaretto",
                           "Coconut",
                           "Vanilla",
-                          "veg");
+                          "Caramel");
                     },
                     child: Text(
                       "Select",
@@ -468,7 +468,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 )),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text(cow),
+              child: Text(
+                cow,
+                style: TextStyle(fontSize: 20, color: Colors.black),
+              ),
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
