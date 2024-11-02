@@ -26,6 +26,9 @@ class AdditivesScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
