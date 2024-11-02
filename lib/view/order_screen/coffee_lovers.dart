@@ -482,7 +482,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text(skimmed),
+              child: Text(
+                skimmed,
+                style: TextStyle(fontSize: 20, color: Colors.black),
+              ),
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
