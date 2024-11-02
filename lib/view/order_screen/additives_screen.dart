@@ -33,6 +33,9 @@ class AdditivesScreen extends StatelessWidget {
             Text(
               "Select additives",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            ),
+            SizedBox(
+              height: 50,
             )
           ],
         ),
