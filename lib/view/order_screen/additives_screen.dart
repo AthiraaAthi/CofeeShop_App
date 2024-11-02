@@ -26,13 +26,16 @@ class AdditivesScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Text(
-            "Select additives",
-            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            Text(
+              "Select additives",
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
+            )
+          ],
+        ),
       ),
     );
   }
