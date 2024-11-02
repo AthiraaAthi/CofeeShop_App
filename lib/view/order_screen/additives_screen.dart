@@ -36,6 +36,9 @@ class AdditivesScreen extends StatelessWidget {
             ),
             SizedBox(
               height: 50,
+            ),
+            ListView.builder(
+              itemBuilder: (context, index) => Text(""),
             )
           ],
         ),
