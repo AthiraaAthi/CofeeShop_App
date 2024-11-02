@@ -27,7 +27,7 @@ class AdditivesScreen extends StatelessWidget {
         ],
       ),
       body: Column(
-        children: [],
+        children: [Text("Select additives")],
       ),
     );
   }
