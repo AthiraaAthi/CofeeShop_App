@@ -499,7 +499,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             onPressed: () {
               Navigator.pop(context);
             },
-            child: Text("Cancel"),
+            child: Text(
+              "Cancel",
+              style: TextStyle(fontSize: 20, color: Colors.black),
+            ),
             isDefaultAction: true,
           ),
         );
