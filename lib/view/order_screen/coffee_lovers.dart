@@ -489,7 +489,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             ),
             CupertinoActionSheetAction(
               onPressed: () {},
-              child: Text(veg),
+              child: Text(
+                veg,
+                style: TextStyle(fontSize: 20, color: Colors.black),
+              ),
             ),
           ],
           cancelButton: CupertinoActionSheetAction(
