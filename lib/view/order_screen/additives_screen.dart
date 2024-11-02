@@ -30,7 +30,7 @@ class AdditivesScreen extends StatelessWidget {
         children: [
           Text(
             "Select additives",
-            style: TextStyle(),
+            style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
           )
         ],
       ),
