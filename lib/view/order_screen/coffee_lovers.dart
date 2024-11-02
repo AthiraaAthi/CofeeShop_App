@@ -501,7 +501,10 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
             },
             child: Text(
               "Cancel",
-              style: TextStyle(fontSize: 20, color: Colors.black),
+              style: TextStyle(
+                  fontSize: 20,
+                  color: Colors.black,
+                  fontWeight: FontWeight.w900),
             ),
             isDefaultAction: true,
           ),
