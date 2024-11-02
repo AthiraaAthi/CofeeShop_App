@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/view/bottom_nav/bottom_nav.dart';
 import 'package:cofee_ui/view/home_screen/home.dart';
 import 'package:cofee_ui/view/login_screen/forgot_pass.dart';
 import 'package:cofee_ui/view/register_screen/register_screen.dart';
@@ -109,7 +110,7 @@ class LoginScreen extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => HomeScreen(),
+                              builder: (context) => BottomNav(),
                             ));
                       },
                       icon: Icon(
