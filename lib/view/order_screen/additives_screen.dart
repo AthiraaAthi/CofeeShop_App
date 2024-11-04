@@ -11,7 +11,8 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
   List<String> additivesList = [
     "Cylon Cinnamon",
     "Grated Chocolate",
-    "Liquid Chocolate"
+    "Liquid Chocolate",
+    "Marshmallow",
   ];
 
   @override
