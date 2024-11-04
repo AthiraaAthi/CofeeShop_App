@@ -79,7 +79,7 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
                           if (selected[index])
                             Icon(
                               Icons.check,
-                              color: Colors.green,
+                              color: Colors.blue,
                             ),
                         ],
                       ),
