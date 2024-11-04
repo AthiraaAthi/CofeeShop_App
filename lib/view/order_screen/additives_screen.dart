@@ -14,6 +14,7 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
     "Liquid Chocolate",
     "Marshmallow",
     "Whipped cream",
+    "Cream",
   ];
 
   @override
