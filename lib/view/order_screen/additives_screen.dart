@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-class AdditivesScreen extends StatelessWidget {
-  const AdditivesScreen({super.key});
+class AdditivesScreen extends StatefulWidget {
+  AdditivesScreen({super.key});
+
+  @override
+  State<AdditivesScreen> createState() => _AdditivesScreenState();
+}
+
+class _AdditivesScreenState extends State<AdditivesScreen> {
+  List<String> additivesList = ["Cylon Cinnamon", "Grated Chocolate"];
 
   @override
   Widget build(BuildContext context) {
@@ -29,16 +36,29 @@ class AdditivesScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "Select additives",
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
             ),
             SizedBox(
-              height: 50,
+              height: 40,
             ),
             ListView.builder(
-              itemBuilder: (context, index) => Text(""),
+              shrinkWrap: true,
+              itemCount: additivesList.length,
+              itemBuilder: (context, index) => Column(
+                children: [
+                  Row(
+                    children: [
+                      Text(additivesList[index]),
+                    ],
+                  ),
+                  Divider()
+                ],
+              ),
             )
           ],
         ),
