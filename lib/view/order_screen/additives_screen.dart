@@ -71,6 +71,12 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
                       child: Row(
                         children: [
                           Text(additivesList[index]),
+                          Spacer(),
+                          if (selected[index])
+                            Icon(
+                              Icons.check,
+                              color: Colors.green,
+                            ),
                         ],
                       ),
                     ),
