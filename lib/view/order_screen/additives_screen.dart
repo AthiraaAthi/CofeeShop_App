@@ -61,11 +61,11 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
               itemBuilder: (context, index) => Padding(
                 padding: const EdgeInsets.only(
                   left: 0,
-                  bottom: 10,
+                  bottom: 12,
                 ),
                 child: Column(
                   children: [
-                    InkWell(
+                    GestureDetector(
                       onTap: () {},
                       child: Row(
                         children: [
