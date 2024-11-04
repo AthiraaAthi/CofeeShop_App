@@ -67,7 +67,11 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
                 child: Column(
                   children: [
                     GestureDetector(
-                      onTap: () {},
+                      onTap: () {
+                        setState(() {
+                          selected[index] = !selected[index];
+                        });
+                      },
                       child: Row(
                         children: [
                           Text(additivesList[index]),
