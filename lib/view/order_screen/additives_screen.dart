@@ -58,15 +58,21 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
             ListView.builder(
               shrinkWrap: true,
               itemCount: additivesList.length,
-              itemBuilder: (context, index) => Column(
-                children: [
-                  Row(
-                    children: [
-                      Text(additivesList[index]),
-                    ],
-                  ),
-                  Divider()
-                ],
+              itemBuilder: (context, index) => Padding(
+                padding: const EdgeInsets.only(
+                  left: 0,
+                  bottom: 10,
+                ),
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text(additivesList[index]),
+                      ],
+                    ),
+                    Divider()
+                  ],
+                ),
               ),
             )
           ],
