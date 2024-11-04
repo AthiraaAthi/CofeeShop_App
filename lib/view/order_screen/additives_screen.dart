@@ -18,7 +18,8 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
     "Nutmeg",
     "Ice Cream"
   ];
-
+  List<bool> selected =
+      List.generate(8, (index) => false); //for selcted state for each additive
   @override
   Widget build(BuildContext context) {
     return Scaffold(
