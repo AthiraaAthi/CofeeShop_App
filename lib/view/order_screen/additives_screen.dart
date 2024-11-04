@@ -8,7 +8,11 @@ class AdditivesScreen extends StatefulWidget {
 }
 
 class _AdditivesScreenState extends State<AdditivesScreen> {
-  List<String> additivesList = ["Cylon Cinnamon", "Grated Chocolate"];
+  List<String> additivesList = [
+    "Cylon Cinnamon",
+    "Grated Chocolate",
+    "Liquid Chocolate"
+  ];
 
   @override
   Widget build(BuildContext context) {
