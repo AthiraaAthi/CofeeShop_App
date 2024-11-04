@@ -80,6 +80,7 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
                             Icon(
                               Icons.check,
                               color: Colors.blue,
+                              size: 30,
                             ),
                         ],
                       ),
