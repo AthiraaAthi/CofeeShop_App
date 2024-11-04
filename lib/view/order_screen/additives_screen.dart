@@ -65,10 +65,13 @@ class _AdditivesScreenState extends State<AdditivesScreen> {
                 ),
                 child: Column(
                   children: [
-                    Row(
-                      children: [
-                        Text(additivesList[index]),
-                      ],
+                    InkWell(
+                      onTap: () {},
+                      child: Row(
+                        children: [
+                          Text(additivesList[index]),
+                        ],
+                      ),
                     ),
                     Divider()
                   ],
