@@ -1,6 +1,7 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:cofee_ui/view/order_screen/additives_screen.dart';
+import 'package:cofee_ui/view/order_screen/coffee_country.dart';
 import 'package:cofee_ui/view/order_screen/cuper_bottomsheet.dart';
 import 'package:cofee_ui/view/order_screen/order_screen.dart';
 import 'package:flutter/cupertino.dart';
@@ -118,7 +119,13 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
                 color: ColorConstant.grey,
               ),
               InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => CoffeeCountryScreen(),
+                      ));
+                },
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
