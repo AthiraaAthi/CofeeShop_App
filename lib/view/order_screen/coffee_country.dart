@@ -25,6 +25,9 @@ class CoffeeCountryScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
