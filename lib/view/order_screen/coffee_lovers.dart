@@ -117,19 +117,23 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
               Divider(
                 color: ColorConstant.grey,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Coffee Sort",
-                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
-                  ),
-                  Icon(
-                    Icons.keyboard_arrow_right,
-                    color: Colors.grey,
-                    size: 30,
-                  )
-                ],
+              InkWell(
+                onTap: () {},
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Coffee Sort",
+                      style:
+                          TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                    ),
+                    Icon(
+                      Icons.keyboard_arrow_right,
+                      color: Colors.grey,
+                      size: 30,
+                    )
+                  ],
+                ),
               ),
               Divider(
                 color: ColorConstant.grey,
