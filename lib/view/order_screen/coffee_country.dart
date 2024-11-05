@@ -8,7 +8,7 @@ class CoffeeCountryScreen extends StatefulWidget {
 }
 
 class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
-  List<String> countries = [
+  List<String> countriesList = [
     "Brazil",
     "Columbia",
     "Costa Rica",
@@ -52,6 +52,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             ),
             ListView.builder(
+              itemCount: countriesList.length,
               itemBuilder: (context, index) => Text(""),
             )
           ],
