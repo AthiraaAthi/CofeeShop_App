@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CoffeeCountryScreen extends StatelessWidget {
+class CoffeeCountryScreen extends StatefulWidget {
   const CoffeeCountryScreen({super.key});
 
+  @override
+  State<CoffeeCountryScreen> createState() => _CoffeeCountryScreenState();
+}
+
+class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
+  List<String> countries = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
