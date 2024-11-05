@@ -8,7 +8,12 @@ class CoffeeCountryScreen extends StatefulWidget {
 }
 
 class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
-  List<String> countries = [];
+  List<String> countries = [
+    "Brazil",
+    "Columbia",
+    "Costa Rica",
+    "Jamaica",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
