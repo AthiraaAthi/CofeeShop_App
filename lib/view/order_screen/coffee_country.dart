@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class CoffeeCountryScreen extends StatefulWidget {
@@ -52,8 +53,18 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemCount: countriesList.length,
-              itemBuilder: (context, index) => Text(""),
+              itemBuilder: (context, index) => Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(countriesList[index]),
+                  Divider(
+                    color: ColorConstant.grey,
+                  )
+                ],
+              ),
             )
           ],
         ),
