@@ -26,7 +26,12 @@ class CoffeeCountryScreen extends StatelessWidget {
         ],
       ),
       body: Column(
-        children: [Text("")],
+        children: [
+          Text(
+            "Select Country and sort of Coffee",
+            style: TextStyle(fontSize: 17),
+          )
+        ],
       ),
     );
   }
