@@ -26,7 +26,7 @@ class CoffeeCountryScreen extends StatelessWidget {
         ],
       ),
       body: Column(
-        children: [],
+        children: [Text("")],
       ),
     );
   }
