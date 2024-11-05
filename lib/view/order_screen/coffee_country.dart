@@ -13,6 +13,13 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
     "Columbia",
     "Costa Rica",
     "Jamaica",
+    "Yemen",
+    "Kenya",
+    "India",
+    "Tanzania",
+    "Hawaii",
+    "Indonesia",
+    "Ethiopia"
   ];
   @override
   Widget build(BuildContext context) {
