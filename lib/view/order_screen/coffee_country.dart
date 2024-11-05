@@ -25,13 +25,16 @@ class CoffeeCountryScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Text(
-            "Select Country and sort of Coffee",
-            style: TextStyle(fontSize: 17),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          children: [
+            Text(
+              "Select Country and sort of Coffee",
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            )
+          ],
+        ),
       ),
     );
   }
