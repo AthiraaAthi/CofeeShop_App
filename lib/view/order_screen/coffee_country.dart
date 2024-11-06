@@ -68,6 +68,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                   Row(
                     children: [
                       Text(countriesList[index]),
+                      Icon(Icons.keyboard_arrow_right)
                     ],
                   ),
                   Divider(
