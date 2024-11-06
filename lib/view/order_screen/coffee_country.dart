@@ -65,7 +65,11 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(countriesList[index]),
+                  Row(
+                    children: [
+                      Text(countriesList[index]),
+                    ],
+                  ),
                   Divider(
                     color: ColorConstant.grey,
                   )
