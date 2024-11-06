@@ -25,6 +25,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text(
@@ -45,12 +46,17 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
         ],
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(10),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "Select Country and sort of Coffee",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            ),
+            SizedBox(
+              height: 20,
             ),
             ListView.builder(
               shrinkWrap: true,
