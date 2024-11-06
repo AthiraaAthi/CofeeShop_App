@@ -66,6 +66,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Text(countriesList[index]),
                       Icon(Icons.keyboard_arrow_right)
