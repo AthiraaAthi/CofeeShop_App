@@ -22,8 +22,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
     "Indonesia",
     "Ethiopia"
   ];
-  List<bool> selected =
-      List.generate(11, (index) => false); //for selcted state for each country
+
   int? selectedCountryIndex;
   @override
   Widget build(BuildContext context) {
