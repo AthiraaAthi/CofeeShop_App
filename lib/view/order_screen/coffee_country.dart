@@ -68,7 +68,11 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      setState(() {
+                        selected[index] = !selected[index];
+                      });
+                    },
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
