@@ -24,6 +24,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
   ];
   List<bool> selected =
       List.generate(11, (index) => false); //for selcted state for each country
+  int? selectedCountryIndex;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -61,45 +62,47 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
               height: 20,
             ),
             ListView.builder(
-              shrinkWrap: true,
-              itemCount: countriesList.length,
-              itemBuilder: (context, index) => Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  GestureDetector(
-                    onTap: () {
-                      setState(() {
-                        selected[index] = !selected[index];
-                      });
-                    },
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          countriesList[index],
-                          style: TextStyle(
-                            fontSize: 16,
-                            color: selected[index] ? Colors.blue : Colors.black,
-                            fontWeight: selected[index]
-                                ? FontWeight.bold
-                                : FontWeight.normal,
-                          ),
+                shrinkWrap: true,
+                itemCount: countriesList.length,
+                itemBuilder: (context, index) {
+                  bool isSelected = selectedCountryIndex == index;
+                  return Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          setState(() {
+                            selectedCountryIndex = index;
+                          });
+                        },
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              countriesList[index],
+                              style: TextStyle(
+                                fontSize: 16,
+                                color: isSelected ? Colors.blue : Colors.black,
+                                fontWeight: isSelected
+                                    ? FontWeight.bold
+                                    : FontWeight.normal,
+                              ),
+                            ),
+                            Icon(
+                              Icons.keyboard_arrow_right,
+                              size: 30,
+                              color: ColorConstant.nameGrey,
+                            )
+                          ],
                         ),
-                        Icon(
-                          Icons.keyboard_arrow_right,
-                          size: 30,
-                          color: ColorConstant.nameGrey,
-                        )
-                      ],
-                    ),
-                  ),
-                  Divider(
-                    color: ColorConstant.grey,
-                  )
-                ],
-              ),
-            )
+                      ),
+                      Divider(
+                        color: ColorConstant.grey,
+                      )
+                    ],
+                  );
+                })
           ],
         ),
       ),
