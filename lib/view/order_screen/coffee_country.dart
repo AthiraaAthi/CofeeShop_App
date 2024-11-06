@@ -72,7 +72,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                       children: [
                         Text(
                           countriesList[index],
-                          style: TextStyle(),
+                          style: TextStyle(fontSize: 17),
                         ),
                         Icon(
                           Icons.keyboard_arrow_right,
