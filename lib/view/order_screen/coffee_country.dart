@@ -70,7 +70,10 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text(countriesList[index]),
+                        Text(
+                          countriesList[index],
+                          style: TextStyle(),
+                        ),
                         Icon(
                           Icons.keyboard_arrow_right,
                           size: 30,
