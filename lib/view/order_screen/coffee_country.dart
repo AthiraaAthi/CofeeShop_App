@@ -69,7 +69,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                     mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      GestureDetector(
+                      InkWell(
                         onTap: () {
                           setState(() {
                             selectedCountryIndex = index;
