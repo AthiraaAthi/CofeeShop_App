@@ -23,7 +23,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
     "Ethiopia"
   ];
   List<bool> selected =
-      List.generate(8, (index) => false); //for selcted state for each country
+      List.generate(11, (index) => false); //for selcted state for each country
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -67,7 +67,7 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  InkWell(
+                  GestureDetector(
                     onTap: () {
                       setState(() {
                         selected[index] = !selected[index];
@@ -79,7 +79,12 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                         Text(
                           countriesList[index],
                           style: TextStyle(
-                              fontSize: 16, fontWeight: FontWeight.w400),
+                            fontSize: 16,
+                            color: selected[index] ? Colors.blue : Colors.black,
+                            fontWeight: selected[index]
+                                ? FontWeight.bold
+                                : FontWeight.normal,
+                          ),
                         ),
                         Icon(
                           Icons.keyboard_arrow_right,
