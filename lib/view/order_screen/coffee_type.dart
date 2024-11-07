@@ -26,7 +26,7 @@ class CoffeeTypeScreen extends StatelessWidget {
         ],
       ),
       body: Column(
-        children: [],
+        children: [Text("select a sort of Coffee")],
       ),
     );
   }
