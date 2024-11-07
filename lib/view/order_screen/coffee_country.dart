@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/view/order_screen/coffee_type.dart';
 import 'package:flutter/material.dart';
 
 class CoffeeCountryScreen extends StatefulWidget {
@@ -74,6 +75,11 @@ class _CoffeeCountryScreenState extends State<CoffeeCountryScreen> {
                           setState(() {
                             selectedCountryIndex = index;
                           });
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => CoffeeTypeScreen(),
+                              ));
                         },
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
