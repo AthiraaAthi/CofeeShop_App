@@ -25,6 +25,9 @@ class CoffeeTypeScreen extends StatelessWidget {
           ),
         ],
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
