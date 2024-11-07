@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class CoffeeTypeScreen extends StatefulWidget {
@@ -56,7 +57,19 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Column(
-                  children: [],
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      typeList[index],
+                      style: TextStyle(
+                        fontSize: 16,
+                      ),
+                    ),
+                    Divider(
+                      color: ColorConstant.grey,
+                    )
+                  ],
                 );
               },
             )
