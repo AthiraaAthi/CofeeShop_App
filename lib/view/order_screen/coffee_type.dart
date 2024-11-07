@@ -45,9 +45,12 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
               height: 20,
             ),
             ListView.builder(
+              itemCount: typeList.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
-                return Column();
+                return Column(
+                  children: [],
+                );
               },
             )
           ],
