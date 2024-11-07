@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 
-class CoffeeTypeScreen extends StatelessWidget {
+class CoffeeTypeScreen extends StatefulWidget {
   const CoffeeTypeScreen({super.key});
 
+  @override
+  State<CoffeeTypeScreen> createState() => _CoffeeTypeScreenState();
+}
+
+class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
+  List<String> typeList = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,6 +45,7 @@ class CoffeeTypeScreen extends StatelessWidget {
               height: 20,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Column();
               },
