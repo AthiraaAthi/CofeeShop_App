@@ -8,7 +8,10 @@ class CoffeeTypeScreen extends StatefulWidget {
 }
 
 class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
-  List<String> typeList = [];
+  List<String> typeList = [
+    "Santos",
+    "Bourbon Santos",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
