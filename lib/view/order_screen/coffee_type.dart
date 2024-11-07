@@ -11,6 +11,10 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
   List<String> typeList = [
     "Santos",
     "Bourbon Santos",
+    "Minas",
+    "Rio",
+    "Canilon",
+    "Flat"
   ];
   @override
   Widget build(BuildContext context) {
