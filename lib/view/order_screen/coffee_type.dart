@@ -35,6 +35,9 @@ class CoffeeTypeScreen extends StatelessWidget {
               "select a sort of Coffee",
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
             ),
+            SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),
