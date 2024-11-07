@@ -25,13 +25,18 @@ class CoffeeTypeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Text(
-            "select a sort of Coffee",
-            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(10),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "select a sort of Coffee",
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+            ),
+          ],
+        ),
       ),
     );
   }
