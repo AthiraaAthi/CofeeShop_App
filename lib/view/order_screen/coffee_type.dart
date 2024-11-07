@@ -38,6 +38,11 @@ class CoffeeTypeScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
+            ListView.builder(
+              itemBuilder: (context, index) {
+                return Column();
+              },
+            )
           ],
         ),
       ),
