@@ -8,6 +8,7 @@ class BaristaScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
+        title: Text("Barista"),
       ),
     );
   }
