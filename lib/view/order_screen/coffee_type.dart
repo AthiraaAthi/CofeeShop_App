@@ -68,11 +68,11 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
                         setState(() {
                           selectedIndex = index;
                         });
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => CoffeeCountryScreen(),
-                            ));
+                        // Navigator.push(
+                        //     context,
+                        //     MaterialPageRoute(
+                        //       builder: (context) => CoffeeCountryScreen(),
+                        //     ));
                       },
                       child: Text(
                         typeList[index],
