@@ -62,10 +62,12 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
-                      typeList[index],
-                      style: TextStyle(
-                        fontSize: 16,
+                    InkWell(
+                      child: Text(
+                        typeList[index],
+                        style: TextStyle(
+                          fontSize: 16,
+                        ),
                       ),
                     ),
                     Divider(
