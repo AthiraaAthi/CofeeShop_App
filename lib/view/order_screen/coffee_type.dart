@@ -64,7 +64,9 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
                   children: [
                     InkWell(
                       onTap: () {
-                        selectedIndex = index;
+                        setState(() {
+                          selectedIndex = index;
+                        });
                       },
                       child: Text(
                         typeList[index],
