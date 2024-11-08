@@ -17,7 +17,7 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
     "Canilon",
     "Flat"
   ];
-  int? selectedCountryIndex;
+  int? selectedIndex;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,12 +57,15 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
               itemCount: typeList.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
-                bool isSelected = selectedCountryIndex == index;
+                bool isSelected = selectedIndex == index;
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     InkWell(
+                      onTap: () {
+                        selectedIndex = index;
+                      },
                       child: Text(
                         typeList[index],
                         style: TextStyle(
