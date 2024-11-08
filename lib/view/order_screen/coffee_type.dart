@@ -62,7 +62,7 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    InkWell(
+                    GestureDetector(
                       onTap: () {
                         setState(() {
                           selectedIndex = index;
