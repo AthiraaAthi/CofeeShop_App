@@ -57,6 +57,7 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
               itemCount: typeList.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
+                bool isSelected = selectedCountryIndex == index;
                 return Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
