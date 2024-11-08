@@ -44,19 +44,23 @@ class _CoffeeLoversScreenState extends State<CoffeeLoversScreen> {
           padding: const EdgeInsets.all(20),
           child: Column(
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    "Select a barista",
-                    style: TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
-                  ),
-                  Icon(
-                    Icons.keyboard_arrow_right,
-                    color: Colors.grey,
-                    size: 30,
-                  )
-                ],
+              InkWell(
+                onTap: () {},
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Select a barista",
+                      style:
+                          TextStyle(fontWeight: FontWeight.w500, fontSize: 16),
+                    ),
+                    Icon(
+                      Icons.keyboard_arrow_right,
+                      color: Colors.grey,
+                      size: 30,
+                    )
+                  ],
+                ),
               ),
               SizedBox(
                 height: 10,
