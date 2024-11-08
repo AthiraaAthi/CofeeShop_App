@@ -69,6 +69,7 @@ class _CoffeeTypeScreenState extends State<CoffeeTypeScreen> {
                       child: Text(
                         typeList[index],
                         style: TextStyle(
+                          color: isSelected ? Colors.blue : Colors.black,
                           fontSize: 16,
                         ),
                       ),
