@@ -9,6 +9,7 @@ class BaristaScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text("Barista"),
+        centerTitle: true,
       ),
     );
   }
