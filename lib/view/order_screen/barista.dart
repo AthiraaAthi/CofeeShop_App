@@ -55,7 +55,17 @@ class BaristaScreen extends StatelessWidget {
                       ),
                     ]),
                 child: Row(
-                  children: [],
+                  children: [
+                    Container(
+                      height: 90,
+                      width: 90,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(10),
+                          image: DecorationImage(
+                              image: AssetImage(ImageConstant.boy1),
+                              fit: BoxFit.cover)),
+                    ),
+                  ],
                 ))
           ],
         ),
