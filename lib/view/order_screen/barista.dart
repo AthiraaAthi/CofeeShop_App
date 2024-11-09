@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class BaristaScreen extends StatelessWidget {
@@ -27,7 +28,7 @@ class BaristaScreen extends StatelessWidget {
       ),
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.all(10),
+        padding: const EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,17 +41,22 @@ class BaristaScreen extends StatelessWidget {
               height: 30,
             ),
             Container(
-              height: 81,
-              width: 335,
-              decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                BoxShadow(
-                  color: Colors.blue.withOpacity(0.1),
-                  blurRadius: 8,
-                  spreadRadius: 3,
-                  offset: Offset(0, 10),
-                ),
-              ]),
-            )
+                height: 100,
+                width: 350,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: Colors.white,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.blue.withOpacity(0.1),
+                        blurRadius: 8,
+                        spreadRadius: 3,
+                        offset: Offset(1, 10),
+                      ),
+                    ]),
+                child: Row(
+                  children: [],
+                ))
           ],
         ),
       ),
