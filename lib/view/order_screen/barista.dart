@@ -39,6 +39,11 @@ class BaristaScreen extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
+            Container(
+              height: 81,
+              width: 335,
+              decoration: BoxDecoration(),
+            )
           ],
         ),
       ),
