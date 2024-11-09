@@ -42,7 +42,14 @@ class BaristaScreen extends StatelessWidget {
             Container(
               height: 81,
               width: 335,
-              decoration: BoxDecoration(),
+              decoration: BoxDecoration(color: Colors.white, boxShadow: [
+                BoxShadow(
+                  color: Colors.blue.withOpacity(0.1),
+                  blurRadius: 8,
+                  spreadRadius: 3,
+                  offset: Offset(0, 10),
+                ),
+              ]),
             )
           ],
         ),
