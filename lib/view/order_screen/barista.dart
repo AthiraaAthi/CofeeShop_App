@@ -15,6 +15,7 @@ class BaristaScreen extends StatelessWidget {
         centerTitle: true,
       ),
       backgroundColor: Colors.white,
+      body: Column(),
     );
   }
 }
