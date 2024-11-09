@@ -65,6 +65,9 @@ class BaristaScreen extends StatelessWidget {
                               image: AssetImage(ImageConstant.boy1),
                               fit: BoxFit.cover)),
                     ),
+                    Column(
+                      children: [Text("Victor"), Text("Top barista")],
+                    )
                   ],
                 ))
           ],
