@@ -8,9 +8,13 @@ class BaristaScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        title: Text("Barista"),
+        title: Text(
+          "Barista",
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.w400),
+        ),
         centerTitle: true,
       ),
+      backgroundColor: Colors.white,
     );
   }
 }
