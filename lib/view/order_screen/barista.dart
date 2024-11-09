@@ -15,7 +15,14 @@ class BaristaScreen extends StatelessWidget {
         centerTitle: true,
       ),
       backgroundColor: Colors.white,
-      body: Column(),
+      body: Column(
+        children: [
+          Text(
+            "Select Barista",
+            style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+          ),
+        ],
+      ),
     );
   }
 }
