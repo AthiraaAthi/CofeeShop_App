@@ -91,6 +91,7 @@ class BaristaScreen extends StatelessWidget {
                     SizedBox(
                       width: 100,
                     ),
+                    CircleAvatar()
                   ],
                 ))
           ],
