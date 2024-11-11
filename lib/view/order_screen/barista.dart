@@ -66,7 +66,11 @@ class BaristaScreen extends StatelessWidget {
                               image: AssetImage(ImageConstant.boy1),
                               fit: BoxFit.cover)),
                     ),
+                    SizedBox(
+                      width: 15,
+                    ),
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text("Victor"), Text("Top barista")],
                     )
                   ],
