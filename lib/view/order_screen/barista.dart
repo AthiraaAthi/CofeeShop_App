@@ -93,6 +93,7 @@ class BaristaScreen extends StatelessWidget {
                     ),
                     CircleAvatar(
                       radius: 10,
+                      backgroundColor: Colors.green,
                     )
                   ],
                 ))
