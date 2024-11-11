@@ -11,6 +11,7 @@ class BaristaScreen extends StatefulWidget {
 
 class _BaristaScreenState extends State<BaristaScreen> {
   List<String> nameList = [];
+  List<String> levelNames = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
