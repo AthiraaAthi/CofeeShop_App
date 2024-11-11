@@ -71,7 +71,13 @@ class BaristaScreen extends StatelessWidget {
                     ),
                     Column(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [Text("Victor"), Text("Top barista")],
+                      children: [
+                        Text(
+                          "Victor",
+                          style: TextStyle(),
+                        ),
+                        Text("Top barista")
+                      ],
                     )
                   ],
                 ))
