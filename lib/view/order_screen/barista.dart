@@ -70,21 +70,27 @@ class BaristaScreen extends StatelessWidget {
                     SizedBox(
                       width: 15,
                     ),
-                    Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Victor",
-                          style: TextStyle(
-                              fontSize: 18, fontWeight: FontWeight.w500),
-                        ),
-                        Text(
-                          "Top barista",
-                          style: TextStyle(
-                              fontSize: 17, color: ColorConstant.nameGrey),
-                        )
-                      ],
-                    )
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            "Victor",
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w500),
+                          ),
+                          Text(
+                            "Top barista",
+                            style: TextStyle(
+                                fontSize: 17, color: ColorConstant.nameGrey),
+                          )
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      width: 100,
+                    ),
                   ],
                 ))
           ],
