@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -80,8 +81,7 @@ class BaristaScreen extends StatelessWidget {
                         Text(
                           "Top barista",
                           style: TextStyle(
-                            fontSize: 17,
-                          ),
+                              fontSize: 17, color: ColorConstant.nameGrey),
                         )
                       ],
                     )
