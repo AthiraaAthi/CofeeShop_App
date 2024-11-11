@@ -2,9 +2,15 @@ import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
-class BaristaScreen extends StatelessWidget {
+class BaristaScreen extends StatefulWidget {
   const BaristaScreen({super.key});
 
+  @override
+  State<BaristaScreen> createState() => _BaristaScreenState();
+}
+
+class _BaristaScreenState extends State<BaristaScreen> {
+  List<String> nameList = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
