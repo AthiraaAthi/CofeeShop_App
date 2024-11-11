@@ -79,7 +79,9 @@ class BaristaScreen extends StatelessWidget {
                         ),
                         Text(
                           "Top barista",
-                          style: TextStyle(),
+                          style: TextStyle(
+                            fontSize: 17,
+                          ),
                         )
                       ],
                     )
