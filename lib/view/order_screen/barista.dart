@@ -36,7 +36,7 @@ class BaristaScreen extends StatelessWidget {
           children: [
             Text(
               "Select Barista",
-              style: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+              style: TextStyle(fontSize: 19, fontWeight: FontWeight.w600),
             ),
             SizedBox(
               height: 30,
