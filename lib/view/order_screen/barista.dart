@@ -10,7 +10,7 @@ class BaristaScreen extends StatefulWidget {
 }
 
 class _BaristaScreenState extends State<BaristaScreen> {
-  List<String> nameList = [];
+  List<String> nameList = ["Victor"];
   List<String> levelNames = [];
   List<String> imgList = [
     ImageConstant.boy1,
