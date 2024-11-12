@@ -118,4 +118,11 @@ class _BaristaScreenState extends State<BaristaScreen> {
       ),
     );
   }
+
+  void CircleFun(Color color) {
+    CircleAvatar(
+      radius: 10,
+      backgroundColor: color,
+    );
+  }
 }
