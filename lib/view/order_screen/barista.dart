@@ -59,6 +59,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
               height: 30,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Container(
                     height: 100,
