@@ -58,62 +58,67 @@ class _BaristaScreenState extends State<BaristaScreen> {
             SizedBox(
               height: 30,
             ),
-            Container(
-                height: 100,
-                width: 350,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    color: Colors.white,
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.blue.withOpacity(0.1),
-                        blurRadius: 8,
-                        spreadRadius: 3,
-                        offset: Offset(1, 10),
-                      ),
-                    ]),
-                padding: EdgeInsets.all(10),
-                child: Row(
-                  children: [
-                    Container(
-                      height: 80,
-                      width: 80,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          image: DecorationImage(
-                              image: AssetImage(ImageConstant.boy1),
-                              fit: BoxFit.cover)),
-                    ),
-                    SizedBox(
-                      width: 15,
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text(
-                            "Victor",
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.w500),
+            ListView.builder(
+              itemBuilder: (context, index) {
+                return Container(
+                    height: 100,
+                    width: 350,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.blue.withOpacity(0.1),
+                            blurRadius: 8,
+                            spreadRadius: 3,
+                            offset: Offset(1, 10),
                           ),
-                          Text(
-                            "Top barista",
-                            style: TextStyle(
-                                fontSize: 17, color: ColorConstant.nameGrey),
-                          )
-                        ],
-                      ),
-                    ),
-                    SizedBox(
-                      width: 100,
-                    ),
-                    CircleAvatar(
-                      radius: 10,
-                      backgroundColor: Colors.green,
-                    )
-                  ],
-                ))
+                        ]),
+                    padding: EdgeInsets.all(10),
+                    child: Row(
+                      children: [
+                        Container(
+                          height: 80,
+                          width: 80,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                              image: DecorationImage(
+                                  image: AssetImage(ImageConstant.boy1),
+                                  fit: BoxFit.cover)),
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text(
+                                "Victor",
+                                style: TextStyle(
+                                    fontSize: 18, fontWeight: FontWeight.w500),
+                              ),
+                              Text(
+                                "Top barista",
+                                style: TextStyle(
+                                    fontSize: 17,
+                                    color: ColorConstant.nameGrey),
+                              )
+                            ],
+                          ),
+                        ),
+                        SizedBox(
+                          width: 100,
+                        ),
+                        CircleAvatar(
+                          radius: 10,
+                          backgroundColor: Colors.green,
+                        )
+                      ],
+                    ));
+              },
+            )
           ],
         ),
       ),
