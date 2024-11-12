@@ -12,7 +12,11 @@ class BaristaScreen extends StatefulWidget {
 class _BaristaScreenState extends State<BaristaScreen> {
   List<String> nameList = [];
   List<String> levelNames = [];
-  List<String> imgList = [ImageConstant.boy1, ImageConstant.girl1];
+  List<String> imgList = [
+    ImageConstant.boy1,
+    ImageConstant.girl1,
+    ImageConstant.boy2
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
