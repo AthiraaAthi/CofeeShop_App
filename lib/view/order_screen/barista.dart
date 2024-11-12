@@ -23,6 +23,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
   ];
   List<Color> colors = [
     Colors.green,
+    Colors.green,
   ];
   @override
   Widget build(BuildContext context) {
