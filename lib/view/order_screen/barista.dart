@@ -15,7 +15,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
     "Vera",
     "Andrey",
   ];
-  List<String> levelNames = [];
+  List<String> levelNames = ["Top Barista"];
   List<String> imgList = [
     ImageConstant.boy1,
     ImageConstant.girl1,
