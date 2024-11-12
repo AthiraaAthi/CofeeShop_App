@@ -21,6 +21,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
     ImageConstant.girl1,
     ImageConstant.boy2
   ];
+  List<Color> colors = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
