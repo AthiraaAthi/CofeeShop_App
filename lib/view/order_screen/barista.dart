@@ -16,6 +16,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
     "Andrey",
   ];
   List<String> levelNames = ["Top Barista", "Top Barista", "Barista"];
+
   List<String> imgList = [
     ImageConstant.boy1,
     ImageConstant.girl1,
@@ -24,6 +25,13 @@ class _BaristaScreenState extends State<BaristaScreen> {
   List<Color> colors = [Colors.green, Colors.green, Colors.red];
   @override
   Widget build(BuildContext context) {
+    final combinedList = List.generate(
+      nameList.length,
+      (index) => {
+        'name': nameList[index],
+        'level': levelNames[index],
+      },
+    );
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
@@ -59,6 +67,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
               height: 30,
             ),
             ListView.builder(
+              itemCount: combinedList.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 return Container(
@@ -96,7 +105,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                nameList[index], //set item count?
+                                nameList[index],
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.w500),
                               ),
