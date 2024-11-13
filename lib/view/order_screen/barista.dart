@@ -130,7 +130,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                           //   width: 100,
                           // ),
                           CircleAvatar(
-                            radius: 10,
+                            radius: 8,
                             backgroundColor: Colors.green,
                           )
                         ],
