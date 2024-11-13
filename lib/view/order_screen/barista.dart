@@ -72,6 +72,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
               itemBuilder: (context, index) {
                 final item = combinedList[index];
                 final name = item['name'] ?? '';
+                final level = item['level'] ?? '';
 
                 return Container(
                     height: 100,
