@@ -96,7 +96,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "Victor",
+                                nameList[index], //set item count?
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.w500),
                               ),
