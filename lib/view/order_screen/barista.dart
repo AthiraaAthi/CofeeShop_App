@@ -99,7 +99,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
                                 image: DecorationImage(
-                                    image: AssetImage(ImageConstant.boy1),
+                                    image: AssetImage(imgList[index]),
                                     fit: BoxFit.cover)),
                           ),
                           SizedBox(
