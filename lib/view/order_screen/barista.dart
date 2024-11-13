@@ -102,32 +102,33 @@ class _BaristaScreenState extends State<BaristaScreen> {
                                     image: AssetImage(imgList[index]),
                                     fit: BoxFit.cover)),
                           ),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                              children: [
-                                Text(
-                                  baristaName,
-                                  style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w500),
-                                ),
-                                Text(
-                                  baristaLevel,
-                                  style: TextStyle(
-                                      fontSize: 17,
-                                      color: ColorConstant.nameGrey),
-                                )
-                              ],
+
+                          Expanded(
+                            child: Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Column(
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Text(
+                                    baristaName,
+                                    style: TextStyle(
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.w500),
+                                  ),
+                                  Text(
+                                    baristaLevel,
+                                    style: TextStyle(
+                                        fontSize: 17,
+                                        color: ColorConstant.nameGrey),
+                                  )
+                                ],
+                              ),
                             ),
                           ),
-                          SizedBox(
-                            width: 100,
-                          ),
+                          // SizedBox(
+                          //   width: 100,
+                          // ),
                           CircleAvatar(
                             radius: 10,
                             backgroundColor: Colors.green,
