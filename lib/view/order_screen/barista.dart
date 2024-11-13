@@ -71,6 +71,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 final item = combinedList[index];
+                final name = item['name'] ?? '';
 
                 return Container(
                     height: 100,
