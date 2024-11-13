@@ -22,7 +22,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
     ImageConstant.girl1,
     ImageConstant.boy2
   ];
-  List<Color> colors = [Color(0xff33E545), Colors.green, Colors.red];
+  List<Color> colors = [Color(0xff33E545), Color(0xff33E545), Colors.red];
   @override
   Widget build(BuildContext context) {
     final combinedList = List.generate(
