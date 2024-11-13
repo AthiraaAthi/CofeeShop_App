@@ -114,7 +114,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                                     fontSize: 18, fontWeight: FontWeight.w500),
                               ),
                               Text(
-                                "Top barista",
+                                baristaLevel,
                                 style: TextStyle(
                                     fontSize: 17,
                                     color: ColorConstant.nameGrey),
