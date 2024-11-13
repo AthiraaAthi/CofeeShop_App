@@ -70,6 +70,8 @@ class _BaristaScreenState extends State<BaristaScreen> {
               itemCount: combinedList.length,
               shrinkWrap: true,
               itemBuilder: (context, index) {
+                final item = combinedList[index];
+
                 return Container(
                     height: 100,
                     width: 350,
