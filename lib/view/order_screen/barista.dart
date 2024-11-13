@@ -64,7 +64,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "Select Barista",
+              "Select a Barista",
               style: TextStyle(fontSize: 19, fontWeight: FontWeight.w600),
             ),
             SizedBox(
