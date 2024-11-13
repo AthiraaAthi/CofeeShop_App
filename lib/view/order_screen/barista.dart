@@ -129,10 +129,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                           // SizedBox(
                           //   width: 100,
                           // ),
-                          CircleAvatar(
-                            radius: 8,
-                            backgroundColor: Colors.green,
-                          )
+                          CircleFun(colors[index])
                         ],
                       )),
                 );
@@ -144,8 +141,8 @@ class _BaristaScreenState extends State<BaristaScreen> {
     );
   }
 
-  void CircleFun(Color color) {
-    CircleAvatar(
+  CircleFun(Color color) {
+    return CircleAvatar(
       radius: 10,
       backgroundColor: color,
     );
