@@ -71,8 +71,8 @@ class _BaristaScreenState extends State<BaristaScreen> {
               shrinkWrap: true,
               itemBuilder: (context, index) {
                 final item = combinedList[index];
-                final name = item['name'] ?? '';
-                final level = item['level'] ?? '';
+                final baristaName = item['name'] ?? '';
+                final baristaLevel = item['level'] ?? '';
 
                 return Container(
                     height: 100,
@@ -109,7 +109,7 @@ class _BaristaScreenState extends State<BaristaScreen> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                nameList[index],
+                                baristaName,
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.w500),
                               ),
