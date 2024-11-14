@@ -9,6 +9,9 @@ class OrderScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
