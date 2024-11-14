@@ -12,7 +12,12 @@ class OrderScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(top: 10, left: 20),
         child: Column(
-          children: [Text("My Order")],
+          children: [
+            Text(
+              "My Order",
+              style: TextStyle(),
+            )
+          ],
         ),
       ),
     );
