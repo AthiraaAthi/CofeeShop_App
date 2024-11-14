@@ -16,7 +16,10 @@ class OrderScreen extends StatelessWidget {
             Text(
               "My Order",
               style: TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-            )
+            ),
+            SizedBox(
+              height: 30,
+            ),
           ],
         ),
       ),
