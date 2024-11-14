@@ -9,8 +9,11 @@ class OrderScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
       ),
-      body: Column(
-        children: [Text("My Order")],
+      body: Padding(
+        padding: const EdgeInsets.only(top: 10, left: 20),
+        child: Column(
+          children: [Text("My Order")],
+        ),
       ),
     );
   }
