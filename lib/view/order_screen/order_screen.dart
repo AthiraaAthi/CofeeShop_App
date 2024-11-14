@@ -10,7 +10,7 @@ class OrderScreen extends StatelessWidget {
         backgroundColor: Colors.white,
       ),
       body: Column(
-        children: [],
+        children: [Text("My Order")],
       ),
     );
   }
