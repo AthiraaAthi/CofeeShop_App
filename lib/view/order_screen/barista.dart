@@ -80,62 +80,65 @@ class _BaristaScreenState extends State<BaristaScreen> {
 
                 return Padding(
                   padding: const EdgeInsets.only(top: 20),
-                  child: Container(
-                      height: 100,
-                      width: 350,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
-                          color: Colors.white,
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.blue.withOpacity(0.1),
-                              blurRadius: 8,
-                              spreadRadius: 3,
-                              offset: Offset(1, 10),
+                  child: InkWell(
+                    onTap: () {},
+                    child: Container(
+                        height: 100,
+                        width: 350,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(10),
+                            color: Colors.white,
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.blue.withOpacity(0.1),
+                                blurRadius: 8,
+                                spreadRadius: 3,
+                                offset: Offset(1, 10),
+                              ),
+                            ]),
+                        padding: EdgeInsets.all(10),
+                        child: Row(
+                          children: [
+                            Container(
+                              height: 80,
+                              width: 80,
+                              decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(10),
+                                  image: DecorationImage(
+                                      image: AssetImage(imgList[index]),
+                                      fit: BoxFit.cover)),
                             ),
-                          ]),
-                      padding: EdgeInsets.all(10),
-                      child: Row(
-                        children: [
-                          Container(
-                            height: 80,
-                            width: 80,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(10),
-                                image: DecorationImage(
-                                    image: AssetImage(imgList[index]),
-                                    fit: BoxFit.cover)),
-                          ),
 
-                          Expanded(
-                            child: Padding(
-                              padding: const EdgeInsets.all(8.0),
-                              child: Column(
-                                mainAxisAlignment:
-                                    MainAxisAlignment.spaceBetween,
-                                children: [
-                                  Text(
-                                    baristaName,
-                                    style: TextStyle(
-                                        fontSize: 18,
-                                        fontWeight: FontWeight.w500),
-                                  ),
-                                  Text(
-                                    baristaLevel,
-                                    style: TextStyle(
-                                        fontSize: 17,
-                                        color: ColorConstant.nameGrey),
-                                  )
-                                ],
+                            Expanded(
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text(
+                                      baristaName,
+                                      style: TextStyle(
+                                          fontSize: 18,
+                                          fontWeight: FontWeight.w500),
+                                    ),
+                                    Text(
+                                      baristaLevel,
+                                      style: TextStyle(
+                                          fontSize: 17,
+                                          color: ColorConstant.nameGrey),
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
-                          ),
-                          // SizedBox(
-                          //   width: 100,
-                          // ),
-                          CircleFun(colors[index])
-                        ],
-                      )),
+                            // SizedBox(
+                            //   width: 100,
+                            // ),
+                            CircleFun(colors[index])
+                          ],
+                        )),
+                  ),
                 );
               },
             )
