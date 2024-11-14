@@ -20,6 +20,10 @@ class OrderScreen extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
+            Container(
+              height: 100,
+              width: 300,
+            )
           ],
         ),
       ),
