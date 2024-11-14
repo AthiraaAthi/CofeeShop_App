@@ -15,7 +15,7 @@ class OrderScreen extends StatelessWidget {
           children: [
             Text(
               "My Order",
-              style: TextStyle(),
+              style: TextStyle(fontSize: 22),
             )
           ],
         ),
