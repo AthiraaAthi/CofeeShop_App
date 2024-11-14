@@ -12,6 +12,8 @@ class OrderScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.only(top: 10, left: 20),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               "My Order",
