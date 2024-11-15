@@ -40,7 +40,8 @@ class OrderScreen extends StatelessWidget {
                         color: Colors.amber,
                         image: DecorationImage(
                             image: AssetImage(ImageConstant.cappuccino_noBg))),
-                  )
+                  ),
+                  Text("Cappuchino")
                 ],
               ),
             )
