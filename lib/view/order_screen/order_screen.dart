@@ -30,7 +30,12 @@ class OrderScreen extends StatelessWidget {
                   color: ColorConstant.grey,
                   borderRadius: BorderRadius.circular(10)),
               child: Row(
-                children: [],
+                children: [
+                  Container(
+                    height: 60,
+                    width: 60,
+                  )
+                ],
               ),
             )
           ],
