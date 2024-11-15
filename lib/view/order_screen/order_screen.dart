@@ -24,6 +24,7 @@ class OrderScreen extends StatelessWidget {
               height: 30,
             ),
             Container(
+              padding: EdgeInsets.all(15),
               height: 100,
               width: 350,
               decoration: BoxDecoration(
@@ -32,8 +33,8 @@ class OrderScreen extends StatelessWidget {
               child: Row(
                 children: [
                   Container(
-                    height: 60,
-                    width: 60,
+                    height: 80,
+                    width: 80,
                     decoration: BoxDecoration(color: Colors.amber),
                   )
                 ],
