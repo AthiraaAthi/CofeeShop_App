@@ -40,7 +40,11 @@ class OrderScreen extends StatelessWidget {
                         image: DecorationImage(
                             image: AssetImage(ImageConstant.cappuccino_noBg))),
                   ),
-                  Text("Cappuchino")
+                  Column(
+                    children: [
+                      Text("Cappuchino"),
+                    ],
+                  )
                 ],
               ),
             )
