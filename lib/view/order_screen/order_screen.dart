@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class OrderScreen extends StatelessWidget {
@@ -35,7 +36,10 @@ class OrderScreen extends StatelessWidget {
                   Container(
                     height: 80,
                     width: 80,
-                    decoration: BoxDecoration(color: Colors.amber),
+                    decoration: BoxDecoration(
+                        color: Colors.amber,
+                        image: DecorationImage(
+                            image: AssetImage(ImageConstant.cappuccino))),
                   )
                 ],
               ),
