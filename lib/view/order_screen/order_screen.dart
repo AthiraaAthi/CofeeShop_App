@@ -70,8 +70,7 @@ class OrderScreen extends StatelessWidget {
                       Text(
                         "3.00",
                         style: TextStyle(
-                          fontSize: 20,
-                        ),
+                            fontSize: 20, fontWeight: FontWeight.bold),
                       )
                     ],
                   )
