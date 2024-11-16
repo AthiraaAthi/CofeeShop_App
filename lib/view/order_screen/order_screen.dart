@@ -26,7 +26,7 @@ class OrderScreen extends StatelessWidget {
             ),
             Container(
               padding: EdgeInsets.all(15),
-              height: 100,
+              height: 130,
               width: 350,
               decoration: BoxDecoration(
                   color: ColorConstant.grey,
@@ -41,11 +41,17 @@ class OrderScreen extends StatelessWidget {
                             image: AssetImage(ImageConstant.cappuccino_noBg))),
                   ),
                   Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         "Cappuchino",
                         style: TextStyle(
                             fontSize: 17, fontWeight: FontWeight.w600),
+                      ),
+                      Text(
+                        "Single|iced|medium|full ice",
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
                       ),
                     ],
                   )
