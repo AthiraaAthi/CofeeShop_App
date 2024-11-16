@@ -60,7 +60,11 @@ class OrderScreen extends StatelessWidget {
                       ),
                     ],
                   ),
-                  Text("")
+                  Column(
+                    children: [
+                      Text(""),
+                    ],
+                  )
                 ],
               ),
             )
