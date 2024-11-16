@@ -26,7 +26,6 @@ class OrderScreen extends StatelessWidget {
               height: 30,
             ),
             Container(
-              padding: EdgeInsets.all(15),
               height: 130,
               width: 350,
               decoration: BoxDecoration(
@@ -59,6 +58,9 @@ class OrderScreen extends StatelessWidget {
                         style: TextStyle(fontSize: 14, color: Colors.grey),
                       ),
                     ],
+                  ),
+                  SizedBox(
+                    width: 15,
                   ),
                   Column(
                     children: [
