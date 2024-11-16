@@ -53,6 +53,10 @@ class OrderScreen extends StatelessWidget {
                         "Single|iced|medium|full ice",
                         style: TextStyle(fontSize: 14, color: Colors.grey),
                       ),
+                      Text(
+                        "x 1",
+                        style: TextStyle(fontSize: 14, color: Colors.grey),
+                      ),
                     ],
                   )
                 ],
