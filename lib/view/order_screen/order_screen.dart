@@ -69,7 +69,9 @@ class OrderScreen extends StatelessWidget {
                       ),
                       Text(
                         "3.00",
-                        style: TextStyle(),
+                        style: TextStyle(
+                          fontSize: 20,
+                        ),
                       )
                     ],
                   )
