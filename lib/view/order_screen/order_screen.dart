@@ -62,7 +62,7 @@ class OrderScreen extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Text(""),
+                      Text("BYN"),
                     ],
                   )
                 ],
