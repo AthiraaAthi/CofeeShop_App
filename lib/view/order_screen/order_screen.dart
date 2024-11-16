@@ -62,19 +62,22 @@ class OrderScreen extends StatelessWidget {
                   SizedBox(
                     width: 15,
                   ),
-                  Column(
-                    children: [
-                      Text(
-                        "BYN",
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        "3.00",
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
-                      )
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.only(top: 25, left: 10),
+                    child: Column(
+                      children: [
+                        Text(
+                          "BYN",
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
+                        Text(
+                          "3.00",
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
