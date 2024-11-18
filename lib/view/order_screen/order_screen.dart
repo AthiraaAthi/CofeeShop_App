@@ -62,7 +62,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "Cappuchino",
+                            coffee["name"]!,
                             style: TextStyle(
                                 fontSize: 17, fontWeight: FontWeight.w600),
                           ),
