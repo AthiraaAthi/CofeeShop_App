@@ -11,7 +11,7 @@ class OrderScreen extends StatefulWidget {
 
 class _OrderScreenState extends State<OrderScreen> {
   List<String> coffeeNames = ["Americano", "Cappuchino", "Flat White"];
-  List<String> coffeImgs = [];
+  List<String> coffeImgs = [ImageConstant.americano_noBg];
 
   @override
   Widget build(BuildContext context) {
