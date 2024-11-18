@@ -10,11 +10,10 @@ class OrderScreen extends StatefulWidget {
 }
 
 class _OrderScreenState extends State<OrderScreen> {
-  List<String> coffeeNames = ["Americano", "Cappuchino", "Flat White"];
-  List<String> coffeImgs = [
-    ImageConstant.americano_noBg,
-    ImageConstant.cappuccino_noBg,
-    ImageConstant.flatWhite_noBg
+  List<Map<String, String>> coffeeList = [
+    {"name": "Americano", "image": ImageConstant.americano_noBg},
+    {"name": "Cappuchino", "image": ImageConstant.cappuccino_noBg},
+    {"name": "Flat White", "image": ImageConstant.flatWhite_noBg},
   ];
 
   @override
