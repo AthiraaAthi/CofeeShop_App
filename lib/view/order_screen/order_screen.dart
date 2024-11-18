@@ -26,6 +26,7 @@ class OrderScreen extends StatelessWidget {
               height: 30,
             ),
             Container(
+              padding: EdgeInsets.all(10),
               height: 130,
               width: 350,
               decoration: BoxDecoration(
