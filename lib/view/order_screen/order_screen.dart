@@ -11,6 +11,7 @@ class OrderScreen extends StatefulWidget {
 
 class _OrderScreenState extends State<OrderScreen> {
   List<String> coffeeNames = [
+    "Americano",
     "Cappuchino",
   ];
 
