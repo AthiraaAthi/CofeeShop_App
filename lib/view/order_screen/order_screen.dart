@@ -37,6 +37,7 @@ class _OrderScreenState extends State<OrderScreen> {
               height: 30,
             ),
             ListView.builder(
+              itemCount: coffeeList.length,
               itemBuilder: (context, index) {
                 return Container(
                   padding: EdgeInsets.all(10),
