@@ -13,7 +13,8 @@ class _OrderScreenState extends State<OrderScreen> {
   List<String> coffeeNames = ["Americano", "Cappuchino", "Flat White"];
   List<String> coffeImgs = [
     ImageConstant.americano_noBg,
-    ImageConstant.cappuccino_noBg
+    ImageConstant.cappuccino_noBg,
+    ImageConstant.flatWhite_noBg
   ];
 
   @override
