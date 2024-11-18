@@ -10,7 +10,10 @@ class OrderScreen extends StatefulWidget {
 }
 
 class _OrderScreenState extends State<OrderScreen> {
-  List<String> coffeeNames = [];
+  List<String> coffeeNames = [
+    "Cappuchino",
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
