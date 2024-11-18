@@ -16,7 +16,6 @@ class _OrderScreenState extends State<OrderScreen> {
     ImageConstant.cappuccino_noBg,
     ImageConstant.flatWhite_noBg
   ];
-  List<String> spcl = [];
 
   @override
   Widget build(BuildContext context) {
