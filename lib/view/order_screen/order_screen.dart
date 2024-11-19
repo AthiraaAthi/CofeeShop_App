@@ -37,6 +37,7 @@ class _OrderScreenState extends State<OrderScreen> {
               height: 30,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemCount: coffeeList.length,
               itemBuilder: (context, index) {
                 final coffee = coffeeList[index];
