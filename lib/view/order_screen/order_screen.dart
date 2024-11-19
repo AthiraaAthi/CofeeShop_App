@@ -107,22 +107,25 @@ class _OrderScreenState extends State<OrderScreen> {
               },
             ),
             Spacer(),
-            Row(
-              children: [
-                Column(
-                  children: [
-                    Text(
-                      "Total Price",
-                      style: TextStyle(color: ColorConstant.nameGrey),
-                    ),
-                    Text(
-                      "BYN 9.00",
-                      style:
-                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    )
-                  ],
-                )
-              ],
+            Padding(
+              padding: const EdgeInsets.all(15),
+              child: Row(
+                children: [
+                  Column(
+                    children: [
+                      Text(
+                        "Total Price",
+                        style: TextStyle(color: ColorConstant.nameGrey),
+                      ),
+                      Text(
+                        "BYN 9.00",
+                        style: TextStyle(
+                            fontSize: 20, fontWeight: FontWeight.bold),
+                      )
+                    ],
+                  )
+                ],
+              ),
             )
           ],
         ),
