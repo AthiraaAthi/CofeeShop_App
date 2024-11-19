@@ -54,8 +54,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         width: 80,
                         decoration: BoxDecoration(
                             image: DecorationImage(
-                                image:
-                                    AssetImage(ImageConstant.cappuccino_noBg))),
+                                image: AssetImage(coffee["image"]!))),
                       ),
                       Column(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
