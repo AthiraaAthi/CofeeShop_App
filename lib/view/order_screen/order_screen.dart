@@ -106,6 +106,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 );
               },
             ),
+            Spacer(),
             Row(
               children: [
                 Column(
