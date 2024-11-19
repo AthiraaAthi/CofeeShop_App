@@ -45,7 +45,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     padding: EdgeInsets.all(10),
-                    height: 130,
+                    height: 100,
                     width: 350,
                     decoration: BoxDecoration(
                         color: ColorConstant.grey,
@@ -90,12 +90,12 @@ class _OrderScreenState extends State<OrderScreen> {
                               Text(
                                 "BYN",
                                 style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
+                                    fontSize: 18, fontWeight: FontWeight.bold),
                               ),
                               Text(
                                 "3.00",
                                 style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.bold),
+                                    fontSize: 18, fontWeight: FontWeight.bold),
                               )
                             ],
                           ),
