@@ -109,7 +109,12 @@ class _OrderScreenState extends State<OrderScreen> {
             Row(
               children: [
                 Column(
-                  children: [Text("Total Price")],
+                  children: [
+                    Text(
+                      "Total Price",
+                      style: TextStyle(),
+                    )
+                  ],
                 )
               ],
             )
