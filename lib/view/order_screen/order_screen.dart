@@ -107,7 +107,11 @@ class _OrderScreenState extends State<OrderScreen> {
               },
             ),
             Row(
-              children: [],
+              children: [
+                Column(
+                  children: [],
+                )
+              ],
             )
           ],
         ),
