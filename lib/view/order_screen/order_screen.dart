@@ -113,6 +113,10 @@ class _OrderScreenState extends State<OrderScreen> {
                     Text(
                       "Total Price",
                       style: TextStyle(color: ColorConstant.nameGrey),
+                    ),
+                    Text(
+                      "BYN 9.00",
+                      style: TextStyle(),
                     )
                   ],
                 )
