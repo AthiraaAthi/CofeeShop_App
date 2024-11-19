@@ -123,7 +123,8 @@ class _OrderScreenState extends State<OrderScreen> {
                             fontSize: 20, fontWeight: FontWeight.bold),
                       )
                     ],
-                  )
+                  ),
+                  Container()
                 ],
               ),
             )
