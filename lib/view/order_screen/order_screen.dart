@@ -139,7 +139,10 @@ class _OrderScreenState extends State<OrderScreen> {
                             Icons.shopping_cart_outlined,
                             color: Colors.white,
                           ),
-                          Text("Next")
+                          Text(
+                            "Next",
+                            style: TextStyle(),
+                          )
                         ],
                       ),
                     ),
