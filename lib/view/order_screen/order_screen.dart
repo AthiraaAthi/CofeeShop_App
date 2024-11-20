@@ -110,6 +110,7 @@ class _OrderScreenState extends State<OrderScreen> {
             Padding(
               padding: const EdgeInsets.all(15),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     children: [
