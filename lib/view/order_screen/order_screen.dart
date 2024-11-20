@@ -131,13 +131,16 @@ class _OrderScreenState extends State<OrderScreen> {
                     decoration: BoxDecoration(
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(25)),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.shopping_cart_outlined,
-                          color: Colors.white,
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.all(15),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.shopping_cart_outlined,
+                            color: Colors.white,
+                          )
+                        ],
+                      ),
                     ),
                   )
                 ],
