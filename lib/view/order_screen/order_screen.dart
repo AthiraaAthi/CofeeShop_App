@@ -132,7 +132,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(25)),
                     child: Row(
-                      children: [],
+                      children: [Icon(Icons.shopping_cart)],
                     ),
                   )
                 ],
