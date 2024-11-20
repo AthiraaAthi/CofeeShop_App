@@ -141,7 +141,7 @@ class _OrderScreenState extends State<OrderScreen> {
                           ),
                           Text(
                             "Next",
-                            style: TextStyle(),
+                            style: TextStyle(color: Colors.white),
                           )
                         ],
                       ),
