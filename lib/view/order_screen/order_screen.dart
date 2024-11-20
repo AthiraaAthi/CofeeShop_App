@@ -127,7 +127,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   Container(
                     height: 50,
-                    width: 100,
+                    width: 140,
                     decoration: BoxDecoration(
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(15)),
