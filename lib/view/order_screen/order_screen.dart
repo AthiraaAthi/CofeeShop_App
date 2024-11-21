@@ -184,6 +184,7 @@ class _OrderScreenState extends State<OrderScreen> {
   void paymentBottomSheet(BuildContext context) {
     showModalBottomSheet(
       context: context,
+      isScrollControlled: true,
       builder: (context) {
         return Column();
       },
