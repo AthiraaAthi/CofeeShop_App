@@ -46,6 +46,8 @@ class _OrderScreenState extends State<OrderScreen> {
                   padding: const EdgeInsets.all(8.0),
                   child: Slidable(
                     key: ValueKey(coffee["name"]),
+                    endActionPane:
+                        ActionPane(motion: ScrollMotion(), children: []),
                     child: Container(
                       padding: EdgeInsets.all(10),
                       height: 100,
