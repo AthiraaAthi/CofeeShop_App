@@ -1,6 +1,7 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_slidable/flutter_slidable.dart';
 
 class OrderScreen extends StatefulWidget {
   const OrderScreen({super.key});
@@ -43,64 +44,68 @@ class _OrderScreenState extends State<OrderScreen> {
                 final coffee = coffeeList[index];
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    padding: EdgeInsets.all(10),
-                    height: 100,
-                    width: 350,
-                    decoration: BoxDecoration(
-                        color: ColorConstant.grey,
-                        borderRadius: BorderRadius.circular(10)),
-                    child: Row(
-                      children: [
-                        Container(
-                          height: 80,
-                          width: 80,
-                          decoration: BoxDecoration(
-                              image: DecorationImage(
-                                  image: AssetImage(coffee["image"]!))),
-                        ),
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              coffee["name"]!,
-                              style: TextStyle(
-                                  fontSize: 17, fontWeight: FontWeight.w600),
-                            ),
-                            Text(
-                              "Single|iced|medium|full ice",
-                              style:
-                                  TextStyle(fontSize: 14, color: Colors.grey),
-                            ),
-                            Text(
-                              "x 1",
-                              style:
-                                  TextStyle(fontSize: 14, color: Colors.grey),
-                            ),
-                          ],
-                        ),
-                        SizedBox(
-                          width: 15,
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(top: 25, left: 10),
-                          child: Column(
+                  child: Slidable(
+                    child: Container(
+                      padding: EdgeInsets.all(10),
+                      height: 100,
+                      width: 350,
+                      decoration: BoxDecoration(
+                          color: ColorConstant.grey,
+                          borderRadius: BorderRadius.circular(10)),
+                      child: Row(
+                        children: [
+                          Container(
+                            height: 80,
+                            width: 80,
+                            decoration: BoxDecoration(
+                                image: DecorationImage(
+                                    image: AssetImage(coffee["image"]!))),
+                          ),
+                          Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                "BYN",
+                                coffee["name"]!,
                                 style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
+                                    fontSize: 17, fontWeight: FontWeight.w600),
                               ),
                               Text(
-                                "3.00",
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.bold),
-                              )
+                                "Single|iced|medium|full ice",
+                                style:
+                                    TextStyle(fontSize: 14, color: Colors.grey),
+                              ),
+                              Text(
+                                "x 1",
+                                style:
+                                    TextStyle(fontSize: 14, color: Colors.grey),
+                              ),
                             ],
                           ),
-                        )
-                      ],
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 25, left: 10),
+                            child: Column(
+                              children: [
+                                Text(
+                                  "BYN",
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text(
+                                  "3.00",
+                                  style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                )
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 );
