@@ -45,6 +45,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Slidable(
+                    key: ValueKey(coffee["name"]),
                     child: Container(
                       padding: EdgeInsets.all(10),
                       height: 100,
