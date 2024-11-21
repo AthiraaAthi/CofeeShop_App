@@ -185,6 +185,7 @@ class _OrderScreenState extends State<OrderScreen> {
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
+      shape: RoundedRectangleBorder(),
       builder: (context) {
         return Column();
       },
