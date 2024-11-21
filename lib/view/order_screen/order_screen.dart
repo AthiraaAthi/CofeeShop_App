@@ -180,4 +180,6 @@ class _OrderScreenState extends State<OrderScreen> {
       ),
     );
   }
+
+  void paymentBottomSheet(BuildContext context) {}
 }
