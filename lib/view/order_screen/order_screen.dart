@@ -52,7 +52,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         onPressed: (context) {},
                         backgroundColor: Color(0xffffe5e5),
                         icon: Icons.delete_outline,
-                        foregroundColor: Colors.amber,
+                        foregroundColor: Colors.red,
                       )
                     ]),
                     child: Container(
