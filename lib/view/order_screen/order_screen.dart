@@ -51,6 +51,7 @@ class _OrderScreenState extends State<OrderScreen> {
                       SlidableAction(
                         onPressed: (context) {},
                         backgroundColor: Colors.red,
+                        icon: Icons.delete,
                       )
                     ]),
                     child: Container(
