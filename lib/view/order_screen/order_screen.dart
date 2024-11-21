@@ -47,7 +47,11 @@ class _OrderScreenState extends State<OrderScreen> {
                   child: Slidable(
                     key: ValueKey(coffee["name"]),
                     endActionPane:
-                        ActionPane(motion: ScrollMotion(), children: []),
+                        ActionPane(motion: ScrollMotion(), children: [
+                      SlidableAction(
+                        onPressed: (context) {},
+                      )
+                    ]),
                     child: Container(
                       padding: EdgeInsets.all(10),
                       height: 100,
