@@ -126,28 +126,30 @@ class _OrderScreenState extends State<OrderScreen> {
                     ],
                   ),
                   Container(
+                    padding: const EdgeInsets.only(
+                        top: 10, bottom: 10, left: 30, right: 20),
                     height: 50,
-                    width: 140,
+                    width: 150,
                     decoration: BoxDecoration(
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(25)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(15),
-                      child: Row(
-                        children: [
-                          Icon(
-                            Icons.shopping_cart_outlined,
-                            color: Colors.white,
-                          ),
-                          Text(
-                            "Next",
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.w500),
-                          )
-                        ],
-                      ),
+                    child: Row(
+                      children: [
+                        Icon(
+                          Icons.shopping_cart_outlined,
+                          color: Colors.white,
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Text(
+                          "Next",
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500),
+                        )
+                      ],
                     ),
                   )
                 ],
