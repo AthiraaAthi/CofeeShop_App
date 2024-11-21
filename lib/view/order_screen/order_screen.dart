@@ -181,5 +181,12 @@ class _OrderScreenState extends State<OrderScreen> {
     );
   }
 
-  void paymentBottomSheet(BuildContext context) {}
+  void paymentBottomSheet(BuildContext context) {
+    showModalBottomSheet(
+      context: context,
+      builder: (context) {
+        return Column();
+      },
+    );
+  }
 }
