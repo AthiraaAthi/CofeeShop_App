@@ -50,6 +50,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         ActionPane(motion: ScrollMotion(), children: [
                       SlidableAction(
                         onPressed: (context) {},
+                        backgroundColor: Colors.red,
                       )
                     ]),
                     child: Container(
