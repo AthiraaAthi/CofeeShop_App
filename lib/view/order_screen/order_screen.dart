@@ -49,7 +49,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     endActionPane:
                         ActionPane(motion: ScrollMotion(), children: [
                       SlidableAction(
-                        onPressed: (context) {},
+                        onPressed: (context) {
+                          //delete operation
+                        },
                         backgroundColor: Color(0xffffe5e5),
                         icon: Icons.delete_outline,
                         foregroundColor: Colors.red,
@@ -140,31 +142,34 @@ class _OrderScreenState extends State<OrderScreen> {
                       )
                     ],
                   ),
-                  Container(
-                    padding: const EdgeInsets.only(
-                        top: 10, bottom: 10, left: 30, right: 20),
-                    height: 50,
-                    width: 150,
-                    decoration: BoxDecoration(
-                        color: ColorConstant.mainBlue,
-                        borderRadius: BorderRadius.circular(25)),
-                    child: Row(
-                      children: [
-                        Icon(
-                          Icons.shopping_cart_outlined,
-                          color: Colors.white,
-                        ),
-                        SizedBox(
-                          width: 15,
-                        ),
-                        Text(
-                          "Next",
-                          style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500),
-                        )
-                      ],
+                  InkWell(
+                    onTap: () {},
+                    child: Container(
+                      padding: const EdgeInsets.only(
+                          top: 10, bottom: 10, left: 30, right: 20),
+                      height: 50,
+                      width: 150,
+                      decoration: BoxDecoration(
+                          color: ColorConstant.mainBlue,
+                          borderRadius: BorderRadius.circular(25)),
+                      child: Row(
+                        children: [
+                          Icon(
+                            Icons.shopping_cart_outlined,
+                            color: Colors.white,
+                          ),
+                          SizedBox(
+                            width: 15,
+                          ),
+                          Text(
+                            "Next",
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontWeight: FontWeight.w500),
+                          )
+                        ],
+                      ),
                     ),
                   )
                 ],
