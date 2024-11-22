@@ -191,13 +191,14 @@ class _OrderScreenState extends State<OrderScreen> {
         borderRadius: BorderRadius.vertical(top: Radius.circular(25)),
       ),
       builder: (context) {
-        return Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              height: 600,
-              width: double.infinity,
-              child: Row(
+        return Container(
+          padding: const EdgeInsets.all(15),
+          height: 600,
+          width: double.infinity,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Row(
                 children: [
                   Text(
                     "Order payment",
@@ -207,8 +208,8 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                 ],
               ),
-            )
-          ],
+            ],
+          ),
         );
       },
     );
