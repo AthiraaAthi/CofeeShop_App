@@ -196,6 +196,7 @@ class _OrderScreenState extends State<OrderScreen> {
           children: [
             Container(
               height: 600,
+              width: double.infinity,
               child: Row(
                 children: [],
               ),
