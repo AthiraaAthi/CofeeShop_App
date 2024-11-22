@@ -206,6 +206,8 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                 ],
               ),
+              SizedBox(height: 20),
+              Container()
             ],
           ),
         );
