@@ -192,6 +192,7 @@ class _OrderScreenState extends State<OrderScreen> {
       ),
       builder: (context) {
         return Column(
+          mainAxisSize: MainAxisSize.min,
           children: [
             Row(
               children: [],
