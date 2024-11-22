@@ -195,6 +195,7 @@ class _OrderScreenState extends State<OrderScreen> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Container(
+              height: 600,
               child: Row(
                 children: [],
               ),
