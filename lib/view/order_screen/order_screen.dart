@@ -191,7 +191,13 @@ class _OrderScreenState extends State<OrderScreen> {
         borderRadius: BorderRadius.vertical(top: Radius.circular(25)),
       ),
       builder: (context) {
-        return Column();
+        return Column(
+          children: [
+            Row(
+              children: [],
+            )
+          ],
+        );
       },
     );
   }
