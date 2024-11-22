@@ -198,7 +198,11 @@ class _OrderScreenState extends State<OrderScreen> {
               height: 600,
               width: double.infinity,
               child: Row(
-                children: [],
+                children: [
+                  Text(
+                    "Order payment",
+                  ),
+                ],
               ),
             )
           ],
