@@ -201,6 +201,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 children: [
                   Text(
                     "Order payment",
+                    style: TextStyle(),
                   ),
                 ],
               ),
