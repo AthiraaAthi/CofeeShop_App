@@ -143,7 +143,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     ],
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      paymentBottomSheet(context);
+                    },
                     child: Container(
                       padding: const EdgeInsets.only(
                           top: 10, bottom: 10, left: 30, right: 20),
