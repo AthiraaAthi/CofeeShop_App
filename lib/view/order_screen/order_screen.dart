@@ -209,13 +209,17 @@ class _OrderScreenState extends State<OrderScreen> {
               SizedBox(height: 20),
               Row(
                 children: [
-                  Container(
-                    height: 70,
-                    width: 70,
-                    decoration: BoxDecoration(
-                        color: ColorConstant.grey,
-                        borderRadius: BorderRadius.circular(15)),
-                  ),
+                  Stack(
+                    children: [
+                      Container(
+                        height: 70,
+                        width: 70,
+                        decoration: BoxDecoration(
+                            color: ColorConstant.grey,
+                            borderRadius: BorderRadius.circular(15)),
+                      ),
+                    ],
+                  )
                 ],
               ),
             ],
