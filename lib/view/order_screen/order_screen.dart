@@ -207,32 +207,34 @@ class _OrderScreenState extends State<OrderScreen> {
                 ],
               ),
               SizedBox(height: 20),
-              Row(
-                children: [
-                  Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      Container(
-                        height: 60,
-                        width: 60,
-                        decoration: BoxDecoration(
-                            color: ColorConstant.grey,
-                            borderRadius: BorderRadius.circular(15)),
-                      ),
-                      Icon(
-                        Icons.shopping_cart_outlined,
-                        size: 25,
-                      )
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Text("Alex"),
-                      Text("Magic Coffee Store"),
-                      Text("Bradford BDI 1PR")
-                    ],
-                  )
-                ],
+              Container(
+                child: Row(
+                  children: [
+                    Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        Container(
+                          height: 60,
+                          width: 60,
+                          decoration: BoxDecoration(
+                              color: ColorConstant.grey,
+                              borderRadius: BorderRadius.circular(15)),
+                        ),
+                        Icon(
+                          Icons.shopping_cart_outlined,
+                          size: 25,
+                        )
+                      ],
+                    ),
+                    Column(
+                      children: [
+                        Text("Alex"),
+                        Text("Magic Coffee Store"),
+                        Text("Bradford BDI 1PR")
+                      ],
+                    )
+                  ],
+                ),
               ),
             ],
           ),
