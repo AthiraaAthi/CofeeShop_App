@@ -224,6 +224,9 @@ class _OrderScreenState extends State<OrderScreen> {
                         size: 25,
                       )
                     ],
+                  ),
+                  Column(
+                    children: [],
                   )
                 ],
               ),
