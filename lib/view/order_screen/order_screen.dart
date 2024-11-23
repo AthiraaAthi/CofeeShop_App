@@ -226,7 +226,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     ],
                   ),
                   Column(
-                    children: [Text("Alex")],
+                    children: [Text("Alex"), Text("")],
                   )
                 ],
               ),
