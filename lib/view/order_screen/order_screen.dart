@@ -212,7 +212,9 @@ class _OrderScreenState extends State<OrderScreen> {
                   Container(
                     height: 70,
                     width: 70,
-                    decoration: BoxDecoration(color: ColorConstant.grey),
+                    decoration: BoxDecoration(
+                        color: ColorConstant.grey,
+                        borderRadius: BorderRadius.circular(15)),
                   ),
                 ],
               ),
