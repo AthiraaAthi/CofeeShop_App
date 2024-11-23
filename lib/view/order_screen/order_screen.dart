@@ -192,7 +192,7 @@ class _OrderScreenState extends State<OrderScreen> {
       ),
       builder: (context) {
         return Container(
-          padding: const EdgeInsets.all(15),
+          padding: const EdgeInsets.all(25),
           height: 600,
           width: double.infinity,
           child: Column(
@@ -213,13 +213,16 @@ class _OrderScreenState extends State<OrderScreen> {
                     alignment: Alignment.center,
                     children: [
                       Container(
-                        height: 70,
-                        width: 70,
+                        height: 60,
+                        width: 60,
                         decoration: BoxDecoration(
                             color: ColorConstant.grey,
                             borderRadius: BorderRadius.circular(15)),
                       ),
-                      Icon(Icons.shopping_cart_outlined)
+                      Icon(
+                        Icons.shopping_cart_outlined,
+                        size: 25,
+                      )
                     ],
                   )
                 ],
