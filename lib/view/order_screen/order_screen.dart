@@ -210,6 +210,7 @@ class _OrderScreenState extends State<OrderScreen> {
               Row(
                 children: [
                   Stack(
+                    alignment: Alignment.center,
                     children: [
                       Container(
                         height: 70,
