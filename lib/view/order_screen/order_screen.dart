@@ -229,7 +229,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     children: [
                       Text("Alex"),
                       Text("Magic Coffee Store"),
-                      Text("")
+                      Text("Bradford BDI 1PR")
                     ],
                   )
                 ],
