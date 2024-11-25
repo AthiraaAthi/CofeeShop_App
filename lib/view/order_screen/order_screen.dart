@@ -235,7 +235,10 @@ class _OrderScreenState extends State<OrderScreen> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Alex"),
+                        Text(
+                          "Alex",
+                          style: TextStyle(),
+                        ),
                         Text("Magic Coffee Store"),
                         Text("Bradford BDI 1PR")
                       ],
