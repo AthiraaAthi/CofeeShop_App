@@ -237,7 +237,7 @@ class _OrderScreenState extends State<OrderScreen> {
                       children: [
                         Text(
                           "Alex",
-                          style: TextStyle(),
+                          style: TextStyle(fontWeight: FontWeight.w600),
                         ),
                         Text("Magic Coffee Store"),
                         Text("Bradford BDI 1PR")
