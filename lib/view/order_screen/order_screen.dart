@@ -208,7 +208,6 @@ class _OrderScreenState extends State<OrderScreen> {
               ),
               SizedBox(height: 20),
               Container(
-                color: Colors.amberAccent,
                 height: 80,
                 width: 360,
                 child: Row(
