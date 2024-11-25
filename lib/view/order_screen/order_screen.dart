@@ -241,7 +241,10 @@ class _OrderScreenState extends State<OrderScreen> {
                               fontWeight: FontWeight.w600, fontSize: 16),
                         ),
                         Text("Magic Coffee Store"),
-                        Text("Bradford BDI 1PR")
+                        Text("Bradford BDI 1PR"),
+                        SizedBox(
+                          height: 25,
+                        ),
                       ],
                     )
                   ],
