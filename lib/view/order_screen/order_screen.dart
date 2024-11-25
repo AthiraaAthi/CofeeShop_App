@@ -242,15 +242,18 @@ class _OrderScreenState extends State<OrderScreen> {
                         ),
                         Text("Magic Coffee Store"),
                         Text("Bradford BDI 1PR"),
-                        SizedBox(
-                          height: 25,
-                        ),
-                        Container()
                       ],
                     )
                   ],
                 ),
               ),
+              SizedBox(
+                height: 25,
+              ),
+              Container(
+                height: 80,
+                width: 360,
+              )
             ],
           ),
         );
