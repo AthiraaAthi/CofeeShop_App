@@ -209,7 +209,7 @@ class _OrderScreenState extends State<OrderScreen> {
               SizedBox(height: 20),
               Container(
                 color: Colors.amberAccent,
-                height: 100,
+                height: 80,
                 width: 360,
                 child: Row(
                   children: [
@@ -229,7 +229,12 @@ class _OrderScreenState extends State<OrderScreen> {
                         )
                       ],
                     ),
+                    SizedBox(
+                      width: 30,
+                    ),
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Alex"),
                         Text("Magic Coffee Store"),
