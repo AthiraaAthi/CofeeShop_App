@@ -252,13 +252,13 @@ class _OrderScreenState extends State<OrderScreen> {
                 height: 25,
               ),
               Container(
-                padding: EdgeInsets.only(right: 20),
                 height: 80,
                 width: 360,
                 decoration: BoxDecoration(
                     color: ColorConstant.grey,
                     borderRadius: BorderRadius.circular(15)),
                 child: ListTile(
+                  contentPadding: EdgeInsets.only(right: 20),
                   leading: Radio(
                     value: "true",
                     groupValue: _selectedValue,
@@ -272,7 +272,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     "Assist Belarus",
                     style: TextStyle(color: Colors.grey),
                   ),
-                  trailing: Image.asset(ImageConstant.assist_noBg),
+                  trailing: Container(
+                      height: 50,
+                      child: Image.asset(ImageConstant.assist_noBg)),
                 ),
               )
             ],
