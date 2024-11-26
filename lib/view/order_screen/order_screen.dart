@@ -264,6 +264,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     groupValue: _selectedValue,
                     onChanged: (value) {},
                   ),
+                  title: Text(""),
                 ),
               )
             ],
