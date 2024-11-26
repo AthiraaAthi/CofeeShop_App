@@ -270,7 +270,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   subtitle: Text(
                     "Assist Belarus",
-                    style: TextStyle(),
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
               )
