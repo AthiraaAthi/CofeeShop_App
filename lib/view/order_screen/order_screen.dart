@@ -266,7 +266,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   title: Text(
                     "Online Payments",
-                    style: TextStyle(),
+                    style: TextStyle(fontWeight: FontWeight.w600),
                   ),
                 ),
               )
