@@ -252,6 +252,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 height: 25,
               ),
               Container(
+                padding: EdgeInsets.all(10),
                 height: 80,
                 width: 360,
                 decoration: BoxDecoration(
