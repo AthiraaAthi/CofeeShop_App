@@ -184,6 +184,7 @@ class _OrderScreenState extends State<OrderScreen> {
   }
 
   void paymentBottomSheet(BuildContext context) {
+    String _selectedValue = "true";
     showModalBottomSheet(
       context: context,
       isScrollControlled: true,
