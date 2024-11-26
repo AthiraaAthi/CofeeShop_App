@@ -257,7 +257,13 @@ class _OrderScreenState extends State<OrderScreen> {
                 decoration: BoxDecoration(
                     color: ColorConstant.grey,
                     borderRadius: BorderRadius.circular(15)),
-                child: ListTile(),
+                child: ListTile(
+                  leading: RadioListTile(
+                    value: "true",
+                    groupValue: _selectedValue,
+                    onChanged: (value) {},
+                  ),
+                ),
               )
             ],
           ),
