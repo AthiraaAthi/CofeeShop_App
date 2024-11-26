@@ -252,7 +252,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 height: 25,
               ),
               Container(
-                padding: EdgeInsets.all(10),
+                padding: EdgeInsets.only(right: 20),
                 height: 80,
                 width: 360,
                 decoration: BoxDecoration(
@@ -266,9 +266,12 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   title: Text(
                     "Online Payments",
-                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18),
+                    style: TextStyle(fontWeight: FontWeight.w600, fontSize: 17),
                   ),
-                  subtitle: Text("Assist Belarus"),
+                  subtitle: Text(
+                    "Assist Belarus",
+                    style: TextStyle(),
+                  ),
                 ),
               )
             ],
