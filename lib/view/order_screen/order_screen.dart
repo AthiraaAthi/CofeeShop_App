@@ -272,6 +272,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     "Assist Belarus",
                     style: TextStyle(color: Colors.grey),
                   ),
+                  trailing: Image.asset(ImageConstant.assist_noBg),
                 ),
               )
             ],
