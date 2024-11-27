@@ -277,6 +277,9 @@ class _OrderScreenState extends State<OrderScreen> {
                       width: 100,
                       child: Image.asset(ImageConstant.assist_noBg)),
                 ),
+              ),
+              SizedBox(
+                height: 20,
               )
             ],
           ),
