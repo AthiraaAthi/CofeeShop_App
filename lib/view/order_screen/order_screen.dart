@@ -301,7 +301,10 @@ class _OrderScreenState extends State<OrderScreen> {
                       });
                     },
                   ),
-                  title: Text("Credit Card"),
+                  title: Text(
+                    "Credit Card",
+                    style: TextStyle(),
+                  ),
                 ),
               )
             ],
