@@ -262,7 +262,9 @@ class _OrderScreenState extends State<OrderScreen> {
                   leading: Radio(
                     value: "true",
                     groupValue: _selectedValue,
-                    onChanged: (value) {},
+                    onChanged: (value) {
+                      _selectedValue = value!;
+                    },
                   ),
                   title: Text(
                     "Online Payments",
