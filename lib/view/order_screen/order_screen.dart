@@ -303,7 +303,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   title: Text(
                     "Credit Card",
-                    style: TextStyle(fontSize: 17),
+                    style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
                   ),
                 ),
               )
