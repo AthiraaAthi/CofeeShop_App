@@ -263,7 +263,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     value: "true",
                     groupValue: _selectedValue,
                     onChanged: (value) {
-                      _selectedValue = value!;
+                      setState(() {
+                        _selectedValue = value!;
+                      });
                     },
                   ),
                   title: Text(
@@ -294,7 +296,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     value: "false",
                     groupValue: _selectedValue,
                     onChanged: (value) {
-                      _selectedValue = value!;
+                      setState(() {
+                        _selectedValue = value!;
+                      });
                     },
                   ),
                   title: Text(""),
