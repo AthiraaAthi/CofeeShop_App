@@ -293,8 +293,11 @@ class _OrderScreenState extends State<OrderScreen> {
                   leading: Radio(
                     value: "false",
                     groupValue: _selectedValue,
-                    onChanged: (value) {},
+                    onChanged: (value) {
+                      _selectedValue = value!;
+                    },
                   ),
+                  title: Text(""),
                 ),
               )
             ],
