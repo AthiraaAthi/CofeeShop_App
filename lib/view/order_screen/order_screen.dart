@@ -278,8 +278,11 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   trailing: Container(
                       height: 50,
-                      width: 100,
-                      child: Image.asset(ImageConstant.assist_noBg)),
+                      width: 90,
+                      child: Image.asset(
+                        ImageConstant.assist_noBg,
+                        fit: BoxFit.cover,
+                      )),
                 ),
               ),
               SizedBox(
