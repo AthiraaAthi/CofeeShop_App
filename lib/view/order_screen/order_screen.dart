@@ -309,7 +309,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     "2540 xxxx xxxx 2648",
                     style: TextStyle(color: Colors.grey),
                   ),
-                  trailing: Container(),
+                  trailing: Container(
+                    height: 50,
+                  ),
                 ),
               )
             ],
