@@ -311,6 +311,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   trailing: Container(
                     height: 50,
+                    width: 100,
                   ),
                 ),
               )
