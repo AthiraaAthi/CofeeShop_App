@@ -312,6 +312,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   trailing: Container(
                     height: 50,
                     width: 100,
+                    child: Image.asset(ImageConstant.visa_noBg),
                   ),
                 ),
               )
