@@ -326,7 +326,7 @@ class _OrderScreenState extends State<OrderScreen> {
               Row(
                 children: [
                   Text("Amount"),
-                  Text(""),
+                  Text("BYN 9.00"),
                 ],
               )
             ],
