@@ -307,7 +307,7 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   subtitle: Text(
                     "2540 xxxx xxxx 2648",
-                    style: TextStyle(),
+                    style: TextStyle(color: Colors.grey),
                   ),
                 ),
               )
