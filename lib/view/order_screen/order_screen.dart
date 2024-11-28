@@ -305,7 +305,10 @@ class _OrderScreenState extends State<OrderScreen> {
                     "Credit Card",
                     style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
                   ),
-                  subtitle: Text("2540 xxxx xxxx 2648"),
+                  subtitle: Text(
+                    "2540 xxxx xxxx 2648",
+                    style: TextStyle(),
+                  ),
                 ),
               )
             ],
