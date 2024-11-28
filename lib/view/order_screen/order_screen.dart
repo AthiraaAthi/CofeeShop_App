@@ -258,7 +258,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     color: ColorConstant.grey,
                     borderRadius: BorderRadius.circular(15)),
                 child: ListTile(
-                  contentPadding: EdgeInsets.only(right: 20),
+                  contentPadding: EdgeInsets.only(right: 25),
                   leading: Radio(
                     value: "true",
                     groupValue: _selectedValue,
@@ -292,6 +292,7 @@ class _OrderScreenState extends State<OrderScreen> {
                     color: ColorConstant.grey,
                     borderRadius: BorderRadius.circular(15)),
                 child: ListTile(
+                  contentPadding: EdgeInsets.only(right: 25),
                   leading: Radio(
                     value: "false",
                     groupValue: _selectedValue,
