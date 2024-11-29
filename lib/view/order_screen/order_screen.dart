@@ -325,6 +325,7 @@ class _OrderScreenState extends State<OrderScreen> {
               ),
               Spacer(),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text("Amount"),
                   Text("BYN 9.00"),
