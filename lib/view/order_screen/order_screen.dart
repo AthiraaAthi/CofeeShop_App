@@ -329,7 +329,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 children: [
                   Text(
                     "Amount",
-                    style: TextStyle(fontSize: 18),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                   Text("BYN 9.00"),
                 ],
