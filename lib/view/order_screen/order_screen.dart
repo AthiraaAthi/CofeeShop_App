@@ -336,6 +336,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                 ],
+              ),
+              Row(
+                children: [],
               )
             ],
           ),
