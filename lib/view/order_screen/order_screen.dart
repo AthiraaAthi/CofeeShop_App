@@ -341,7 +341,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 children: [
                   Text(
                     "Total Price",
-                    style: TextStyle(),
+                    style: TextStyle(color: Colors.grey),
                   )
                 ],
               )
