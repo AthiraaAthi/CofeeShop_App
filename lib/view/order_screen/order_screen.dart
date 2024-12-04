@@ -356,6 +356,10 @@ class _OrderScreenState extends State<OrderScreen> {
                       )
                     ],
                   ),
+                  Container(
+                    height: 50,
+                    width: 150,
+                  )
                 ],
               )
             ],
