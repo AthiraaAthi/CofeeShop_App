@@ -357,6 +357,8 @@ class _OrderScreenState extends State<OrderScreen> {
                     ],
                   ),
                   Container(
+                    padding: const EdgeInsets.only(
+                        top: 10, bottom: 10, left: 30, right: 20),
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
