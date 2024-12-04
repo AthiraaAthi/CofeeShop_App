@@ -370,7 +370,10 @@ class _OrderScreenState extends State<OrderScreen> {
                           Icons.credit_card_outlined,
                           color: Colors.white,
                         ),
-                        Text("Pay Now")
+                        Text(
+                          "Pay Now",
+                          style: TextStyle(),
+                        )
                       ],
                     ),
                   )
