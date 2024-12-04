@@ -358,13 +358,14 @@ class _OrderScreenState extends State<OrderScreen> {
                   ),
                   Container(
                     padding: const EdgeInsets.only(
-                        top: 10, bottom: 10, left: 30, right: 20),
+                        top: 10, bottom: 10, left: 20, right: 20),
                     height: 50,
                     width: 150,
                     decoration: BoxDecoration(
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(20)),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Icon(
                           Icons.credit_card_outlined,
@@ -372,7 +373,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         ),
                         Text(
                           "Pay Now",
-                          style: TextStyle(),
+                          style: TextStyle(color: Colors.white, fontSize: 17),
                         )
                       ],
                     ),
