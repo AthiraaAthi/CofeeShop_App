@@ -349,7 +349,10 @@ class _OrderScreenState extends State<OrderScreen> {
                       ),
                       Text(
                         "BYN 9.00",
-                        style: TextStyle(fontSize: 18),
+                        style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.w600,
+                        ),
                       )
                     ],
                   ),
