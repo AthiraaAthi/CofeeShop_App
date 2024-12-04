@@ -363,7 +363,7 @@ class _OrderScreenState extends State<OrderScreen> {
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(20)),
                     child: Row(
-                      children: [],
+                      children: [Icon(Icons.credit_card_outlined)],
                     ),
                   )
                 ],
