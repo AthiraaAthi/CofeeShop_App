@@ -362,6 +362,9 @@ class _OrderScreenState extends State<OrderScreen> {
                     decoration: BoxDecoration(
                         color: ColorConstant.mainBlue,
                         borderRadius: BorderRadius.circular(20)),
+                    child: Row(
+                      children: [],
+                    ),
                   )
                 ],
               )
