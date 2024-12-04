@@ -16,7 +16,6 @@ class _OrderScreenState extends State<OrderScreen> {
     {"name": "Cappuchino", "image": ImageConstant.cappuccino_noBg},
     {"name": "Flat White", "image": ImageConstant.flatWhite_noBg},
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -348,9 +347,9 @@ class _OrderScreenState extends State<OrderScreen> {
                         "Total Price",
                         style: TextStyle(color: Colors.grey, fontSize: 16),
                       ),
-                      Text("")
+                      Text("BYN 9.00")
                     ],
-                  )
+                  ),
                 ],
               )
             ],
