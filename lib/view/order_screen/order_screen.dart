@@ -340,6 +340,7 @@ class _OrderScreenState extends State<OrderScreen> {
                 height: 70,
               ),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     children: [
