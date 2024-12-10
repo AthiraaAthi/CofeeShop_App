@@ -7,6 +7,7 @@ class ConfirmOrderScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(),
       body: Center(
         child: Column(
@@ -17,9 +18,11 @@ class ConfirmOrderScreen extends StatelessWidget {
               height: 177,
               width: 177,
               decoration: BoxDecoration(
-                  color: Colors.greenAccent,
                   image: DecorationImage(
-                      image: AssetImage(ImageConstant.confirm_order))),
+                      image: AssetImage(
+                        ImageConstant.confirm_order,
+                      ),
+                      fit: BoxFit.cover)),
             )
           ],
         ),
