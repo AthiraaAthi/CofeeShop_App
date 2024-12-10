@@ -8,7 +8,14 @@ class ConfirmOrderScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(),
       body: Column(
-        children: [],
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Container(
+            height: 177,
+            width: 177,
+          )
+        ],
       ),
     );
   }
