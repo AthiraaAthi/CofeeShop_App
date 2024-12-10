@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/order_screen/confirm_order.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 
@@ -358,7 +359,13 @@ class _OrderScreenState extends State<OrderScreen> {
                     ],
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ConfirmOrderScreen(),
+                          ));
+                    },
                     child: Container(
                       padding: const EdgeInsets.only(
                           top: 10, bottom: 10, left: 20, right: 20),
