@@ -23,7 +23,8 @@ class ConfirmOrderScreen extends StatelessWidget {
                         ImageConstant.confirm_order,
                       ),
                       fit: BoxFit.cover)),
-            )
+            ),
+            Text("Ordered")
           ],
         ),
       ),
