@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,23 @@ class ConfirmOrderScreen extends StatelessWidget {
                       ),
                       fit: BoxFit.cover)),
             ),
-            Text("Ordered")
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Ordered",
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.w500),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Alex your order has been Successfully placed",
+              style: TextStyle(
+                  color: ColorConstant.textGrey,
+                  fontWeight: FontWeight.w500,
+                  fontSize: 16),
+            ),
           ],
         ),
       ),
