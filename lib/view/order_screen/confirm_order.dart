@@ -7,6 +7,9 @@ class ConfirmOrderScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
