@@ -66,7 +66,10 @@ class ConfirmOrderScreen extends StatelessWidget {
                   children: [
                     Text(
                       "Submit your personal QR code",
-                      style: TextStyle(),
+                      style: TextStyle(
+                          color: ColorConstant.textGrey,
+                          fontWeight: FontWeight.w500,
+                          fontSize: 16),
                     ),
                     Text("at a coffee shop to receive an order."),
                   ],
