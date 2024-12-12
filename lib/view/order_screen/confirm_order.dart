@@ -62,6 +62,9 @@ class ConfirmOrderScreen extends StatelessWidget {
                 SizedBox(
                   height: 30,
                 ),
+                Column(
+                  children: [],
+                )
               ],
             ),
           ],
