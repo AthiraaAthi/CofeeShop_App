@@ -48,7 +48,7 @@ class ConfirmOrderScreen extends StatelessWidget {
             Text(
               textAlign: TextAlign.center,
               "The order will be ready today to 18:10 at the address Bradford BD1 1PR.",
-              style: TextStyle(),
+              style: TextStyle(color: Colors.black),
             ),
           ],
         ),
