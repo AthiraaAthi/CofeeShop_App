@@ -58,7 +58,10 @@ class ConfirmOrderScreen extends StatelessWidget {
                 Text(
                   "Bradford BD1 1PR.",
                   style: TextStyle(color: Colors.black, fontSize: 16),
-                )
+                ),
+                SizedBox(
+                  height: 30,
+                ),
               ],
             ),
           ],
