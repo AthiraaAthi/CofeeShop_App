@@ -63,7 +63,10 @@ class ConfirmOrderScreen extends StatelessWidget {
                   height: 40,
                 ),
                 Column(
-                  children: [Text("Submit your personal QR code")],
+                  children: [
+                    Text("Submit your personal QR code"),
+                    Text("at a coffee shop to receive an order."),
+                  ],
                 )
               ],
             ),
@@ -73,4 +76,3 @@ class ConfirmOrderScreen extends StatelessWidget {
     );
   }
 }
-//  at a coffee shop to receive an order."
