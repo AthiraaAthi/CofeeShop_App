@@ -45,10 +45,21 @@ class ConfirmOrderScreen extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
-            Text(
-              textAlign: TextAlign.center,
-              "The order will be ready today to 18:10 at the address Bradford BD1 1PR.",
-              style: TextStyle(color: Colors.black),
+            Column(
+              children: [
+                Text(
+                  "The order will be ready today",
+                  style: TextStyle(color: Colors.black, fontSize: 16),
+                ),
+                Text(
+                  "to 18:10 at the address",
+                  style: TextStyle(color: Colors.black, fontSize: 16),
+                ),
+                Text(
+                  "Bradford BD1 1PR.",
+                  style: TextStyle(color: Colors.black, fontSize: 16),
+                )
+              ],
             ),
           ],
         ),
