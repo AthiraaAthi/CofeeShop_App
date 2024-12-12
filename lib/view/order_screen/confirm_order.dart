@@ -42,6 +42,9 @@ class ConfirmOrderScreen extends StatelessWidget {
                   fontWeight: FontWeight.w500,
                   fontSize: 16),
             ),
+            SizedBox(
+              height: 30,
+            ),
           ],
         ),
       ),
