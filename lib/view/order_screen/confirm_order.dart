@@ -9,7 +9,9 @@ class ConfirmOrderScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+      ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -71,7 +73,13 @@ class ConfirmOrderScreen extends StatelessWidget {
                           fontWeight: FontWeight.w500,
                           fontSize: 16),
                     ),
-                    Text("at a coffee shop to receive an order."),
+                    Text(
+                      "at a coffee shop to receive an order.",
+                      style: TextStyle(
+                          color: ColorConstant.textGrey,
+                          fontWeight: FontWeight.w500,
+                          fontSize: 16),
+                    ),
                   ],
                 )
               ],
