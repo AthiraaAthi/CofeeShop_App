@@ -46,7 +46,9 @@ class ConfirmOrderScreen extends StatelessWidget {
               height: 30,
             ),
             Text(
-              "Alex, your order has been successfully placed. The order will be ready today to 18:10 at the address Bradford BD1 1PR. Submit your personal QR code at a coffee shop to receive an order.",
+              textAlign: TextAlign.center,
+              "The order will be ready today to 18:10 at the address Bradford BD1 1PR.",
+              style: TextStyle(),
             ),
           ],
         ),
@@ -54,3 +56,4 @@ class ConfirmOrderScreen extends StatelessWidget {
     );
   }
 }
+// Submit your personal QR code at a coffee shop to receive an order."
