@@ -69,14 +69,45 @@ class RewardScreen extends StatelessWidget {
               height: 20,
             ),
             Container(
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.only(top: 30, left: 20, right: 20),
               height: 125,
               width: double.infinity,
               decoration: BoxDecoration(
                   color: ColorConstant.mainBlue,
-                  borderRadius: BorderRadius.circular(10)),
+                  borderRadius: BorderRadius.circular(15)),
               child: Row(
-                children: [],
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "My Points:",
+                        style: TextStyle(
+                          color: ColorConstant.White,
+                          fontSize: 22,
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                      Text(
+                        "2750",
+                        style: TextStyle(
+                          color: ColorConstant.White,
+                          fontSize: 30,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Container(
+                    width: 100,
+                    height: 32,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: const Color.fromARGB(255, 80, 110, 134)),
+                  )
+                ],
               ),
             ),
           ],
