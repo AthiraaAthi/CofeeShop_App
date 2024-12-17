@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class RewardScreen extends StatelessWidget {
@@ -15,14 +16,19 @@ class RewardScreen extends StatelessWidget {
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
         ),
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 122,
-            width: 325,
-            decoration: BoxDecoration(),
-          )
-        ],
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            Container(
+              height: 122,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                  color: ColorConstant.mainBlue,
+                  borderRadius: BorderRadius.circular(10)),
+            )
+          ],
+        ),
       ),
     );
   }
