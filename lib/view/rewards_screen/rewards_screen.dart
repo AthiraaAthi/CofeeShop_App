@@ -106,9 +106,12 @@ class RewardScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: const Color.fromARGB(255, 80, 110, 134)),
-                    child: Text(
-                      "Redeem drinks",
-                      style: TextStyle(color: ColorConstant.White),
+                    child: Center(
+                      child: Text(
+                        "Redeem drinks",
+                        style:
+                            TextStyle(color: ColorConstant.White, fontSize: 12),
+                      ),
                     ),
                   )
                 ],
