@@ -75,7 +75,10 @@ class RewardScreen extends StatelessWidget {
               decoration: BoxDecoration(
                   color: ColorConstant.mainBlue,
                   borderRadius: BorderRadius.circular(10)),
-            )
+              child: Row(
+                children: [],
+              ),
+            ),
           ],
         ),
       ),
