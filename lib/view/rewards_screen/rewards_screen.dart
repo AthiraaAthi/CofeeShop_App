@@ -20,6 +20,8 @@ class RewardScreen extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
               padding: EdgeInsets.all(15),
@@ -120,13 +122,16 @@ class RewardScreen extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
-            Row(
-              children: [
-                Text(
-                  "History Rewards",
-                  style: TextStyle(fontSize: 17),
-                ),
-              ],
+            Text(
+              "History Rewards",
+              style: TextStyle(fontSize: 17),
+            ),
+            SizedBox(
+              height: 20,
+            ),
+            Text(
+              "Americano",
+              style: TextStyle(fontSize: 17),
             )
           ],
         ),
