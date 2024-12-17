@@ -16,7 +16,13 @@ class RewardScreen extends StatelessWidget {
         ),
       ),
       body: Column(
-        children: [],
+        children: [
+          Container(
+            height: 122,
+            width: 325,
+            decoration: BoxDecoration(),
+          )
+        ],
       ),
     );
   }
