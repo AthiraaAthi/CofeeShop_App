@@ -15,6 +15,9 @@ class RewardScreen extends StatelessWidget {
           style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
         ),
       ),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
