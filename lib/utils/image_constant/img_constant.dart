@@ -25,4 +25,5 @@ class ImageConstant {
   static String assist_noBg = "assets/images/assist_noBg.png";
   static String visa_noBg = "assets/images/visa_noBg.png";
   static String confirm_order = "assets/images/confirm_bag.png";
+  static String coffee_reward = "assets/images/coffee_rewards.png";
 }
