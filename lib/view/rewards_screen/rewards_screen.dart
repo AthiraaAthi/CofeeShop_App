@@ -119,6 +119,14 @@ class RewardScreen extends StatelessWidget {
             ),
             SizedBox(
               height: 30,
+            ),
+            Row(
+              children: [
+                Text(
+                  "History Rewards",
+                  style: TextStyle(fontSize: 17),
+                ),
+              ],
             )
           ],
         ),
