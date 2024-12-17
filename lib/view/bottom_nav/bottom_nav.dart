@@ -53,7 +53,7 @@ class _BottomNavState extends State<BottomNav> {
                   BottomNavigationBarItem(
                       icon: Icon(Icons.home), label: "Home"),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.card_giftcard), label: "Search"),
+                      icon: Icon(Icons.card_giftcard), label: "Rewards"),
                   BottomNavigationBarItem(
                       icon: Icon(Icons.shopping_cart), label: "ComingSoon"),
                 ]),
