@@ -23,7 +23,7 @@ class RewardScreen extends StatelessWidget {
           children: [
             Container(
               padding: EdgeInsets.all(15),
-              height: 130,
+              height: 135,
               width: double.infinity,
               decoration: BoxDecoration(
                   color: ColorConstant.mainBlue,
@@ -65,6 +65,17 @@ class RewardScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 20,
+            ),
+            Container(
+              padding: EdgeInsets.all(15),
+              height: 125,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                  color: ColorConstant.mainBlue,
+                  borderRadius: BorderRadius.circular(10)),
+            )
           ],
         ),
       ),
