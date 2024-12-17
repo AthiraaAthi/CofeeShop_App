@@ -69,7 +69,7 @@ class RewardScreen extends StatelessWidget {
               height: 20,
             ),
             Container(
-              padding: EdgeInsets.only(top: 30, left: 20, right: 20),
+              padding: EdgeInsets.only(top: 30, left: 25, right: 20),
               height: 125,
               width: double.infinity,
               decoration: BoxDecoration(
@@ -86,7 +86,7 @@ class RewardScreen extends StatelessWidget {
                         "My Points:",
                         style: TextStyle(
                           color: ColorConstant.White,
-                          fontSize: 22,
+                          fontSize: 20,
                           fontWeight: FontWeight.w400,
                         ),
                       ),
@@ -117,6 +117,9 @@ class RewardScreen extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 30,
+            )
           ],
         ),
       ),
