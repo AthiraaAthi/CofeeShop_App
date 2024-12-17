@@ -21,11 +21,20 @@ class RewardScreen extends StatelessWidget {
         child: Column(
           children: [
             Container(
+              padding: EdgeInsets.all(15),
               height: 122,
               width: double.infinity,
               decoration: BoxDecoration(
                   color: ColorConstant.mainBlue,
                   borderRadius: BorderRadius.circular(10)),
+              child: Row(
+                children: [
+                  Text(
+                    "Loyality Card",
+                    style: TextStyle(color: ColorConstant.White),
+                  )
+                ],
+              ),
             )
           ],
         ),
