@@ -10,9 +10,7 @@ class RewardScreen extends StatefulWidget {
 }
 
 class _RewardScreenState extends State<RewardScreen> {
-  List<String> coffeeNames = [
-    "Americano",
-  ];
+  List<String> coffeeNames = ["Americano", "Latte", "Raf", "Flat White"];
   List<String> coffeeDateTime = [];
   List<String> coffeePts = [];
   @override
