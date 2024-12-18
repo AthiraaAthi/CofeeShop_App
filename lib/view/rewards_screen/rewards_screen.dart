@@ -146,7 +146,9 @@ class RewardScreen extends StatelessWidget {
                       Text(
                         "24 June | 12:30",
                         style: TextStyle(
-                            fontSize: 15, color: ColorConstant.nameGrey),
+                            fontSize: 15,
+                            color: ColorConstant.nameGrey,
+                            fontWeight: FontWeight.w500),
                       ),
                     ],
                   ),
