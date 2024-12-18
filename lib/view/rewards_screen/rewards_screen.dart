@@ -124,7 +124,7 @@ class RewardScreen extends StatelessWidget {
             ),
             Text(
               "History Rewards",
-              style: TextStyle(fontSize: 17),
+              style: TextStyle(fontSize: 20),
             ),
             SizedBox(
               height: 20,
@@ -151,7 +151,7 @@ class RewardScreen extends StatelessWidget {
                   ),
                   Text(
                     "+ 12 Pts",
-                    style: TextStyle(fontSize: 17),
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
                   ),
                 ],
               ),
