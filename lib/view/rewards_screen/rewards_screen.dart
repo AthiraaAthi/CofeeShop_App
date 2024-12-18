@@ -124,7 +124,7 @@ class RewardScreen extends StatelessWidget {
             ),
             Text(
               "History Rewards",
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
             ),
             SizedBox(
               height: 20,
@@ -140,7 +140,8 @@ class RewardScreen extends StatelessWidget {
                     children: [
                       Text(
                         "Americano",
-                        style: TextStyle(fontSize: 17),
+                        style: TextStyle(
+                            fontSize: 17, fontWeight: FontWeight.w400),
                       ),
                       Text(
                         "24 June | 12:30",
