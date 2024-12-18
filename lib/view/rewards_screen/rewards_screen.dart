@@ -158,7 +158,8 @@ class RewardScreen extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
+            Divider()
           ],
         ),
       ),
