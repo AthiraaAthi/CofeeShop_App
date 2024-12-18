@@ -11,7 +11,12 @@ class RewardScreen extends StatefulWidget {
 
 class _RewardScreenState extends State<RewardScreen> {
   List<String> coffeeNames = ["Americano", "Latte", "Raf", "Flat White"];
-  List<String> coffeeDateTime = ["24 June | 12:30"];
+  List<String> coffeeDateTime = [
+    "24 June | 12:30",
+    "22 June | 08:30",
+    "16 June | 10:48",
+    "12 May | 11:25"
+  ];
   List<String> coffeePts = [];
   @override
   Widget build(BuildContext context) {
