@@ -12,6 +12,7 @@ class RewardScreen extends StatefulWidget {
 class _RewardScreenState extends State<RewardScreen> {
   List<String> coffeeNames = [];
   List<String> coffeeDateTime = [];
+  List<String> coffeePts = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
