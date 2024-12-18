@@ -133,6 +133,7 @@ class RewardScreen extends StatelessWidget {
               height: 50,
               width: double.infinity,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
