@@ -129,9 +129,17 @@ class RewardScreen extends StatelessWidget {
             SizedBox(
               height: 20,
             ),
-            Text(
-              "Americano",
-              style: TextStyle(fontSize: 17),
+            Row(
+              children: [
+                Column(
+                  children: [
+                    Text(
+                      "Americano",
+                      style: TextStyle(fontSize: 17),
+                    ),
+                  ],
+                ),
+              ],
             )
           ],
         ),
