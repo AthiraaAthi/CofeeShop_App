@@ -148,6 +148,10 @@ class RewardScreen extends StatelessWidget {
                       ),
                     ],
                   ),
+                  Text(
+                    "+ 12 Pts",
+                    style: TextStyle(fontSize: 17),
+                  ),
                 ],
               ),
             )
