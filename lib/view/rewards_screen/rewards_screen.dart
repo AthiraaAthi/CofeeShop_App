@@ -2,9 +2,15 @@ import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
-class RewardScreen extends StatelessWidget {
+class RewardScreen extends StatefulWidget {
   const RewardScreen({super.key});
 
+  @override
+  State<RewardScreen> createState() => _RewardScreenState();
+}
+
+class _RewardScreenState extends State<RewardScreen> {
+  List<String> coffeeNames = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
