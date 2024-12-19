@@ -169,7 +169,7 @@ class _RewardScreenState extends State<RewardScreen> {
                                   fontSize: 17, fontWeight: FontWeight.w400),
                             ),
                             Text(
-                              "24 June | 12:30",
+                              coffeeData["dateTimes"]![index],
                               style: TextStyle(
                                   fontSize: 15,
                                   color: ColorConstant.nameGrey,
