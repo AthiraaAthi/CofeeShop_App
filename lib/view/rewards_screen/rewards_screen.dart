@@ -142,37 +142,44 @@ class _RewardScreenState extends State<RewardScreen> {
             SizedBox(
               height: 20,
             ),
-            Container(
-              height: 50,
-              width: double.infinity,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            ListView.builder(
+              itemBuilder: (context, index) => Column(
                 children: [
-                  Column(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        "Americano",
-                        style: TextStyle(
-                            fontSize: 17, fontWeight: FontWeight.w400),
-                      ),
-                      Text(
-                        "24 June | 12:30",
-                        style: TextStyle(
-                            fontSize: 15,
-                            color: ColorConstant.nameGrey,
-                            fontWeight: FontWeight.w500),
-                      ),
-                    ],
+                  Container(
+                    height: 50,
+                    width: double.infinity,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Americano",
+                              style: TextStyle(
+                                  fontSize: 17, fontWeight: FontWeight.w400),
+                            ),
+                            Text(
+                              "24 June | 12:30",
+                              style: TextStyle(
+                                  fontSize: 15,
+                                  color: ColorConstant.nameGrey,
+                                  fontWeight: FontWeight.w500),
+                            ),
+                          ],
+                        ),
+                        Text(
+                          "+ 12 Pts",
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.w500),
+                        ),
+                      ],
+                    ),
                   ),
-                  Text(
-                    "+ 12 Pts",
-                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
-                  ),
+                  Divider(),
                 ],
               ),
-            ),
-            Divider()
+            )
           ],
         ),
       ),
