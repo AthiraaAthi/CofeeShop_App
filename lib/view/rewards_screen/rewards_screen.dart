@@ -154,6 +154,8 @@ class _RewardScreenState extends State<RewardScreen> {
                 shrinkWrap: true,
                 itemCount: coffeeData["names"]!.length,
                 itemBuilder: (context, index) => Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Container(
                       height: 50,
@@ -163,6 +165,7 @@ class _RewardScreenState extends State<RewardScreen> {
                         children: [
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 coffeeData["names"]![index],
