@@ -15,7 +15,7 @@ class _RewardScreenState extends State<RewardScreen> {
     "24 June | 12:30",
     "22 June | 08:30",
     "16 June | 10:48",
-    "12 May | 11:25"
+    "12 May | 11:25",
   ];
   List<String> coffeePts = [];
   @override
