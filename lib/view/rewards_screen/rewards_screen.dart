@@ -25,6 +25,12 @@ class _RewardScreenState extends State<RewardScreen> {
   ];
   Map<String, List<String>> coffeeData = {
     "names": ["Americano", "Latte", "Raf", "Flat White"],
+    "dateTimes": [
+      "24 June | 12:30",
+      "22 June | 08:30",
+      "16 June | 10:48",
+      "12 May | 11:25",
+    ],
   };
   @override
   Widget build(BuildContext context) {
