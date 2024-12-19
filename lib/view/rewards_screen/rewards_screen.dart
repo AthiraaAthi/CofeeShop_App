@@ -151,7 +151,7 @@ class _RewardScreenState extends State<RewardScreen> {
             ),
             ListView.builder(
               shrinkWrap: true,
-              itemCount: 4,
+              itemCount: coffeeData["names"]!.length,
               itemBuilder: (context, index) => Column(
                 children: [
                   Container(
