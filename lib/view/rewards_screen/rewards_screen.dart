@@ -164,7 +164,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              "Americano",
+                              coffeeData["names"]![index],
                               style: TextStyle(
                                   fontSize: 17, fontWeight: FontWeight.w400),
                             ),
