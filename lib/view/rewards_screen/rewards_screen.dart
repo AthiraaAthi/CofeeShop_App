@@ -178,7 +178,7 @@ class _RewardScreenState extends State<RewardScreen> {
                           ],
                         ),
                         Text(
-                          "+ 12 Pts",
+                          coffeeData["points"]![index],
                           style: TextStyle(
                               fontSize: 18, fontWeight: FontWeight.w500),
                         ),
