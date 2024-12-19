@@ -10,19 +10,6 @@ class RewardScreen extends StatefulWidget {
 }
 
 class _RewardScreenState extends State<RewardScreen> {
-  List<String> coffeeNames = ["Americano", "Latte", "Raf", "Flat White"];
-  List<String> coffeeDateTime = [
-    "24 June | 12:30",
-    "22 June | 08:30",
-    "16 June | 10:48",
-    "12 May | 11:25",
-  ];
-  List<String> coffeePts = [
-    "+ 12 Pts",
-    "+ 12 Pts",
-    "+ 12 Pts",
-    "+ 12 Pts",
-  ];
   Map<String, List<String>> coffeeData = {
     "names": ["Americano", "Latte", "Raf", "Flat White"],
     "dateTimes": [
