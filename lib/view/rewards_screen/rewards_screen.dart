@@ -23,7 +23,9 @@ class _RewardScreenState extends State<RewardScreen> {
     "+ 12 Pts",
     "+ 12 Pts",
   ];
-  Map<String, List<String>> coffeeData = {};
+  Map<String, List<String>> coffeeData = {
+    "names": ["Americano", "Latte", "Raf", "Flat White"],
+  };
   @override
   Widget build(BuildContext context) {
     return Scaffold(
