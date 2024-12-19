@@ -17,7 +17,12 @@ class _RewardScreenState extends State<RewardScreen> {
     "16 June | 10:48",
     "12 May | 11:25",
   ];
-  List<String> coffeePts = [];
+  List<String> coffeePts = [
+    "+ 12 Pts",
+    "+ 12 Pts",
+    "+ 12 Pts",
+    "+ 12 Pts",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -144,6 +149,7 @@ class _RewardScreenState extends State<RewardScreen> {
             ),
             ListView.builder(
               shrinkWrap: true,
+              itemCount: 4,
               itemBuilder: (context, index) => Column(
                 children: [
                   Container(
