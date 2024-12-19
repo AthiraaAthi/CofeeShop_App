@@ -143,6 +143,7 @@ class _RewardScreenState extends State<RewardScreen> {
               height: 20,
             ),
             ListView.builder(
+              shrinkWrap: true,
               itemBuilder: (context, index) => Column(
                 children: [
                   Container(
