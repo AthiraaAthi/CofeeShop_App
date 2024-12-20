@@ -11,7 +11,9 @@ class RedeemScreen extends StatelessWidget {
         title: Text("Redeem"),
         centerTitle: true,
       ),
-      body: Column(),
+      body: Column(
+        children: [],
+      ),
     );
   }
 }
