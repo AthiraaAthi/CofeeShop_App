@@ -12,7 +12,7 @@ class RedeemScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Column(
-        children: [],
+        children: [Container()],
       ),
     );
   }
