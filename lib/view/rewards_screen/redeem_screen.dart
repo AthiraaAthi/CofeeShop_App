@@ -8,6 +8,7 @@ class RedeemScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
+        title: Text(""),
       ),
     );
   }
