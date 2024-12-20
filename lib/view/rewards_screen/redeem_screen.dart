@@ -9,6 +9,7 @@ class RedeemScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text("Redeem"),
+        centerTitle: true,
       ),
     );
   }
