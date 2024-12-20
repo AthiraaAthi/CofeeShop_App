@@ -124,17 +124,20 @@ class _RewardScreenState extends State<RewardScreen> {
                         ),
                       ],
                     ),
-                    Container(
-                      width: 100,
-                      height: 32,
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(8),
-                          color: const Color.fromARGB(255, 80, 110, 134)),
-                      child: Center(
-                        child: Text(
-                          "Redeem drinks",
-                          style: TextStyle(
-                              color: ColorConstant.White, fontSize: 12),
+                    InkWell(
+                      onTap: () {},
+                      child: Container(
+                        width: 100,
+                        height: 32,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(8),
+                            color: const Color.fromARGB(255, 80, 110, 134)),
+                        child: Center(
+                          child: Text(
+                            "Redeem drinks",
+                            style: TextStyle(
+                                color: ColorConstant.White, fontSize: 12),
+                          ),
                         ),
                       ),
                     )
