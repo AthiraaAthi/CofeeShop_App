@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/rewards_screen/redeem_screen.dart';
 import 'package:flutter/material.dart';
 
 class RewardScreen extends StatefulWidget {
@@ -125,7 +126,13 @@ class _RewardScreenState extends State<RewardScreen> {
                       ],
                     ),
                     InkWell(
-                      onTap: () {},
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => RedeemScreen(),
+                            ));
+                      },
                       child: Container(
                         width: 100,
                         height: 32,
