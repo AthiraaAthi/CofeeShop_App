@@ -15,7 +15,9 @@ class RedeemScreen extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(),
-            child: ListTile(),
+            child: ListTile(
+              leading: Container(),
+            ),
           )
         ],
       ),
