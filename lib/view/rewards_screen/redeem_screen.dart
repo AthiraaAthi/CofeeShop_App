@@ -21,6 +21,7 @@ class RedeemScreen extends StatelessWidget {
               subtitle: Text("valid until 04.07.24"),
               trailing: Container(
                 height: 32,
+                width: 76,
               ),
             ),
           )
