@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class RedeemScreen extends StatelessWidget {
@@ -22,7 +23,7 @@ class RedeemScreen extends StatelessWidget {
               trailing: Container(
                 height: 32,
                 width: 76,
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(color: ColorConstant.mainBlue),
               ),
             ),
           )
