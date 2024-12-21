@@ -18,6 +18,7 @@ class RedeemScreen extends StatelessWidget {
             child: ListTile(
               leading: Container(),
               title: Text("Latte"),
+              subtitle: Text(""),
             ),
           )
         ],
