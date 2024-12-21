@@ -27,7 +27,7 @@ class RedeemScreen extends StatelessWidget {
                 child: Center(
                     child: Text(
                   "1340 pts",
-                  style: TextStyle(),
+                  style: TextStyle(color: ColorConstant.White),
                 )),
               ),
             ),
