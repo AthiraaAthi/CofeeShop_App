@@ -22,6 +22,7 @@ class RedeemScreen extends StatelessWidget {
               trailing: Container(
                 height: 32,
                 width: 76,
+                decoration: BoxDecoration(),
               ),
             ),
           )
