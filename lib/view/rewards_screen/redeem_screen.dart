@@ -24,7 +24,7 @@ class RedeemScreen extends StatelessWidget {
                 height: 32,
                 width: 76,
                 decoration: BoxDecoration(color: ColorConstant.mainBlue),
-                child: Text(""),
+                child: Text("1340 pts"),
               ),
             ),
           )
