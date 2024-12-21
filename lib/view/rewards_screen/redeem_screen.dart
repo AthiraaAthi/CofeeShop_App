@@ -18,7 +18,7 @@ class RedeemScreen extends StatelessWidget {
             child: ListTile(
               leading: Container(),
               title: Text("Latte"),
-              subtitle: Text(""),
+              subtitle: Text("valid until 04.07.24"),
             ),
           )
         ],
