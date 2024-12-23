@@ -36,7 +36,11 @@ class _RedeemScreenState extends State<RedeemScreen> {
               decoration: BoxDecoration(),
               child: ListTile(
                 leading: Container(
-                  color: Colors.blue,
+                  decoration: BoxDecoration(
+                    color: Colors.blue,
+                    image:
+                        DecorationImage(image: AssetImage(ImageConstant.latte)),
+                  ),
                   height: 60,
                   width: 60,
                 ),
