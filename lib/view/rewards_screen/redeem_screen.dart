@@ -20,6 +20,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text("Redeem"),
@@ -33,6 +34,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
             decoration: BoxDecoration(),
             child: ListTile(
               leading: Container(
+                color: Colors.blue,
                 height: 60,
                 width: 60,
               ),
