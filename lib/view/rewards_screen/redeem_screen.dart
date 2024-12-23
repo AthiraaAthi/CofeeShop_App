@@ -26,37 +26,41 @@ class _RedeemScreenState extends State<RedeemScreen> {
         title: Text("Redeem"),
         centerTitle: true,
       ),
-      body: Column(
-        children: [
-          Container(
-            height: 70,
-            width: double.infinity,
-            decoration: BoxDecoration(),
-            child: ListTile(
-              leading: Container(
-                color: Colors.blue,
-                height: 60,
-                width: 60,
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          children: [
+            Container(
+              height: 70,
+              width: double.infinity,
+              decoration: BoxDecoration(),
+              child: ListTile(
+                leading: Container(
+                  color: Colors.blue,
+                  height: 60,
+                  width: 60,
+                ),
+                title: Text("Latte"),
+                subtitle: Text("valid until 04.07.24"),
+                trailing: Container(
+                  height: 40,
+                  width: 80,
+                  decoration: BoxDecoration(
+                      color: ColorConstant.mainBlue,
+                      borderRadius: BorderRadius.circular(18)),
+                  child: Center(
+                      child: Text(
+                    "1340 pts",
+                    style: TextStyle(
+                      color: ColorConstant.White,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  )),
+                ),
               ),
-              title: Text("Latte"),
-              subtitle: Text("valid until 04.07.24"),
-              trailing: Container(
-                height: 32,
-                width: 76,
-                decoration: BoxDecoration(
-                    color: ColorConstant.mainBlue,
-                    borderRadius: BorderRadius.circular(15)),
-                child: Center(
-                    child: Text(
-                  "1340 pts",
-                  style: TextStyle(
-                    color: ColorConstant.White,
-                  ),
-                )),
-              ),
-            ),
-          )
-        ],
+            )
+          ],
+        ),
       ),
     );
   }
