@@ -9,6 +9,7 @@ class RedeemScreen extends StatefulWidget {
 }
 
 class _RedeemScreenState extends State<RedeemScreen> {
+  List<String> images = [];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
