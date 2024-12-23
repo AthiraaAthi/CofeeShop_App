@@ -7,6 +7,7 @@ class ImageConstant {
   static String cappuccino = "assets/images/cappucino.png";
   static String cappuccino_noBg = "assets/images/cappucino-noBg.png";
   static String latte = "assets/images/Latte.png";
+  static String latte_noBg = "assets/images/Latte-no_bg.png";
   static String flatWhite = "assets/images/Flat white.png";
   static String flatWhite_noBg = "assets/images/Flat_white-noBg.png";
   static String raf = "assets/images/raf.png";
