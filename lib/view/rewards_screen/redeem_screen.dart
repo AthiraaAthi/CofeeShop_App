@@ -32,7 +32,10 @@ class _RedeemScreenState extends State<RedeemScreen> {
             width: double.infinity,
             decoration: BoxDecoration(),
             child: ListTile(
-              leading: Container(),
+              leading: Container(
+                height: 60,
+                width: 60,
+              ),
               title: Text("Latte"),
               subtitle: Text("valid until 04.07.24"),
               trailing: Container(
