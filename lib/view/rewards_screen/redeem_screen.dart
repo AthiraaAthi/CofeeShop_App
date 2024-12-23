@@ -17,6 +17,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
   ];
   List<String> title = [
     "Latte",
+    "Flat Whine",
   ];
   List<String> subtitle = [];
   @override
