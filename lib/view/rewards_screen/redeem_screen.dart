@@ -1,9 +1,14 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
-class RedeemScreen extends StatelessWidget {
+class RedeemScreen extends StatefulWidget {
   const RedeemScreen({super.key});
 
+  @override
+  State<RedeemScreen> createState() => _RedeemScreenState();
+}
+
+class _RedeemScreenState extends State<RedeemScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
