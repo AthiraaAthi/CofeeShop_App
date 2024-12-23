@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class RedeemScreen extends StatefulWidget {
@@ -9,7 +10,7 @@ class RedeemScreen extends StatefulWidget {
 }
 
 class _RedeemScreenState extends State<RedeemScreen> {
-  List<String> images = [];
+  List<String> images = [ImageConstant.latte];
   List<String> title = [];
   List<String> subtitle = [];
   @override
