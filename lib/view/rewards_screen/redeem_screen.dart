@@ -10,7 +10,11 @@ class RedeemScreen extends StatefulWidget {
 }
 
 class _RedeemScreenState extends State<RedeemScreen> {
-  List<String> images = [ImageConstant.latte, ImageConstant.flatWhite_noBg];
+  List<String> images = [
+    ImageConstant.latte,
+    ImageConstant.flatWhite_noBg,
+    ImageConstant.cappuccino_noBg
+  ];
   List<String> title = [];
   List<String> subtitle = [];
   @override
