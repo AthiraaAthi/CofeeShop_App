@@ -28,6 +28,8 @@ class _RedeemScreenState extends State<RedeemScreen> {
       body: Column(
         children: [
           Container(
+            height: 70,
+            width: double.infinity,
             decoration: BoxDecoration(),
             child: ListTile(
               leading: Container(),
