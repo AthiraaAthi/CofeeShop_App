@@ -47,6 +47,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
           padding: const EdgeInsets.all(16),
           child: ListView.builder(
             shrinkWrap: true,
+            itemCount: redeem["images"]!.length,
             itemBuilder: (context, index) => Column(
               children: [
                 Container(
