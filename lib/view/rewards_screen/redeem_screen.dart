@@ -15,7 +15,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
     ImageConstant.flatWhite_noBg,
     ImageConstant.cappuccino_noBg
   ];
-  List<String> title = ["Latte", "Flat Whine", "Cappuccino"];
+  List<String> title = ["Cappuccino", "Flat Whine", "Latte"];
   List<String> subtitle = [];
   @override
   Widget build(BuildContext context) {
