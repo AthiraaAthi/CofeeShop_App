@@ -66,8 +66,12 @@ class _RedeemScreenState extends State<RedeemScreen> {
                       height: 60,
                       width: 60,
                     ),
-                    title: Text("Latte"),
-                    subtitle: Text("valid until 04.07.24"),
+                    title: Text(
+                      redeem["title"]![index],
+                    ),
+                    subtitle: Text(
+                      redeem["subtitle"]![index],
+                    ),
                     trailing: Container(
                       height: 40,
                       width: 80,
