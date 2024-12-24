@@ -21,7 +21,8 @@ class _RedeemScreenState extends State<RedeemScreen> {
       "valid until 04.07.24",
       "valid until 04.07.24",
       "valid until 04.07.24",
-    ]
+    ],
+    "points": ["1340 pts", "1340 pts", "1340 pts"]
   };
   List<String> images = [
     ImageConstant.latte,
@@ -80,7 +81,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
                           borderRadius: BorderRadius.circular(18)),
                       child: Center(
                           child: Text(
-                        "1340 pts",
+                        redeem["points"]![index],
                         style: TextStyle(
                           color: ColorConstant.White,
                           fontWeight: FontWeight.bold,
