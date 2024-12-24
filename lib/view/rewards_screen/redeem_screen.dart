@@ -19,6 +19,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
   List<String> subtitle = [
     "valid until 04.07.24",
     "valid until 04.07.24",
+    "valid until 04.07.24",
   ];
   @override
   Widget build(BuildContext context) {
