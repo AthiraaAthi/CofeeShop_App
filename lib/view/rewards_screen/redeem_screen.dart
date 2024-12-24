@@ -16,7 +16,12 @@ class _RedeemScreenState extends State<RedeemScreen> {
       ImageConstant.flatWhite_noBg,
       ImageConstant.cappuccino_noBg
     ],
-    "title": ["Cappuccino", "Flat Whine", "Latte"]
+    "title": ["Cappuccino", "Flat Whine", "Latte"],
+    "subtitle": [
+      "valid until 04.07.24",
+      "valid until 04.07.24",
+      "valid until 04.07.24",
+    ]
   };
   List<String> images = [
     ImageConstant.latte,
