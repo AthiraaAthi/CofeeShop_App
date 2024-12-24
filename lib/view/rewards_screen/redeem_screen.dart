@@ -33,6 +33,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
       body: Padding(
           padding: const EdgeInsets.all(16),
           child: ListView.builder(
+            shrinkWrap: true,
             itemBuilder: (context, index) => Column(
               children: [
                 Container(
