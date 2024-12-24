@@ -31,47 +31,48 @@ class _RedeemScreenState extends State<RedeemScreen> {
         centerTitle: true,
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Container(
-              height: 70,
-              width: double.infinity,
-              decoration: BoxDecoration(),
-              child: ListTile(
-                leading: Container(
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage(
-                          ImageConstant.latte_noBg,
-                        ),
-                        fit: BoxFit.cover),
-                  ),
-                  height: 60,
-                  width: 60,
-                ),
-                title: Text("Latte"),
-                subtitle: Text("valid until 04.07.24"),
-                trailing: Container(
-                  height: 40,
-                  width: 80,
-                  decoration: BoxDecoration(
-                      color: ColorConstant.mainBlue,
-                      borderRadius: BorderRadius.circular(18)),
-                  child: Center(
-                      child: Text(
-                    "1340 pts",
-                    style: TextStyle(
-                      color: ColorConstant.White,
-                      fontWeight: FontWeight.bold,
+          padding: const EdgeInsets.all(16),
+          child: ListView.builder(
+            itemBuilder: (context, index) => Column(
+              children: [
+                Container(
+                  height: 70,
+                  width: double.infinity,
+                  decoration: BoxDecoration(),
+                  child: ListTile(
+                    leading: Container(
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage(
+                              ImageConstant.latte_noBg,
+                            ),
+                            fit: BoxFit.cover),
+                      ),
+                      height: 60,
+                      width: 60,
                     ),
-                  )),
-                ),
-              ),
-            )
-          ],
-        ),
-      ),
+                    title: Text("Latte"),
+                    subtitle: Text("valid until 04.07.24"),
+                    trailing: Container(
+                      height: 40,
+                      width: 80,
+                      decoration: BoxDecoration(
+                          color: ColorConstant.mainBlue,
+                          borderRadius: BorderRadius.circular(18)),
+                      child: Center(
+                          child: Text(
+                        "1340 pts",
+                        style: TextStyle(
+                          color: ColorConstant.White,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      )),
+                    ),
+                  ),
+                )
+              ],
+            ),
+          )),
     );
   }
 }
