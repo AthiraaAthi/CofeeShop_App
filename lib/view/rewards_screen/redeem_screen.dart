@@ -59,7 +59,7 @@ class _RedeemScreenState extends State<RedeemScreen> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                             image: AssetImage(
-                              ImageConstant.latte_noBg,
+                              redeem["images"]![index],
                             ),
                             fit: BoxFit.cover),
                       ),
