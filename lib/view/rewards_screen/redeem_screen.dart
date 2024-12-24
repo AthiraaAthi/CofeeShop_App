@@ -10,6 +10,7 @@ class RedeemScreen extends StatefulWidget {
 }
 
 class _RedeemScreenState extends State<RedeemScreen> {
+  Map<String, List<String>> redeem = {};
   List<String> images = [
     ImageConstant.latte,
     ImageConstant.flatWhite_noBg,
