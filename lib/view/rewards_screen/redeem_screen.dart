@@ -16,7 +16,9 @@ class _RedeemScreenState extends State<RedeemScreen> {
     ImageConstant.cappuccino_noBg
   ];
   List<String> title = ["Cappuccino", "Flat Whine", "Latte"];
-  List<String> subtitle = [];
+  List<String> subtitle = [
+    "valid until 04.07.24",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
