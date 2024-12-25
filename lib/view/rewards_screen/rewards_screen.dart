@@ -174,6 +174,7 @@ class _RewardScreenState extends State<RewardScreen> {
                         children: [
                           Column(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
                                 coffeeData["names"]![index],
