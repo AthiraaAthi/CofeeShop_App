@@ -19,7 +19,10 @@ class MyOrders extends StatelessWidget {
           bottom: TabBar(tabs: [
             Tab(
               text: "On going",
-            )
+            ),
+            Tab(
+              text: "History",
+            ),
           ]),
         ),
       ),
