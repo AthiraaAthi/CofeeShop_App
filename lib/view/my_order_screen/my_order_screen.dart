@@ -10,6 +10,7 @@ class MyOrders extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Text("My Order"),
+        centerTitle: true,
       ),
     );
   }
