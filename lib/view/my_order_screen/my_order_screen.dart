@@ -5,15 +5,18 @@ class MyOrders extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.white,
-      appBar: AppBar(
+    return DefaultTabController(
+      length: 2,
+      child: Scaffold(
         backgroundColor: Colors.white,
-        title: Text(
-          "My Order",
-          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          title: Text(
+            "My Order",
+            style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
+          ),
+          centerTitle: true,
         ),
-        centerTitle: true,
       ),
     );
   }
