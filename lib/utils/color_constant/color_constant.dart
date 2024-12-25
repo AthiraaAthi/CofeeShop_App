@@ -7,5 +7,5 @@ class ColorConstant {
   static Color grey = Color(0xffdce4e4);
   static Color nameGrey = Color(0xffc7ccd2);
   static Color textGrey = Color(0xffAAAAAA);
-  static Color org_white = Colors.white;
+  static Color bg_white = Colors.white;
 }
