@@ -11,7 +11,7 @@ class MyOrders extends StatelessWidget {
         backgroundColor: Colors.white,
         title: Text(
           "My Order",
-          style: TextStyle(fontSize: 17),
+          style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
         ),
         centerTitle: true,
       ),
