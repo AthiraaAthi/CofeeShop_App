@@ -92,9 +92,9 @@ class _RedeemScreenState extends State<RedeemScreen> {
                           child: Text(
                         redeem["points"]![index],
                         style: TextStyle(
-                          color: ColorConstant.White,
-                          fontWeight: FontWeight.bold,
-                        ),
+                            color: ColorConstant.White,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 14),
                       )),
                     ),
                   ),
