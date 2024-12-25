@@ -16,7 +16,11 @@ class MyOrders extends StatelessWidget {
             style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
           ),
           centerTitle: true,
-          bottom: TabBar(tabs: []),
+          bottom: TabBar(tabs: [
+            Tab(
+              text: "On going",
+            )
+          ]),
         ),
       ),
     );
