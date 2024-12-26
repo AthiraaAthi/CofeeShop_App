@@ -39,6 +39,9 @@ class MyOrders extends StatelessWidget {
                   width: double.infinity,
                   decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 147, 206, 149)),
+                  child: Column(
+                    children: [],
+                  ),
                 )
               ],
             ),
