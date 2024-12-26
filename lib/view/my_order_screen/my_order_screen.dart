@@ -35,6 +35,7 @@ class MyOrders extends StatelessWidget {
             child: Column(
               children: [
                 Container(
+                  padding: EdgeInsets.all(10),
                   height: 100,
                   width: double.infinity,
                   decoration: BoxDecoration(
