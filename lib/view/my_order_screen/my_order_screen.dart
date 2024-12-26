@@ -31,7 +31,9 @@ class MyOrders extends StatelessWidget {
         ),
         body: TabBarView(children: [
           Padding(
-            padding: const EdgeInsets.only(top: 30, left: 20, right: 20),
+            padding: const EdgeInsets.only(
+              top: 30,
+            ),
             child: Column(
               children: [
                 Container(
@@ -41,6 +43,8 @@ class MyOrders extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 147, 206, 149)),
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -51,10 +55,11 @@ class MyOrders extends StatelessWidget {
                           ),
                           Text(
                             "BYN 3.00",
-                            style: TextStyle(),
+                            style: TextStyle(fontSize: 18),
                           ),
                         ],
-                      )
+                      ),
+                      Text("Americano")
                     ],
                   ),
                 )
