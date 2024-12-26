@@ -43,7 +43,7 @@ class MyOrders extends StatelessWidget {
                   decoration: BoxDecoration(
                       color: const Color.fromARGB(255, 147, 206, 149)),
                   child: Column(
-                    mainAxisAlignment: MainAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
@@ -59,7 +59,8 @@ class MyOrders extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Text("Americano")
+                      Text("Americano"),
+                      Text("Bradford BD1 1PR")
                     ],
                   ),
                 )
