@@ -37,7 +37,8 @@ class MyOrders extends StatelessWidget {
                 Container(
                   height: 100,
                   width: double.infinity,
-                  decoration: BoxDecoration(),
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 147, 206, 149)),
                 )
               ],
             ),
