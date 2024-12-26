@@ -29,7 +29,17 @@ class MyOrders extends StatelessWidget {
                 ),
               ]),
         ),
-        body: TabBarView(children: []),
+        body: TabBarView(children: [
+          Padding(
+            padding: const EdgeInsets.only(top: 30, left: 20, right: 20),
+            child: Column(
+              children: [Container()],
+            ),
+          ),
+          Column(
+            children: [Text("sdfhsooooooooooooo")],
+          ),
+        ]),
       ),
     );
   }
