@@ -45,8 +45,14 @@ class MyOrders extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("24 June | 12:30 | by 18:10"),
-                          Text("BYN 3.00"),
+                          Text(
+                            "24 June | 12:30 | by 18:10",
+                            style: TextStyle(),
+                          ),
+                          Text(
+                            "BYN 3.00",
+                            style: TextStyle(),
+                          ),
                         ],
                       )
                     ],
