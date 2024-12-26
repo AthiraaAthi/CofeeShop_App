@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
 class MyOrders extends StatelessWidget {
@@ -59,7 +60,15 @@ class MyOrders extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Text("Americano"),
+                      Row(
+                        children: [
+                          Icon(
+                            Icons.local_cafe_outlined,
+                            color: ColorConstant.grey,
+                          ),
+                          Text("Americano"),
+                        ],
+                      ),
                       Text("Bradford BD1 1PR")
                     ],
                   ),
