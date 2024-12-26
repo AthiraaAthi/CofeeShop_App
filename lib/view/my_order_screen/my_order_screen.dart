@@ -33,7 +33,12 @@ class MyOrders extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(top: 30, left: 20, right: 20),
             child: Column(
-              children: [Container()],
+              children: [
+                Container(
+                  height: 100,
+                  width: double.infinity,
+                )
+              ],
             ),
           ),
           Column(
