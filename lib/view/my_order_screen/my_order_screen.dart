@@ -1,3 +1,4 @@
+import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:flutter/material.dart';
 
 class MyOrders extends StatelessWidget {
@@ -16,7 +17,7 @@ class MyOrders extends StatelessWidget {
             style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
           ),
           centerTitle: true,
-          bottom: TabBar(tabs: [
+          bottom: TabBar(indicatorWeight: 3, tabs: [
             Tab(
               text: "On going",
             ),
