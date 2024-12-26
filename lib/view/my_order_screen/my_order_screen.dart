@@ -17,14 +17,17 @@ class MyOrders extends StatelessWidget {
             style: TextStyle(fontSize: 17, fontWeight: FontWeight.w600),
           ),
           centerTitle: true,
-          bottom: TabBar(indicatorWeight: 3, tabs: [
-            Tab(
-              text: "On going",
-            ),
-            Tab(
-              text: "History",
-            ),
-          ]),
+          bottom: TabBar(
+              indicatorColor: ColorConstant.mainBlue,
+              indicatorWeight: 3,
+              tabs: [
+                Tab(
+                  text: "On going",
+                ),
+                Tab(
+                  text: "History",
+                ),
+              ]),
         ),
       ),
     );
