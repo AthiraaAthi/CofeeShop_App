@@ -44,6 +44,7 @@ class MyOrders extends StatelessWidget {
                       Row(
                         children: [
                           Text("24 June | 12:30 | by 18:10"),
+                          Text("BYN 3.00"),
                         ],
                       )
                     ],
