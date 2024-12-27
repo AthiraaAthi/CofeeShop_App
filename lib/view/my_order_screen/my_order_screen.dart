@@ -77,10 +77,14 @@ class MyOrders extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Text(
-                        "Bradford BD1 1PR",
-                        style: TextStyle(
-                            fontSize: 16, fontWeight: FontWeight.w500),
+                      Row(
+                        children: [
+                          Text(
+                            "Bradford BD1 1PR",
+                            style: TextStyle(
+                                fontSize: 16, fontWeight: FontWeight.w500),
+                          ),
+                        ],
                       )
                     ],
                   ),
