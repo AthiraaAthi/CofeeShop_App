@@ -73,7 +73,7 @@ class MyOrders extends StatelessWidget {
                           Text(
                             "Americano",
                             style: TextStyle(
-                                fontSize: 17, fontWeight: FontWeight.w500),
+                                fontSize: 17, fontWeight: FontWeight.w400),
                           ),
                         ],
                       ),
@@ -84,10 +84,13 @@ class MyOrders extends StatelessWidget {
                             color: ColorConstant.mainBlue,
                             size: 20,
                           ),
+                          SizedBox(
+                            width: 15,
+                          ),
                           Text(
                             "Bradford BD1 1PR",
                             style: TextStyle(
-                                fontSize: 16, fontWeight: FontWeight.w500),
+                                fontSize: 16, fontWeight: FontWeight.w400),
                           ),
                         ],
                       )
