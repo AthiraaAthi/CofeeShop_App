@@ -32,14 +32,12 @@ class MyOrders extends StatelessWidget {
         ),
         body: TabBarView(children: [
           Padding(
-            padding: const EdgeInsets.only(
-              top: 30,
-            ),
+            padding: const EdgeInsets.only(top: 30, left: 10, right: 10),
             child: Column(
               children: [
                 Container(
                   padding: EdgeInsets.all(10),
-                  height: 100,
+                  height: 120,
                   width: double.infinity,
                   decoration: BoxDecoration(),
                   child: Column(
@@ -59,6 +57,9 @@ class MyOrders extends StatelessWidget {
                                 fontSize: 18, fontWeight: FontWeight.w600),
                           ),
                         ],
+                      ),
+                      SizedBox(
+                        height: 10,
                       ),
                       Row(
                         children: [
