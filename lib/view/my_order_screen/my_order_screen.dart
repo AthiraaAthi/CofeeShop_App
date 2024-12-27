@@ -76,7 +76,10 @@ class MyOrders extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Text("Bradford BD1 1PR")
+                      Text(
+                        "Bradford BD1 1PR",
+                        style: TextStyle(),
+                      )
                     ],
                   ),
                 ),
