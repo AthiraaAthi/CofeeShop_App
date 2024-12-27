@@ -79,7 +79,10 @@ class MyOrders extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          Icon(Icons.location_on_outlined),
+                          Icon(
+                            Icons.location_on_outlined,
+                            color: ColorConstant.mainBlue,
+                          ),
                           Text(
                             "Bradford BD1 1PR",
                             style: TextStyle(
