@@ -51,7 +51,7 @@ class MyOrders extends StatelessWidget {
                         children: [
                           Text(
                             "24 June | 12:30 | by 18:10",
-                            style: TextStyle(),
+                            style: TextStyle(color: ColorConstant.nameGrey),
                           ),
                           Text(
                             "BYN 3.00",
