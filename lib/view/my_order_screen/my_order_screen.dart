@@ -64,7 +64,7 @@ class MyOrders extends StatelessWidget {
                         children: [
                           Icon(
                             Icons.local_cafe_outlined,
-                            color: ColorConstant.grey,
+                            color: ColorConstant.mainBlue,
                           ),
                           SizedBox(
                             width: 5,
