@@ -71,7 +71,8 @@ class MyOrders extends StatelessWidget {
                           ),
                           Text(
                             "Americano",
-                            style: TextStyle(fontSize: 15),
+                            style: TextStyle(
+                                fontSize: 15, fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
