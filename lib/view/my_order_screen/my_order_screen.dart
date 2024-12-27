@@ -41,8 +41,7 @@ class MyOrders extends StatelessWidget {
                   padding: EdgeInsets.all(10),
                   height: 100,
                   width: double.infinity,
-                  decoration: BoxDecoration(
-                      color: const Color.fromARGB(255, 147, 206, 149)),
+                  decoration: BoxDecoration(),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,17 +65,22 @@ class MyOrders extends StatelessWidget {
                             Icons.local_cafe_outlined,
                             color: ColorConstant.grey,
                           ),
+                          SizedBox(
+                            width: 5,
+                          ),
                           Text("Americano"),
                         ],
                       ),
                       Text("Bradford BD1 1PR")
                     ],
                   ),
-                )
+                ),
+                Divider(),
               ],
             ),
           ),
           Column(
+            //2ndtab
             children: [Text("sdfhsooooooooooooo")],
           ),
         ]),
