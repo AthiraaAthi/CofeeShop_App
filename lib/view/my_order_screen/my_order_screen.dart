@@ -82,6 +82,7 @@ class MyOrders extends StatelessWidget {
                           Icon(
                             Icons.location_on_outlined,
                             color: ColorConstant.mainBlue,
+                            size: 20,
                           ),
                           Text(
                             "Bradford BD1 1PR",
