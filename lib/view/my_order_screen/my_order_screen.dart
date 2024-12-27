@@ -65,14 +65,15 @@ class MyOrders extends StatelessWidget {
                           Icon(
                             Icons.local_cafe_outlined,
                             color: ColorConstant.mainBlue,
+                            size: 20,
                           ),
                           SizedBox(
-                            width: 5,
+                            width: 15,
                           ),
                           Text(
                             "Americano",
                             style: TextStyle(
-                                fontSize: 15, fontWeight: FontWeight.w500),
+                                fontSize: 17, fontWeight: FontWeight.w500),
                           ),
                         ],
                       ),
