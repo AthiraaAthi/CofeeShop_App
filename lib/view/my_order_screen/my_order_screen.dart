@@ -55,7 +55,8 @@ class MyOrders extends StatelessWidget {
                           ),
                           Text(
                             "BYN 3.00",
-                            style: TextStyle(fontSize: 18),
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w600),
                           ),
                         ],
                       ),
