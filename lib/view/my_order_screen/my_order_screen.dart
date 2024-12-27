@@ -69,7 +69,10 @@ class MyOrders extends StatelessWidget {
                           SizedBox(
                             width: 5,
                           ),
-                          Text("Americano"),
+                          Text(
+                            "Americano",
+                            style: TextStyle(),
+                          ),
                         ],
                       ),
                       Text("Bradford BD1 1PR")
