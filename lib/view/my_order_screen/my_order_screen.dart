@@ -29,6 +29,11 @@ class _MyOrdersState extends State<MyOrders> {
       "24 June | 12:30 | by 18:10",
       "24 June | 12:30 | by 18:10",
       "24 June | 12:30 | by 18:10",
+    ],
+    "coffeType": [
+      "Americano",
+      "Latte",
+      "Flat whine",
     ]
   };
   @override
