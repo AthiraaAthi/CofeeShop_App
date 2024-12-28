@@ -16,6 +16,7 @@ class _MyOrdersState extends State<MyOrders> {
   ];
   List<String> coffeType = [
     "Americano",
+    "Latte",
   ];
   List<String> address = [];
   @override
