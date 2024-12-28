@@ -19,7 +19,9 @@ class _MyOrdersState extends State<MyOrders> {
     "Latte",
     "Flat whine",
   ];
-  List<String> address = [];
+  List<String> address = [
+    "Bradford BD1 1PR",
+  ];
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
