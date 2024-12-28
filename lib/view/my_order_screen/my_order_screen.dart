@@ -24,7 +24,13 @@ class _MyOrdersState extends State<MyOrders> {
     "Bradford BD1 1PR",
     "Bradford BD1 1PR",
   ];
-  Map<String, List<String>> onGoinglist = {};
+  Map<String, List<String>> onGoinglist = {
+    "dateTime": [
+      "24 June | 12:30 | by 18:10",
+      "24 June | 12:30 | by 18:10",
+      "24 June | 12:30 | by 18:10",
+    ]
+  };
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
