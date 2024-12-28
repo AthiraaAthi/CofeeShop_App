@@ -24,6 +24,7 @@ class _MyOrdersState extends State<MyOrders> {
     "Bradford BD1 1PR",
     "Bradford BD1 1PR",
   ];
+  Map<String, List<String>> onGoinglist = {};
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
