@@ -9,7 +9,9 @@ class MyOrders extends StatefulWidget {
 }
 
 class _MyOrdersState extends State<MyOrders> {
-  List<String> dateTime = [];
+  List<String> dateTime = [
+    "24 June | 12:30 | by 18:10",
+  ];
   List<String> coffeType = [];
   List<String> address = [];
   @override
