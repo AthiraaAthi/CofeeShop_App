@@ -1,9 +1,15 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
-import 'package:cofee_ui/utils/image_constant/img_constant.dart';
 import 'package:flutter/material.dart';
 
-class MyOrders extends StatelessWidget {
+class MyOrders extends StatefulWidget {
   const MyOrders({super.key});
+
+  @override
+  State<MyOrders> createState() => _MyOrdersState();
+}
+
+class _MyOrdersState extends State<MyOrders> {
+  List<String> dateTime = [];
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +38,7 @@ class MyOrders extends StatelessWidget {
         ),
         body: TabBarView(children: [
           Padding(
-            padding: const EdgeInsets.only(top: 30, left: 10, right: 10),
+            padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
             child: Column(
               children: [
                 Container(
