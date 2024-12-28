@@ -10,6 +10,7 @@ class MyOrders extends StatefulWidget {
 
 class _MyOrdersState extends State<MyOrders> {
   List<String> dateTime = [];
+  List<String> coffeType = [];
 
   @override
   Widget build(BuildContext context) {
