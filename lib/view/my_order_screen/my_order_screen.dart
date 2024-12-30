@@ -73,7 +73,7 @@ class _MyOrdersState extends State<MyOrders> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text(
-                                "24 June | 12:30 | by 18:10",
+                                onGoinglist["dateTime"]![index],
                                 style: TextStyle(color: ColorConstant.nameGrey),
                               ),
                               Text(
