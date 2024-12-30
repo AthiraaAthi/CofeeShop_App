@@ -20,6 +20,11 @@ class _MyOrdersState extends State<MyOrders> {
       "Latte",
       "Flat whine",
     ],
+    "address": [
+      "Bradford BD1 1PR",
+      "Bradford BD1 1PR",
+      "Bradford BD1 1PR",
+    ]
   };
   @override
   Widget build(BuildContext context) {
