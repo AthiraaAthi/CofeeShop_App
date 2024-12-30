@@ -79,7 +79,7 @@ class _MyOrdersState extends State<MyOrders> {
                                 style: TextStyle(color: ColorConstant.nameGrey),
                               ),
                               Text(
-                                onGoinglist["address"]![index],
+                                "BYN 3.00",
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.w600),
                               ),
@@ -116,7 +116,7 @@ class _MyOrdersState extends State<MyOrders> {
                                 width: 15,
                               ),
                               Text(
-                                "Bradford BD1 1PR",
+                                onGoinglist["address"]![index],
                                 style: TextStyle(
                                     fontSize: 16, fontWeight: FontWeight.w400),
                               ),
