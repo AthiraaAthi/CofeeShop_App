@@ -177,6 +177,23 @@ class _MyOrdersState extends State<MyOrders> {
                         ),
                       ],
                     ),
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.location_on_outlined,
+                          color: ColorConstant.mainBlue,
+                          size: 20,
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Text(
+                          "Address",
+                          style: TextStyle(
+                              fontSize: 16, fontWeight: FontWeight.w400),
+                        ),
+                      ],
+                    )
                   ],
                 ),
               ),
