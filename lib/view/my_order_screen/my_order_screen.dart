@@ -133,7 +133,19 @@ class _MyOrdersState extends State<MyOrders> {
           ),
           Column(
             //2ndtab
-            children: [Text("sdfhsooooooooooooo")],
+            children: [
+              Container(
+                padding: EdgeInsets.all(10),
+                height: 120,
+                width: double.infinity,
+                decoration: BoxDecoration(),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [],
+                ),
+              ),
+            ],
           ),
         ]),
       ),
