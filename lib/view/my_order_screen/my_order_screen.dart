@@ -142,7 +142,22 @@ class _MyOrdersState extends State<MyOrders> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [],
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "date",
+                          style: TextStyle(color: ColorConstant.nameGrey),
+                        ),
+                        Text(
+                          "BYN 3.00",
+                          style: TextStyle(
+                              fontSize: 18, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ],
                 ),
               ),
             ],
