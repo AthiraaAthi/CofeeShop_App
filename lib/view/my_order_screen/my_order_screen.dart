@@ -157,6 +157,26 @@ class _MyOrdersState extends State<MyOrders> {
                         ),
                       ],
                     ),
+                    SizedBox(
+                      height: 10,
+                    ),
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.local_cafe_outlined,
+                          color: ColorConstant.mainBlue,
+                          size: 20,
+                        ),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        Text(
+                          "coffee type",
+                          style: TextStyle(
+                              fontSize: 17, fontWeight: FontWeight.w400),
+                        ),
+                      ],
+                    ),
                   ],
                 ),
               ),
