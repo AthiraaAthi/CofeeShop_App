@@ -97,7 +97,7 @@ class _MyOrdersState extends State<MyOrders> {
                                 width: 15,
                               ),
                               Text(
-                                "Americano",
+                                onGoinglist["coffeType"]![index],
                                 style: TextStyle(
                                     fontSize: 17, fontWeight: FontWeight.w400),
                               ),
