@@ -41,7 +41,9 @@ class _MyOrdersState extends State<MyOrders> {
           centerTitle: true,
           bottom: TabBar(
               labelColor: Colors.black,
-              labelStyle: TextStyle(),
+              labelStyle: TextStyle(
+                fontSize: 18,
+              ),
               indicatorColor: ColorConstant.mainBlue,
               indicatorWeight: 3,
               tabs: [
