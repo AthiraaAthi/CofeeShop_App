@@ -189,7 +189,9 @@ class _MyOrdersState extends State<MyOrders> {
                               child: Text(
                                 "Order",
                                 style: TextStyle(
-                                    color: ColorConstant.White, fontSize: 16),
+                                    color: ColorConstant.White,
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.w700),
                               ),
                             ),
                           ),
