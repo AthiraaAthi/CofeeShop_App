@@ -187,7 +187,7 @@ class _MyOrdersState extends State<MyOrders> {
                                 color: ColorConstant.mainBlue),
                             child: Text(
                               "Order",
-                              style: TextStyle(),
+                              style: TextStyle(color: ColorConstant.White),
                             ),
                           ),
                         ],
