@@ -160,6 +160,7 @@ class _MyOrdersState extends State<MyOrders> {
                         ],
                       ),
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Row(
                             children: [
