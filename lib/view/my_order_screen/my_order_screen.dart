@@ -161,6 +161,7 @@ class _MyOrdersState extends State<MyOrders> {
                               ),
                               Container(
                                 height: 50,
+                                width: 100,
                               )
                             ],
                           ),
