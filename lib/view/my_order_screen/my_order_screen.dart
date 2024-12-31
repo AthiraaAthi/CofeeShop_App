@@ -138,9 +138,9 @@ class _MyOrdersState extends State<MyOrders> {
               children: [
                 Container(
                   padding: EdgeInsets.all(10),
-                  height: 120,
+                  height: 130,
                   width: double.infinity,
-                  decoration: BoxDecoration(color: Colors.amber),
+                  decoration: BoxDecoration(),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -150,12 +150,16 @@ class _MyOrdersState extends State<MyOrders> {
                         children: [
                           Text(
                             "24 June | 12:30 | by 18:10",
-                            style: TextStyle(color: ColorConstant.nameGrey),
-                          ),
-                          Text(
-                            "BYN 3.00",
                             style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.w600),
+                                color: ColorConstant.nameGrey, fontSize: 17),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 5),
+                            child: Text(
+                              "BYN 3.00",
+                              style: TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.w600),
+                            ),
                           ),
                         ],
                       ),
