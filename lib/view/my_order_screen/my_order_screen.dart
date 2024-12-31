@@ -185,7 +185,7 @@ class _MyOrdersState extends State<MyOrders> {
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(25),
                                 color: ColorConstant.mainBlue),
-                            child: Text(""),
+                            child: Text("Order"),
                           ),
                         ],
                       ),
