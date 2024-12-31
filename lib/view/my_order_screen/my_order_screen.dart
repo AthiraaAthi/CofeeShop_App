@@ -152,10 +152,14 @@ class _MyOrdersState extends State<MyOrders> {
                             "24 June | 12:30 | by 18:10",
                             style: TextStyle(color: ColorConstant.nameGrey),
                           ),
-                          Text(
-                            "BYN 3.00",
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.w600),
+                          Column(
+                            children: [
+                              Text(
+                                "BYN 3.00",
+                                style: TextStyle(
+                                    fontSize: 18, fontWeight: FontWeight.w600),
+                              ),
+                            ],
                           ),
                         ],
                       ),
