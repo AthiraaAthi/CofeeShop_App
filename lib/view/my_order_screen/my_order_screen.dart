@@ -159,7 +159,9 @@ class _MyOrdersState extends State<MyOrders> {
                                 style: TextStyle(
                                     fontSize: 18, fontWeight: FontWeight.w600),
                               ),
-                              Container()
+                              Container(
+                                height: 50,
+                              )
                             ],
                           ),
                         ],
