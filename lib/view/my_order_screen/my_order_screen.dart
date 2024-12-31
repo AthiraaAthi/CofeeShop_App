@@ -140,7 +140,7 @@ class _MyOrdersState extends State<MyOrders> {
                   padding: EdgeInsets.all(10),
                   height: 120,
                   width: double.infinity,
-                  decoration: BoxDecoration(),
+                  decoration: BoxDecoration(color: Colors.amber),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -152,40 +152,38 @@ class _MyOrdersState extends State<MyOrders> {
                             "24 June | 12:30 | by 18:10",
                             style: TextStyle(color: ColorConstant.nameGrey),
                           ),
-                          Column(
-                            children: [
-                              Text(
-                                "BYN 3.00",
-                                style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.w600),
-                              ),
-                              Container(
-                                height: 50,
-                                width: 100,
-                                decoration: BoxDecoration(
-                                    color: ColorConstant.mainBlue),
-                              )
-                            ],
+                          Text(
+                            "BYN 3.00",
+                            style: TextStyle(
+                                fontSize: 18, fontWeight: FontWeight.w600),
                           ),
                         ],
                       ),
-                      SizedBox(
-                        height: 10,
-                      ),
                       Row(
                         children: [
-                          Icon(
-                            Icons.local_cafe_outlined,
-                            color: ColorConstant.mainBlue,
-                            size: 20,
+                          Row(
+                            children: [
+                              Icon(
+                                Icons.local_cafe_outlined,
+                                color: ColorConstant.mainBlue,
+                                size: 20,
+                              ),
+                              SizedBox(
+                                width: 15,
+                              ),
+                              Text(
+                                "coffee type",
+                                style: TextStyle(
+                                    fontSize: 17, fontWeight: FontWeight.w400),
+                              ),
+                            ],
                           ),
-                          SizedBox(
-                            width: 15,
-                          ),
-                          Text(
-                            "coffee type",
-                            style: TextStyle(
-                                fontSize: 17, fontWeight: FontWeight.w400),
+                          Container(
+                            height: 50,
+                            width: 100,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                color: ColorConstant.mainBlue),
                           ),
                         ],
                       ),
