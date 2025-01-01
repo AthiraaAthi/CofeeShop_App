@@ -238,8 +238,16 @@ class _MyOrdersState extends State<MyOrders> {
                             style: TextStyle(
                                 color: ColorConstant.nameGrey, fontSize: 17),
                           ),
+                          Padding(
+                            padding: const EdgeInsets.only(bottom: 5),
+                            child: Text(
+                              "BYN 3.00",
+                              style: TextStyle(
+                                  fontSize: 18, fontWeight: FontWeight.w600),
+                            ),
+                          ),
                         ],
-                      )
+                      ),
                     ],
                   ),
                 )
