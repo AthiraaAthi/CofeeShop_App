@@ -222,7 +222,9 @@ class _MyOrdersState extends State<MyOrders> {
                   ),
                 ),
                 Divider(),
-                Container()
+                Container(
+                  padding: EdgeInsets.all(10),
+                )
               ],
             ),
           ),
