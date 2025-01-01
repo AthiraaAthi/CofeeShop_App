@@ -226,6 +226,11 @@ class _MyOrdersState extends State<MyOrders> {
                   padding: EdgeInsets.all(10),
                   height: 130,
                   width: double.infinity,
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [],
+                  ),
                 )
               ],
             ),
