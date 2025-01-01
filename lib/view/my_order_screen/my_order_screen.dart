@@ -271,6 +271,9 @@ class _MyOrdersState extends State<MyOrders> {
                           Container(
                             height: 50,
                             width: 100,
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(25),
+                                color: ColorConstant.mainBlue),
                           ),
                         ],
                       ),
