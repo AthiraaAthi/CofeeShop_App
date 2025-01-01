@@ -252,7 +252,13 @@ class _MyOrdersState extends State<MyOrders> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Row(
-                            children: [],
+                            children: [
+                              Icon(
+                                Icons.local_cafe_outlined,
+                                color: ColorConstant.mainBlue,
+                                size: 20,
+                              ),
+                            ],
                           ),
                         ],
                       ),
