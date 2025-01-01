@@ -221,7 +221,8 @@ class _MyOrdersState extends State<MyOrders> {
                     ],
                   ),
                 ),
-                Divider()
+                Divider(),
+                Container()
               ],
             ),
           ),
