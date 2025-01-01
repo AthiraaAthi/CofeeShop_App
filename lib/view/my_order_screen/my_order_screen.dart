@@ -258,6 +258,14 @@ class _MyOrdersState extends State<MyOrders> {
                                 color: ColorConstant.mainBlue,
                                 size: 20,
                               ),
+                              SizedBox(
+                                width: 15,
+                              ),
+                              Text(
+                                "coffee type",
+                                style: TextStyle(
+                                    fontSize: 17, fontWeight: FontWeight.w400),
+                              ),
                             ],
                           ),
                         ],
