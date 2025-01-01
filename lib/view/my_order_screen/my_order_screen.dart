@@ -268,7 +268,9 @@ class _MyOrdersState extends State<MyOrders> {
                               ),
                             ],
                           ),
-                          Container(),
+                          Container(
+                            height: 50,
+                          ),
                         ],
                       ),
                       Row(
