@@ -225,6 +225,7 @@ class _MyOrdersState extends State<MyOrders> {
                 Container(
                   padding: EdgeInsets.all(10),
                   height: 130,
+                  width: double.infinity,
                 )
               ],
             ),
