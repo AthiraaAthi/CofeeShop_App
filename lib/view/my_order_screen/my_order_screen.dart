@@ -229,7 +229,12 @@ class _MyOrdersState extends State<MyOrders> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [],
+                    children: [
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [],
+                      )
+                    ],
                   ),
                 )
               ],
