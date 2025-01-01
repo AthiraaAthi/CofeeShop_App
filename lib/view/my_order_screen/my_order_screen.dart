@@ -224,6 +224,7 @@ class _MyOrdersState extends State<MyOrders> {
                 Divider(),
                 Container(
                   padding: EdgeInsets.all(10),
+                  height: 130,
                 )
               ],
             ),
