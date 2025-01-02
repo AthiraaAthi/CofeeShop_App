@@ -1,4 +1,5 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyOrders extends StatefulWidget {
@@ -275,6 +276,7 @@ class _MyOrdersState extends State<MyOrders> {
                             ],
                           ),
                           InkWell(
+                            onTap: () {},
                             child: Container(
                               height: 50,
                               width: 100,
@@ -321,4 +323,6 @@ class _MyOrdersState extends State<MyOrders> {
       ),
     );
   }
+
+  _dialogFun() {}
 }
