@@ -158,9 +158,10 @@ class _MyOrdersState extends State<MyOrders> {
                             child: Text(
                               "BYN 3.00",
                               style: TextStyle(
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w600,
-                                  color: ColorConstant.grey),
+                                fontSize: 22,
+                                fontWeight: FontWeight.w600,
+                                color: const Color.fromARGB(255, 127, 126, 126),
+                              ),
                             ),
                           ),
                         ],
