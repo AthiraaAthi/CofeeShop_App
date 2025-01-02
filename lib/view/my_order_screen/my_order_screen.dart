@@ -324,5 +324,7 @@ class _MyOrdersState extends State<MyOrders> {
     );
   }
 
-  _dialogFun() {}
+  _dialogFun() {
+    return CupertinoAlertDialog();
+  }
 }
