@@ -215,7 +215,7 @@ class _MyOrdersState extends State<MyOrders> {
                             width: 15,
                           ),
                           Text(
-                            "Address",
+                            "Bradford BD1 1PR",
                             style: TextStyle(
                                 fontSize: 16, fontWeight: FontWeight.w400),
                           ),
