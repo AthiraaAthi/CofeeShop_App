@@ -276,7 +276,9 @@ class _MyOrdersState extends State<MyOrders> {
                             ],
                           ),
                           InkWell(
-                            onTap: () {},
+                            onTap: () {
+                              _dialogFun();
+                            },
                             child: Container(
                               height: 50,
                               width: 100,
