@@ -180,7 +180,7 @@ class _MyOrdersState extends State<MyOrders> {
                                 width: 15,
                               ),
                               Text(
-                                "coffee type",
+                                "Americano",
                                 style: TextStyle(
                                     fontSize: 17, fontWeight: FontWeight.w400),
                               ),
