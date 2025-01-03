@@ -351,7 +351,14 @@ class _MyOrdersState extends State<MyOrders> {
             children: [
               Text("Please, rate the service."),
               SizedBox(height: 16),
-              Row(children: [], f)
+              Row(
+                children: List.generate(
+                  5,
+                  (index) {
+                    return GestureDetector();
+                  },
+                ),
+              )
             ],
           ),
           actions: [
