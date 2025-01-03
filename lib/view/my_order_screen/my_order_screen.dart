@@ -340,6 +340,7 @@ class _MyOrdersState extends State<MyOrders> {
         return CupertinoAlertDialog(
           title: Text("The order has been completed."),
           content: Text("Please, rate the service."),
+          actions: [],
         );
       },
     );
