@@ -352,11 +352,15 @@ class _MyOrdersState extends State<MyOrders> {
               Text("Please, rate the service."),
               SizedBox(height: 16),
               Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: List.generate(
                   5,
                   (index) {
                     return GestureDetector(
                       onTap: () => _onStarTap(index + 1),
+                      child: Icon(
+                        CupertinoIcons.star_fill,
+                      ),
                     );
                   },
                 ),
