@@ -27,6 +27,14 @@ class _MyOrdersState extends State<MyOrders> {
       "Bradford BD1 1PR",
     ]
   };
+  int _selectedRating = 0;
+
+  void _onStarTap(int index) {
+    setState(() {
+      _selectedRating = index;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -343,9 +351,7 @@ class _MyOrdersState extends State<MyOrders> {
             children: [
               Text("Please, rate the service."),
               SizedBox(height: 16),
-              Row(
-                children: [],
-              )
+              Row(children: [], f)
             ],
           ),
           actions: [
