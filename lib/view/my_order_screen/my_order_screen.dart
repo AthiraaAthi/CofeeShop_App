@@ -332,6 +332,8 @@ class _MyOrdersState extends State<MyOrders> {
   }
 
   _dialogFun() {
-    return CupertinoAlertDialog();
+    return CupertinoAlertDialog(
+      title: Text("The order has been completed."),
+    );
   }
 }
