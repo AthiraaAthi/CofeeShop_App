@@ -355,7 +355,9 @@ class _MyOrdersState extends State<MyOrders> {
                 children: List.generate(
                   5,
                   (index) {
-                    return GestureDetector();
+                    return GestureDetector(
+                      onTap: () => _onStarTap(index + 1),
+                    );
                   },
                 ),
               )
