@@ -337,7 +337,9 @@ class _MyOrdersState extends State<MyOrders> {
     showCupertinoDialog(
       context: context,
       builder: (context) {
-        return CupertinoAlertDialog();
+        return CupertinoAlertDialog(
+          title: Text("The order has been completed."),
+        );
       },
     );
   }
