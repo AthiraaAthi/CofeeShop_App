@@ -189,7 +189,7 @@ class _MyOrdersState extends State<MyOrders> {
                           ),
                           InkWell(
                             onTap: () {
-                              _dialogFun();
+                              _dialogFun(context);
                             },
                             child: Container(
                               height: 50,
@@ -282,7 +282,9 @@ class _MyOrdersState extends State<MyOrders> {
                           ),
                           InkWell(
                             onTap: () {
-                              _dialogFun();
+                              _dialogFun(
+                                context,
+                              );
                             },
                             child: Container(
                               height: 50,
@@ -331,9 +333,12 @@ class _MyOrdersState extends State<MyOrders> {
     );
   }
 
-  _dialogFun() {
-    return CupertinoAlertDialog(
-      title: Text("The order has been completed."),
+  void _dialogFun(BuildContext context) {
+    showCupertinoDialog(
+      context: context,
+      builder: (context) {
+        return CupertinoAlertDialog();
+      },
     );
   }
 }
