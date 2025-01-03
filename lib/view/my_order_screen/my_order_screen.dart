@@ -360,6 +360,9 @@ class _MyOrdersState extends State<MyOrders> {
                       onTap: () => _onStarTap(index + 1),
                       child: Icon(
                         CupertinoIcons.star_fill,
+                        color: _selectedRating > index
+                            ? CupertinoColors.systemOrange
+                            : CupertinoColors.systemGrey,
                       ),
                     );
                   },
