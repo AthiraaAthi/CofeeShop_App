@@ -345,49 +345,53 @@ class _MyOrdersState extends State<MyOrders> {
     showCupertinoDialog(
       context: context,
       builder: (context) {
-        return CupertinoAlertDialog(
-          title: Text("The order has been completed."),
-          content: Column(
-            children: [
-              Text("Please, rate the service."),
-              SizedBox(height: 16),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: List.generate(
-                  5,
-                  (index) {
-                    return GestureDetector(
-                      onTap: () {
-                        _onStarTap(index + 1);
-                      },
-                      child: Icon(
-                        CupertinoIcons.star_fill,
-                        color: _selectedRating > index
-                            ? CupertinoColors.systemOrange
-                            : CupertinoColors.systemGrey,
-                        size: 32,
-                      ),
-                    );
-                  },
-                ),
-              )
+        return StatefulBuilder(builder: (context, builderState) {
+          return CupertinoAlertDialog(
+            title: Text("The order has been completed."),
+            content: Column(
+              children: [
+                Text("Please, rate the service."),
+                SizedBox(height: 16),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: List.generate(
+                    5,
+                    (index) {
+                      return GestureDetector(
+                        onTap: () {
+                          builderState(() {
+                            _onStarTap(index + 1);
+                          });
+                        },
+                        child: Icon(
+                          CupertinoIcons.star_fill,
+                          color: _selectedRating > index
+                              ? CupertinoColors.systemOrange
+                              : CupertinoColors.systemGrey,
+                          size: 32,
+                        ),
+                      );
+                    },
+                  ),
+                )
+              ],
+            ),
+            actions: [
+              CupertinoDialogAction(
+                child: Text("Remind me later"),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
+              CupertinoDialogAction(
+                child: Text("No, thanks"),
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+              ),
             ],
-          ),
-          actions: [
-            CupertinoDialogAction(
-              child: Text("Remind me later"),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-            CupertinoDialogAction(
-              child: Text("No, thanks"),
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-            ),
-          ],
-        );
+          );
+        });
       },
     );
   }
