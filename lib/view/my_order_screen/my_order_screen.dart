@@ -357,12 +357,15 @@ class _MyOrdersState extends State<MyOrders> {
                   5,
                   (index) {
                     return GestureDetector(
-                      onTap: () => _onStarTap(index + 1),
+                      onTap: () {
+                        _onStarTap(index + 1);
+                      },
                       child: Icon(
                         CupertinoIcons.star_fill,
                         color: _selectedRating > index
                             ? CupertinoColors.systemOrange
                             : CupertinoColors.systemGrey,
+                        size: 32,
                       ),
                     );
                   },
@@ -372,7 +375,13 @@ class _MyOrdersState extends State<MyOrders> {
           ),
           actions: [
             CupertinoDialogAction(
-              child: Text("OK"),
+              child: Text("Remind me later"),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+            CupertinoDialogAction(
+              child: Text("No, thanks"),
               onPressed: () {
                 Navigator.of(context).pop();
               },
