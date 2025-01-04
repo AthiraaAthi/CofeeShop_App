@@ -253,7 +253,7 @@ class _MyOrdersState extends State<MyOrders> {
                           Text(
                             "24 June | 12:30 | by 18:10",
                             style: TextStyle(
-                                color: ColorConstant.nameGrey, fontSize: 17),
+                                color: ColorConstant.nameGrey, fontSize: 16),
                           ),
                           Padding(
                             padding: const EdgeInsets.only(bottom: 5),
