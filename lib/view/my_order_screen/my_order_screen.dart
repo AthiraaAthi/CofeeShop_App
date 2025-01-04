@@ -90,7 +90,7 @@ class _MyOrdersState extends State<MyOrders> {
                               Text(
                                 "BYN 3.00",
                                 style: TextStyle(
-                                    fontSize: 18, fontWeight: FontWeight.w600),
+                                    fontSize: 19, fontWeight: FontWeight.w600),
                               ),
                             ],
                           ),
@@ -143,7 +143,7 @@ class _MyOrdersState extends State<MyOrders> {
           Padding(
             padding: const EdgeInsets.only(top: 10, left: 10, right: 10),
             child: Column(
-              //2ndtab
+              /////////////////////////////2ndtab
               children: [
                 Container(
                   padding: EdgeInsets.all(10),
