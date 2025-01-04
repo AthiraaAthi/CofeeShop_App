@@ -349,7 +349,7 @@ class _MyOrdersState extends State<MyOrders> {
           return CupertinoAlertDialog(
             title: Text(
               "The order has been completed.",
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             content: Column(
               children: [
