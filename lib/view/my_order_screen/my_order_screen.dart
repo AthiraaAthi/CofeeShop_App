@@ -369,12 +369,15 @@ class _MyOrdersState extends State<MyOrders> {
                             _onStarTap(index + 1);
                           });
                         },
-                        child: Icon(
-                          CupertinoIcons.star_fill,
-                          color: _selectedRating > index
-                              ? CupertinoColors.systemOrange
-                              : CupertinoColors.systemGrey,
-                          size: 32,
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Icon(
+                            CupertinoIcons.star_fill,
+                            color: _selectedRating > index
+                                ? CupertinoColors.systemOrange
+                                : CupertinoColors.systemGrey,
+                            size: 30,
+                          ),
                         ),
                       );
                     },
