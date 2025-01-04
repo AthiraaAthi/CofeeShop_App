@@ -347,7 +347,10 @@ class _MyOrdersState extends State<MyOrders> {
       builder: (context) {
         return StatefulBuilder(builder: (context, builderState) {
           return CupertinoAlertDialog(
-            title: Text("The order has been completed."),
+            title: Text(
+              "The order has been completed.",
+              style: TextStyle(),
+            ),
             content: Column(
               children: [
                 Text("Please, rate the service."),
