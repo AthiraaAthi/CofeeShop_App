@@ -353,7 +353,10 @@ class _MyOrdersState extends State<MyOrders> {
             ),
             content: Column(
               children: [
-                Text("Please, rate the service."),
+                Text(
+                  "Please, rate the service.",
+                  style: TextStyle(),
+                ),
                 SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
