@@ -389,7 +389,7 @@ class _MyOrdersState extends State<MyOrders> {
               CupertinoDialogAction(
                 child: Text(
                   "Remind me later",
-                  style: TextStyle(),
+                  style: TextStyle(color: Colors.black),
                 ),
                 onPressed: () {
                   Navigator.of(context).pop();
