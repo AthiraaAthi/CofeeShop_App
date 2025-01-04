@@ -355,7 +355,7 @@ class _MyOrdersState extends State<MyOrders> {
               children: [
                 Text(
                   "Please, rate the service.",
-                  style: TextStyle(),
+                  style: TextStyle(fontSize: 16),
                 ),
                 SizedBox(height: 16),
                 Row(
