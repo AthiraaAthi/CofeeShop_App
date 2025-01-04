@@ -398,7 +398,7 @@ class _MyOrdersState extends State<MyOrders> {
               CupertinoDialogAction(
                 child: Text(
                   "No, thanks",
-                  style: TextStyle(color: Colors.black),
+                  style: TextStyle(color: Colors.black, fontSize: 17),
                 ),
                 onPressed: () {
                   Navigator.of(context).pop();
