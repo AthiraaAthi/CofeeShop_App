@@ -34,6 +34,10 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
+        leading: Icon(
+          Icons.arrow_back,
+          color: Colors.white,
+        ),
         toolbarHeight: 100,
         title: Column(
           children: [
