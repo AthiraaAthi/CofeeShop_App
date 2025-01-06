@@ -11,15 +11,6 @@ class ConfirmOrderScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        leading: InkWell(
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => HomeScreen(),
-                  ));
-            },
-            child: Icon(Icons.arrow_back)),
         backgroundColor: Colors.white,
       ),
       body: Center(
@@ -96,7 +87,13 @@ class ConfirmOrderScreen extends StatelessWidget {
             ),
             Spacer(),
             InkWell(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => HomeScreen(),
+                    ));
+              },
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
