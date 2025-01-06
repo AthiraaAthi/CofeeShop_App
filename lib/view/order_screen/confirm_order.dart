@@ -94,6 +94,7 @@ class ConfirmOrderScreen extends StatelessWidget {
                 )
               ],
             ),
+            Spacer(),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
