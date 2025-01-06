@@ -107,6 +107,7 @@ class ConfirmOrderScreen extends StatelessWidget {
                 Icon(
                   Icons.keyboard_arrow_right_outlined,
                   size: 30,
+                  color: ColorConstant.mainBlue,
                 )
               ],
             )
