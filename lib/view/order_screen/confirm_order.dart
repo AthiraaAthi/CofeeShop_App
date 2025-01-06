@@ -95,22 +95,25 @@ class ConfirmOrderScreen extends StatelessWidget {
               ],
             ),
             Spacer(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Text(
-                  "Back to Home",
-                  style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: ColorConstant.mainBlue),
-                ),
-                Icon(
-                  Icons.keyboard_arrow_right_outlined,
-                  size: 30,
-                  color: ColorConstant.mainBlue,
-                )
-              ],
+            InkWell(
+              onTap: () {},
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text(
+                    "Back to Home",
+                    style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: ColorConstant.mainBlue),
+                  ),
+                  Icon(
+                    Icons.keyboard_arrow_right_outlined,
+                    size: 28,
+                    color: ColorConstant.mainBlue,
+                  )
+                ],
+              ),
             )
           ],
         ),
