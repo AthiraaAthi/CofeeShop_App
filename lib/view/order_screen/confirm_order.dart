@@ -100,10 +100,11 @@ class ConfirmOrderScreen extends StatelessWidget {
                 Text(
                   "Back to Home",
                   style: TextStyle(
-                      fontSize: 22,
+                      fontSize: 20,
                       fontWeight: FontWeight.bold,
                       color: ColorConstant.mainBlue),
                 ),
+                Icon(Icons.keyboard_arrow_right_outlined)
               ],
             )
           ],
