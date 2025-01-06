@@ -94,7 +94,7 @@ class ConfirmOrderScreen extends StatelessWidget {
                 )
               ],
             ),
-            Text("dfhd") //record after add to home text
+            Text("Back to Home")
           ],
         ),
       ),
