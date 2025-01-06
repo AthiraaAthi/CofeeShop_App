@@ -94,7 +94,10 @@ class ConfirmOrderScreen extends StatelessWidget {
                 )
               ],
             ),
-            Text("Back to Home")
+            Text(
+              "Back to Home",
+              style: TextStyle(),
+            )
           ],
         ),
       ),
