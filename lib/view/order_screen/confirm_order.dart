@@ -96,7 +96,7 @@ class ConfirmOrderScreen extends StatelessWidget {
             ),
             Text(
               "Back to Home",
-              style: TextStyle(),
+              style: TextStyle(fontSize: 22),
             )
           ],
         ),
