@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/home_screen/home.dart';
 import 'package:flutter/material.dart';
 
 class ConfirmOrderScreen extends StatelessWidget {
@@ -10,6 +11,15 @@ class ConfirmOrderScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
+        leading: InkWell(
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => HomeScreen(),
+                  ));
+            },
+            child: Icon(Icons.arrow_back)),
         backgroundColor: Colors.white,
       ),
       body: Center(
@@ -84,6 +94,7 @@ class ConfirmOrderScreen extends StatelessWidget {
                 )
               ],
             ),
+            Text("dfhd") //record after add to home text
           ],
         ),
       ),
