@@ -1,5 +1,6 @@
 import 'package:cofee_ui/utils/color_constant/color_constant.dart';
 import 'package:cofee_ui/utils/image_constant/img_constant.dart';
+import 'package:cofee_ui/view/bottom_nav/bottom_nav.dart';
 import 'package:cofee_ui/view/home_screen/home.dart';
 import 'package:flutter/material.dart';
 
@@ -91,7 +92,7 @@ class ConfirmOrderScreen extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => HomeScreen(),
+                      builder: (context) => BottomNav(),
                     ));
               },
               child: Row(
